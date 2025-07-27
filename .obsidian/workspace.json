@@ -13,28 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Start Here.md",
+                "file": "AI Regulation/Regulation Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Start Here"
-            }
-          }
-        ]
-      },
-      {
-        "id": "385736e832e3bfbb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "51496a4ae37e4074",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Regulation Overview"
             }
           }
         ]
@@ -110,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Start Here.md",
+                "file": "AI Regulation/Regulation Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Start Here"
+              "title": "Backlinks for Regulation Overview"
             }
           },
           {
@@ -129,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Start Here.md",
+                "file": "AI Regulation/Regulation Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Start Here"
+              "title": "Outgoing links from Regulation Overview"
             }
           },
           {
@@ -158,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Start Here.md",
+                "file": "AI Regulation/Regulation Overview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Start Here"
+              "title": "Outline of Regulation Overview"
             }
           }
         ]
@@ -185,11 +169,17 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "af35eba3c15da2a4",
+  "active": "a541ade9443691e0",
   "lastOpenFiles": [
-    "SE Asia Real Estate/SE Asia Real Estate Overview.md",
-    "AI Risk/AI Risks.md",
+    "AI Regulation/Global/China/china-laws.md",
     "AI Regulation/Regulation Overview.md",
+    "AI Risk/AI Risks.md",
+    "CLAUDE.md",
+    "AI Regulation/Regulation Overview.md.tmp.11084.1753660569703",
+    "AI Regulation/US/states/US States Law.md",
+    "AI Automations/Automations Overview.md",
+    "Start Here.md",
+    "SE Asia Real Estate/SE Asia Real Estate Overview.md",
     "Coding Setup/Coding Setup.md",
     "README.md",
     "SE Asia Real Estate/Legal Documents/Subscription Agreement/Subscription Agreement Changelog.md",
@@ -216,12 +206,6 @@
     "SE Asia Real Estate/Legal Documents/Limited Partner Agreement",
     "SE Asia Real Estate/Legal Documents/Investment Management Agreement",
     "SE Asia Real Estate/Resources",
-    "SE Asia Real Estate/Real Estate Research",
-    "SE Asia Real Estate/README.md",
-    "SE Asia Real Estate/Current Status.md",
-    "Thai Project/Resources/REResources.md",
-    "Thai Project/Real Estate Research/Vietnam/Vietnam Overview.md",
-    "Thai Project/Real Estate Research/Thailand/Thailand Overview.md",
-    "Thai Project/Legal Documents/Investment Management Agreement/Investment Management Agreement Changelog.md"
+    "SE Asia Real Estate/README.md"
   ]
 }

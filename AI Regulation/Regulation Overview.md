@@ -13,13 +13,13 @@ Centralized tracking of all changes made to the AI regulation system.
 
 ### United States
 - **[Federal Regulations](US/federal-laws.md)** - Executive orders, federal legislation, and agency guidance
-- **[State Regulations](US/states/)** - State-level AI laws and regulations
+- **[State Regulations](US/states/US%20States%20Law.md)** - State-level AI laws and regulations
 
 ### Global
-- **[European Union](Global/EU/)** - EU AI Act and related directives
-- **[China](Global/China/)** - Chinese AI regulations and governance
-- **[Japan](Global/Japan/)** - Japanese AI policy and regulations
-- **[South Korea](Global/South-Korea/)** - Korean AI laws and frameworks
+- **[European Union](Global/EU/eu-laws.md)** - EU AI Act and related directives
+- **[China](Global/China/china-laws.md)** - Chinese AI regulations and governance
+- **[Japan](Global/Japan/japan-laws.md)** - Japanese AI policy and regulations
+- **[South Korea](Global/South-Korea/south-korea-laws.md)** - Korean AI laws and frameworks
 
 ## Key Features
 
@@ -59,5 +59,4 @@ Centralized tracking of all changes made to the AI regulation system.
 
 ---
 
-*Last Updated: January 2025*
-*Next Review: Weekly* 
+*Last Updated: 2025-07-27* 
