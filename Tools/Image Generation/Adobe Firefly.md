@@ -21,7 +21,7 @@ Adobe's AI image generator integrated into Creative Cloud suite. Focuses on comm
 
 ## Tool Evaluation
 
-*Not reviewed* - See [Tool Evaluation Template] for evaluation criteria
+*Not reviewed* - See [[Tool Evaluation Template]] for evaluation criteria
 
 ### Key Features
 - Text-to-image generation

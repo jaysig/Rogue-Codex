@@ -29,8 +29,8 @@ Documentation and templates from Weagle AI projects, including prompts and lesso
 #### 📋 [AI Regulation](AI%20Regulation/README.md)
 Tracking current and historical AI regulations with timeline context. Understanding how regulations evolve and their practical impact on AI development and deployment.
 
-#### 🛠️ [Tools](Tools/README.md)
-Curated recommendations for various workflows, updated based on real-world testing and effectiveness. Focus on tools that actually improve productivity and outcomes.
+#### 🛠️ [Tools](Tools/Tool%20Guide.md)
+Comprehensive collection of 49 tools across 14 categories, including daily-use tools, AI models, development platforms, and specialized software. Features tool evaluations, pricing information, and workflow integration guidance. See [Most Used Tools](Tools/Most%20Used.md) for frequently used daily tools.
 
 #### 🏢 [Company Registry](Company%20Registry/README.md)
 Quick reference database of companies across key industries including AI infrastructure, entertainment, gaming, and publishing. Organized by industry with standardized company profiles for research and competitive analysis.
@@ -55,19 +55,18 @@ Practical automation strategies and workflow optimizations using AI tools to enh
 4. **Follow the links** between related concepts and tools
 5. **Adapt the templates** to your specific use cases
 
-## Questions & Clarifications
+## Questions & Feedback
 
-- [ ] Define specific criteria for what constitutes "public information"
-- [ ] Establish update frequency and review cycles for each section
-- [ ] Determine if certain sections need restricted access
-- [ ] Create feedback mechanism for site improvements
-- [ ] Define success metrics for knowledge sharing effectiveness
+Have questions about any section or suggestions for improvement? Reach out to Jason on X / LinkedIn. 
 
 ## Recent Updates
 
-- Initial site structure created
-- Core sections defined and organized
-- Focus on practical, actionable content established
+- **Tools Section Expanded**: 49 tools across 14 categories with new LLMs category
+- **Most Used Tools**: Created dedicated page for daily workflow tools  
+- **Tool Guide**: Comprehensive directory with tool evaluations and pricing
+- **Company Registry**: Industry-organized database with AI adoption tracking
+- **AI Regulation**: Global tracking with changelog documentation
+- Core sections defined and organized with practical, actionable content
 
 ---
 
