@@ -4,20 +4,35 @@ A curated reference for companies across key industries, providing quick access 
 
 ## 🏢 Quick Access by Industry
 
-### 🤖 [AI Infrastructure](AI%20Infrastructure/)
-Companies building the core infrastructure, platforms, and tools powering AI development and deployment.
+### 🤖 [AI Content & Media](AI%20Content%20&%20Media/)
+Companies creating AI-powered content and media experiences.
 
+- [Canva](AI%20Content%20&%20Media/Canva.md)
+- [Character AI](AI%20Content%20&%20Media/Character%20AI.md)
+- [ElevenLabs](AI%20Content%20&%20Media/ElevenLabs.md)
+- [Midjourney](AI%20Content%20&%20Media/Midjourney.md)
+
+### 🤖 [AI Infrastructure](AI%20Infrastructure/)
+Companies providing AI development tools, platforms, and computing infrastructure.
+
+- [Databricks](AI%20Infrastructure/Databricks.md)
 - [Hugging Face](AI%20Infrastructure/Hugging%20Face.md)
+- [NVIDIA](AI%20Infrastructure/NVIDIA.md)
+- [Scale AI](AI%20Infrastructure/Scale%20AI.md)
+
+### 🧠 [AI Models](AI%20Models/)
+Companies developing and providing large language models and foundational AI models.
+
+- [Anthropic](AI%20Models/Anthropic.md)
+- [Google AI](AI%20Models/Google%20AI.md)
+- [Mistral AI](AI%20Models/Mistral%20AI.md)
+- [OpenAI](AI%20Models/OpenAI.md)
+- [xAI](AI%20Models/xAI.md)
 
 ### 🎨 [Art and Publishing](Art%20and%20Publishing/)
 Publishers, media companies, and platforms focused on creative content and artistic expression.
 
 - [Tollbit](Art%20and%20Publishing/Tollbit.md)
-
-### 🤖 [AI Content & Media](AI%20Content%20&%20Media/)
-Companies creating AI-powered content and media experiences.
-
-- [Character AI](AI%20Content%20&%20Media/Character%20AI.md)
 
 ### 🎬 [Film and Streaming](Film%20and%20Streaming/)
 Movie studios, streaming platforms, and entertainment companies in the film and video space.
@@ -25,26 +40,33 @@ Movie studios, streaming platforms, and entertainment companies in the film and 
 #### 🏛️ Traditional Studios
 Legacy entertainment companies adapting AI into existing workflows and business models.
 - [A24](Film%20and%20Streaming/Traditional%20Studios/A24.md)
+- [Amazon Studios](Film%20and%20Streaming/Traditional%20Studios/Amazon%20Studios.md)
 - [Autodesk](Film%20and%20Streaming/Traditional%20Studios/Autodesk.md)
 - [Disney](Film%20and%20Streaming/Traditional%20Studios/Disney.md)
 - [Lionsgate](Film%20and%20Streaming/Traditional%20Studios/Lionsgate.md)
 - [Netflix](Film%20and%20Streaming/Traditional%20Studios/Netflix.md)
 - [Paramount Pictures](Film%20and%20Streaming/Traditional%20Studios/Paramount%20Pictures.md)
+- [Sony Pictures](Film%20and%20Streaming/Traditional%20Studios/Sony%20Pictures.md)
 - [Universal Pictures](Film%20and%20Streaming/Traditional%20Studios/Universal%20Pictures.md)
 - [Warner Bros](Film%20and%20Streaming/Traditional%20Studios/Warner%20Bros.md)
 
 #### 🤖 AI-Native Studios
 Companies built from the ground up with AI as core technology for content creation and distribution.
-*No companies added yet*
+- [Promise](Film%20and%20Streaming/AI-Native%20Studios/Promise.md)
+- [Staircase](Film%20and%20Streaming/AI-Native%20Studios/Staircase.md)
 
 ### 🎮 [Gaming and Interactive](Gaming%20and%20Interactive/)
 Game developers, publishers, and interactive entertainment companies across all platforms.
 
 #### 🏛️ Traditional Studios
 Established gaming companies integrating AI into development and gameplay.
+- [Activision Blizzard](Gaming%20and%20Interactive/Traditional%20Studios/Activision%20Blizzard.md)
 - [Electronic Arts](Gaming%20and%20Interactive/Traditional%20Studios/Electronic%20Arts.md)
+- [Epic Games](Gaming%20and%20Interactive/Traditional%20Studios/Epic%20Games.md)
 - [Rockstar Games](Gaming%20and%20Interactive/Traditional%20Studios/Rockstar%20Games.md)
+- [Take-Two Interactive](Gaming%20and%20Interactive/Traditional%20Studios/Take-Two%20Interactive.md)
 - [Ubisoft](Gaming%20and%20Interactive/Traditional%20Studios/Ubisoft.md)
+- [Valve](Gaming%20and%20Interactive/Traditional%20Studios/Valve.md)
 
 #### 🤖 AI-Native Studios
 Gaming companies leveraging AI as fundamental technology for game creation and experiences.
@@ -64,19 +86,49 @@ Music and entertainment companies built around AI-driven creation and distributi
 
 ## 📋 All Companies Alphabetical
 
-*This section will be automatically populated as companies are added to industry-specific sections*
-
 ### A-F
-- [ ] Company entries will appear here
+- [A24](Film%20and%20Streaming/Traditional%20Studios/A24.md)
+- [Activision Blizzard](Gaming%20and%20Interactive/Traditional%20Studios/Activision%20Blizzard.md)
+- [Amazon Studios](Film%20and%20Streaming/Traditional%20Studios/Amazon%20Studios.md)
+- [Anthropic](AI%20Models/Anthropic.md)
+- [Autodesk](Film%20and%20Streaming/Traditional%20Studios/Autodesk.md)
+- [Canva](AI%20Content%20&%20Media/Canva.md)
+- [Character AI](AI%20Content%20&%20Media/Character%20AI.md)
+- [Databricks](AI%20Infrastructure/Databricks.md)
+- [Decart](Gaming%20and%20Interactive/AI-Native%20Studios/Decart.md)
+- [Disney](Film%20and%20Streaming/Traditional%20Studios/Disney.md)
+- [Electronic Arts](Gaming%20and%20Interactive/Traditional%20Studios/Electronic%20Arts.md)
+- [ElevenLabs](AI%20Content%20&%20Media/ElevenLabs.md)
+- [Epic Games](Gaming%20and%20Interactive/Traditional%20Studios/Epic%20Games.md)
 
 ### G-M
-- [ ] Company entries will appear here
+- [Google AI](AI%20Models/Google%20AI.md)
+- [Hugging Face](AI%20Infrastructure/Hugging%20Face.md)
+- [Lionsgate](Film%20and%20Streaming/Traditional%20Studios/Lionsgate.md)
+- [Midjourney](AI%20Content%20&%20Media/Midjourney.md)
+- [Mistral AI](AI%20Models/Mistral%20AI.md)
 
 ### N-S
-- [ ] Company entries will appear here
+- [Netflix](Film%20and%20Streaming/Traditional%20Studios/Netflix.md)
+- [NVIDIA](AI%20Infrastructure/NVIDIA.md)
+- [OpenAI](AI%20Models/OpenAI.md)
+- [Paramount Pictures](Film%20and%20Streaming/Traditional%20Studios/Paramount%20Pictures.md)
+- [Promise](Film%20and%20Streaming/AI-Native%20Studios/Promise.md)
+- [Rockstar Games](Gaming%20and%20Interactive/Traditional%20Studios/Rockstar%20Games.md)
+- [Scale AI](AI%20Infrastructure/Scale%20AI.md)
+- [Sony Music Entertainment](Music%20and%20Entertainment/Traditional%20Companies/Sony%20Music%20Entertainment.md)
+- [Sony Pictures](Film%20and%20Streaming/Traditional%20Studios/Sony%20Pictures.md)
+- [Staircase](Film%20and%20Streaming/AI-Native%20Studios/Staircase.md)
 
 ### T-Z
-- [ ] Company entries will appear here
+- [Take-Two Interactive](Gaming%20and%20Interactive/Traditional%20Studios/Take-Two%20Interactive.md)
+- [Tollbit](Art%20and%20Publishing/Tollbit.md)
+- [Ubisoft](Gaming%20and%20Interactive/Traditional%20Studios/Ubisoft.md)
+- [Universal Music Group](Music%20and%20Entertainment/Traditional%20Companies/Universal%20Music%20Group.md)
+- [Universal Pictures](Film%20and%20Streaming/Traditional%20Studios/Universal%20Pictures.md)
+- [Valve](Gaming%20and%20Interactive/Traditional%20Studios/Valve.md)
+- [Warner Bros](Film%20and%20Streaming/Traditional%20Studios/Warner%20Bros.md)
+- [xAI](AI%20Models/xAI.md)
 
 ## 📝 Adding New Companies
 
@@ -84,107 +136,8 @@ Music and entertainment companies built around AI-driven creation and distributi
 Create individual company files within the appropriate industry folder:
 - File name: `Company Name.md` (use actual company name)
 - Location: Place in the relevant industry folder
-- Format: Use the template below for consistency
-
-### Company File Template
-
-```markdown
-# Company Name
-
-**Industry:** [Primary Industry]  
-**Type:** [Public/Private]  
-**Founded:** [Year]  
-**Headquarters:** [Location]  
-**Website:** [Company website]
-
-![Company Logo](logo-url-if-available)
-
-*Brief tagline or description of the company*
-
-## Latest AI News
-*[Section header - if no AI news, use "No AI News" as placeholder]*
-
-### [News Title]
-**Date:** MM/DD/YYYY
-
-[Brief summary of AI-related news, developments, or initiatives. Include context about how this relates to AI adoption or impact on the industry.]
-
-## Overview
-Brief description of the company's primary business and market position.
-
-## Key Products/Services
-- Product/service 1
-- Product/service 2
-- Product/service 3
-
-## Recent Developments
-- Latest funding rounds
-- Major partnerships or acquisitions
-- New product launches
-- Executive changes
-
-## Financial Information
-- Revenue (if public)
-- Valuation (if available)
-- Funding rounds and investors
-
-## Leadership
-- CEO: [Name]
-- Key executives and founders
-
-## Competitive Landscape
-- Main competitors
-- Market position
-- Differentiators
-
-## Perplexity Queries
-### Latest Company News
-[Summarize the latest news about [Company Name], focusing on recent developments and announcements. Include information from reputable sources such as news articles and press releases. Provide a list with sources and summaries for each piece of news.](https://www.perplexity.ai/search/[encoded-query-text])
-
-### Industry AI News
-[Latest AI news for [Company Name] and the [Industry] industry. Provide a list of recent AI-related developments, initiatives, or products from [Company Name] and other companies in the [Industry] industry. Include sources and brief summaries for each item.](https://www.perplexity.ai/search/[encoded-query-text])
-
-**Note:** Replace `[encoded-query-text]` with the query text where spaces become hyphens and special characters are handled appropriately. Claude Code will generate the properly formatted URLs when creating company files.
-
-## Tags
-#[industry] #[type] #[relevant-tags]
-
----
-*Last Updated: [YYYY-MM-DD]*
-```
-
-## 🔍 Research Guidelines
-
-### Information Quality
-- [ ] Verify information from multiple sources
-- [ ] Include recent data (within last 12 months when possible)
-- [ ] Note date of last information update
-- [ ] Flag unverified or outdated information
-
-### Useful Details to Track
-- [ ] Business model and revenue streams
-- [ ] Key leadership and founders
-- [ ] Major partnerships and acquisitions
-- [ ] Funding rounds and investors
-- [ ] Market position and competitors
-- [ ] Geographic presence and expansion
-
-### Update Frequency
-- [ ] Quarterly reviews for major companies
-- [ ] Monthly updates for rapidly changing sectors
-- [ ] Annual comprehensive reviews
-- [ ] Event-driven updates for significant changes
-
-## 🎯 Use Cases
-
-This registry serves as a quick reference for:
-- Market research and competitive analysis
-- Partnership and business development opportunities
-- Investment research and due diligence
-- Industry trend tracking and analysis
-- Professional networking and career research
+- Format: Use the template in CLAUDE.md for consistency
 
 ---
 
-*Last Updated: 2025-07-27*  
-*Next Review: [Weekly Review Date]*
+*Last Updated: 2025-07-27*
