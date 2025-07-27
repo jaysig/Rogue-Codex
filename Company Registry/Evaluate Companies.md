@@ -1,25 +1,3 @@
-# Evaluate Companies for Registry Addition
-
-Based on the current company selections and themes detected, here are potential companies to consider adding to the registry, organized by category and subcategory.
-
-## Detected Themes & Interests
-
-### **Primary Focus Areas:**
-- AI transformation of traditional entertainment industries
-- Major content platforms and distribution channels
-- Open-source AI infrastructure and democratization
-- AI-first content creation and interactive experiences
-- Platform companies enabling creator economies
-- Content licensing and compensation in the AI era
-
-### **Company Scale Preferences:**
-- Industry leaders and major market players
-- Innovative AI-native startups with significant funding
-- Companies at the intersection of AI and creative industries
-- Platform businesses with network effects
-
----
-
 ## 🧠 AI Models
 
 ## 🤖 AI Infrastructure

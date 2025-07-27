@@ -185,8 +185,12 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "a541ade9443691e0",
+  "active": "af35eba3c15da2a4",
   "lastOpenFiles": [
+    "SE Asia Real Estate/SE Asia Real Estate Overview.md",
+    "AI Risk/AI Risks.md",
+    "AI Regulation/Regulation Overview.md",
+    "Coding Setup/Coding Setup.md",
     "README.md",
     "SE Asia Real Estate/Legal Documents/Subscription Agreement/Subscription Agreement Changelog.md",
     "SE Asia Real Estate/Real Estate Research/Vietnam/Vietnam Overview.md",
@@ -218,10 +222,6 @@
     "Thai Project/Resources/REResources.md",
     "Thai Project/Real Estate Research/Vietnam/Vietnam Overview.md",
     "Thai Project/Real Estate Research/Thailand/Thailand Overview.md",
-    "Thai Project/Legal Documents/Investment Management Agreement/Investment Management Agreement Changelog.md",
-    "Thai Project/Legal Documents/Investment Management Agreement/Investment Management Agreement.md",
-    "Thai Project/Legal Documents/Subscription Agreement/Subscription Agreement Changelog.md",
-    "Thai Project/Legal Documents/Subscription Agreement/Subscription Agreement.md",
-    "Thai Project/Legal Documents/Operating Agreement/Operating Agreement Changelog.md"
+    "Thai Project/Legal Documents/Investment Management Agreement/Investment Management Agreement Changelog.md"
   ]
 }

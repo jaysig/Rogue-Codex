@@ -17,35 +17,37 @@ Rogue Codex is a curated collection of knowledge, lessons learned, and practical
 #### 🎯 [100 TUF - 100 Days to Unfuck Yourself](100%20TUF/README.md)
 A 100-day journey of personal development and lessons learned, broken into manageable 25-day increments. Each section captures insights, breakthroughs, and practical applications from real-world experience.
 
-#### 📚 [Lessons Learned](Lessons%20Learned/README.md)
-A curated collection of specific lessons and insights worth sharing. These are the "I wish I knew this earlier" moments that can save others time and frustration.
+#### 💻 [Coding Setup](Coding%20Setup/Coding%20Setup.md)
+Practical guides for non-technical people who want to leverage technical and AI tools in their workflows. Focus on setup, basic usage, and integration.
 
-#### 💻 [Coding Setup](Coding%20Setup/README.md)
-Practical guides for non-technical people who want to leverage coding tools in their workflows. Focus on setup, basic usage, and integration rather than deep technical details.
-
-#### 🤖 [Weagle AI](Weagle%20AI/README.md)
-Documentation and templates from Weagle AI projects, including prompts and lessons learned from AI implementation experiences.
-
-#### 📋 [AI Regulation](AI%20Regulation/README.md)
-Tracking current and historical AI regulations with timeline context. Understanding how regulations evolve and their practical impact on AI development and deployment.
+#### 📋 [AI Regulation](AI%20Regulation/Regulation%20Overview.md)
+Comprehensive tracking system for AI regulations across global jurisdictions with historical context, change management, and compliance guidance. Covers US federal and state laws, EU AI Act, and regulations from China, Japan, and South Korea.
 
 #### 🛠️ [Tools](Tools/Tool%20Guide.md)
-Comprehensive collection of 49 tools across 14 categories, including daily-use tools, AI models, development platforms, and specialized software. Features tool evaluations, pricing information, and workflow integration guidance. See [Most Used Tools](Tools/Most%20Used.md) for frequently used daily tools.
+Overview of recommended tools across different categories, featuring the most frequently used tools incorporated into daily workflows.
 
-#### 🏢 [Company Registry](Company%20Registry/README.md)
-Quick reference database of companies across key industries including AI infrastructure, entertainment, gaming, and publishing. Organized by industry with standardized company profiles for research and competitive analysis.
+#### 🏢 [Company Directory](Company%20Registry/CompanyGuide.md)
+Directory of major companies and their strategic approaches, covering both traditional enterprises and modern companies. Organized by industry with standardized profiles for research and competitive analysis.
 
-#### ⚠️ [AI Risk](AI%20Risk/README.md)
-Documenting emerging AI risks with detailed analysis and mitigation strategies. Currently tracking AI psychosis and other identified risks.
+#### ⚠️ [AI Risk](AI%20Risk/AI%20Risks.md)
+Documenting emerging AI risks for quick reference.
 
-#### 🇹🇭 [Thai Project](Thai%20Project/README.md)
-Real estate project in Thailand with status updates, next steps, and changelog tracking project evolution and milestones.
+#### 🌏 [Southeast Asia Real Estate Project](SE%20Asia%20Real%20Estate/SE%20Asia%20Real%20Estate%20Overview.md)
+Real estate project exploring investment opportunities in Southeast Asia, focused on Thailand and Vietnam. Features progress tracking and market analysis as the project develops.
+
+### Coming Soon
+
+#### 📚 Lessons Learned
+Curated insights and practical wisdom from real-world experience.
+
+#### ⚖️ [Legal AI](Legal%20AI/README.md)
+Legal AI Overview - Coming soon.
 
 #### 💪 [Fitness Guide](Fitness%20Guide/README.md)
-Comprehensive fitness and nutrition programming using AI models, with Obsidian integration for tracking and data management.
+Comprehensive fitness and nutrition programming with data tracking integration.
 
 #### 🔄 [AI Automations & Workflows](AI%20Automations/README.md)
-Practical automation strategies and workflow optimizations using AI tools to enhance productivity and decision-making.
+Practical automation strategies and workflow optimizations for enhanced productivity.
 
 ## How to Use This Site
 
@@ -61,12 +63,7 @@ Have questions about any section or suggestions for improvement? Reach out to Ja
 
 ## Recent Updates
 
-- **Tools Section Expanded**: 49 tools across 14 categories with new LLMs category
-- **Most Used Tools**: Created dedicated page for daily workflow tools  
-- **Tool Guide**: Comprehensive directory with tool evaluations and pricing
-- **Company Registry**: Industry-organized database with AI adoption tracking
-- **AI Regulation**: Global tracking with changelog documentation
-- Core sections defined and organized with practical, actionable content
+*Site structure and content are currently being established.*
 
 ---
 
