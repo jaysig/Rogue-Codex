@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "README"
             }
           }
         ]
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -129,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of README"
             }
           }
         ]
@@ -187,41 +187,41 @@
   },
   "active": "a541ade9443691e0",
   "lastOpenFiles": [
-    "100 TUF/Phase II - Days 26-50.md",
-    "100 TUF/Phase I - Days 1-25.md",
-    "100 TUF/upcoming/Phase IV - Days 76-100.md",
-    "100 TUF/upcoming/Phase III - Days 51-75.md",
-    "100 TUF/upcoming/Phase II - Days 26-50.md",
-    "100 TUF/upcoming",
-    "100 TUF/completed",
-    "100 TUF/active/Phase I - Days 1-25.md",
-    "100 TUF/active",
-    "Tools/Writing Content Creation",
-    "Tools/Video Generation",
-    "Tools/Project Management",
-    "Tools/Marketing",
-    "Tools/Image Generation",
-    "Tools/Game Development",
-    "Tools/Fun",
-    "Company Registry/Music and Entertainment.md",
-    "Company Registry/Gaming and Interactive.md",
-    "Company Registry/Film and Streaming.md",
-    "Company Registry/Art and Publishing.md",
-    "Company Registry/AI Infrastructure.md",
-    "Company Registry/README.md",
-    "100 TUF/Phase IV - Days 76-100.md",
-    "100 TUF/Phase III - Days 51-75.md",
-    "CLAUDE.md",
-    "Legal AI/README.md",
+    "Tools/Most Used.md.tmp.13042.1753647151895",
+    "Thai Project/Legal Documents/Investment Management Agreement/Investment Management Agreement Changelog.md",
+    "Thai Project/Legal Documents/Investment Management Agreement/Investment Management Agreement.md",
+    "Thai Project/Legal Documents/Subscription Agreement/Subscription Agreement Changelog.md",
+    "Thai Project/Legal Documents/Subscription Agreement/Subscription Agreement Changelog.md.tmp.11084.1753647129127",
+    "Thai Project/Legal Documents/Subscription Agreement/Subscription Agreement.md",
+    "Thai Project/Legal Documents/Operating Agreement/Operating Agreement Changelog.md",
+    "Thai Project/Legal Documents/Operating Agreement/Operating Agreement.md",
+    "Thai Project/Legal Documents/Limited Partner Agreement/Limited Partner Agreement Changelog.md",
+    "Thai Project/Legal Documents/Limited Partner Agreement/Limited Partner Agreement.md",
+    "Thai Project/Legal Documents/PPM/PPM Changelog.md",
+    "Thai Project/Legal Documents/PPM/PPM.md",
+    "Thai Project/Legal Documents/Terms/Terms Changelog.md",
+    "Tools/Other Tools.md",
+    "Thai Project/Legal Documents/Terms/Terms.md",
+    "Tools/Tool Guide.md.tmp.13042.1753647079529",
+    "Thai Project/Current Status.md",
+    "Thai Project/Legal Documents/Terms",
+    "Thai Project/Legal Documents/Subscription Agreement",
+    "Thai Project/Legal Documents/PPM",
+    "Thai Project/Legal Documents/Operating Agreement",
+    "Thai Project/Legal Documents/Limited Partner Agreement",
+    "Thai Project/Legal Documents/Investment Management Agreement",
+    "Thai Project/Legal Documents",
+    "Thai Project/Resources",
+    "Tools/Developer Tools/Gemini CLI.md",
+    "Tools/Developer Tools/Claude Code.md",
+    "Start Here.md",
+    "Welcome.md",
+    "Tools/Business Productivity/Wispr Flow.md",
     "README.md",
-    "AI Automations/README.md",
-    "Fitness Guide/README.md",
-    "Thai Project/README.md",
-    "AI Risk/README.md",
-    "Tools/README.md",
-    "AI Regulation/README.md",
-    "Weagle AI/README.md",
-    "Coding Setup/README.md",
-    "Lessons Learned/README.md"
+    "CLAUDE.md",
+    "Tools/LLMs/Chorus.md",
+    "Tools/LLMs/Grok.md",
+    "Tools/LLMs/ChatGPT.md",
+    "Tools/LLMs/Gemini.md"
   ]
 }
