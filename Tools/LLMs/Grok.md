@@ -111,7 +111,7 @@ X.ai's conversational AI assistant designed for quick questions, research, and r
 - [[ChatGPT]] - OpenAI's conversational AI with image generation
 - [[Claude Code]] - Anthropic's AI assistant for analysis
 - [[Chorus]] - Multi-model AI chat interface
-- [[Perplexity]] - AI-powered search engine
+- [[Tools/Business Productivity/Perplexity]] - AI-powered search engine
 
 ### External Alternatives
 - [ChatGPT](https://chat.openai.com) - OpenAI's conversational AI

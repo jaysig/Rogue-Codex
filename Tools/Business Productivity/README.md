@@ -5,7 +5,7 @@ This section contains tools for business operations and productivity enhancement
 ## Tools
 
 ### AI-Powered Productivity
-- [[Perplexity]] - Conversational AI search engine with real-time web data
+- [[Tools/Business Productivity/Perplexity]] - Conversational AI search engine with real-time web data
 - [[GumLoop]] - AI-driven business productivity solution
 - [[Read AI]] - Meeting, email, and message efficiency with AI summaries
 - [[N8N]] - Workflow automation platform with 500+ integrations

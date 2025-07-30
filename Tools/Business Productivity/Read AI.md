@@ -86,7 +86,7 @@ AI-powered platform that enhances productivity by providing intelligent summarie
 ## Related Tools
 
 ### Communication and Productivity Tools
-- [[Perplexity]] - AI search and research platform
+- [[Tools/Business Productivity/Perplexity]] - AI search and research platform
 - [[GumLoop]] - AI workflow automation
 - *Coming soon* - Other internal tool reviews
 - [Otter.ai](https://otter.ai) - Meeting transcription and notes

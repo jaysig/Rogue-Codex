@@ -120,7 +120,7 @@ Advanced AI-powered voice dictation tool that enables writing 4x faster than typ
 
 ### Internal Links
 - [[Read AI]] - Meeting transcription and analysis
-- [[Perplexity]] - AI-powered research and writing assistance
+- [[Tools/Business Productivity/Perplexity]] - AI-powered research and writing assistance
 
 ### External Alternatives
 - [BetterDictation](https://betterdictation.com) - Budget-friendly dictation alternative ($2/month)

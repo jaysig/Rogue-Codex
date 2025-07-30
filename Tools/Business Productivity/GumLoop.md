@@ -86,7 +86,7 @@ AI-driven business productivity platform that automates workflows, streamlines p
 ## Related Tools
 
 ### Business Productivity Alternatives
-- [[Perplexity]] - AI search and research platform
+- [[Tools/Business Productivity/Perplexity]] - AI search and research platform
 - *Coming soon* - Other internal tool reviews
 - [Zapier](https://zapier.com) - Workflow automation platform
 - [Microsoft Power Automate](https://powerautomate.microsoft.com) - Business process automation
