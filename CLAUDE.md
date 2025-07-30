@@ -45,11 +45,17 @@ Since this is a documentation repository without build tools, primary tasks invo
 - Include specific templates and frameworks for replicability
 - Regular review cycles noted in footer timestamps
 - Consistent categorization and tagging approach
+- **Lesson Formatting**: When creating lessons learned files, maintain at least 2 line spaces between the last section in a group and the next group for better readability and visual separation
+
+### RC Changes and Public Documentation
+- **RC Changes.md**: Public-facing changelog documenting all significant updates and additions
+- **Exclude folder**: Internal working folder for tasks, drafts, and temporary items
+- **Changelog entries**: Should only include public-facing information, never reference exclude folder operations or internal workflow details (e.g., avoid "removed from companies to add list" - focus on the actual addition/update)
 
 ### File Naming Conventions
 - Use spaces in directory names (e.g., "Lessons Learned", "AI Regulation")
 - URL-encode spaces in markdown links (e.g., `[link](Lessons%20Learned/README.md)`)
-- **README.md files**: Only use at the top level of each main section - NEVER create README.md files in subdirectories or subcategories
+- **Minimize README.md files**: Avoid creating README.md files as they make file tracking difficult. Use descriptive filenames instead (e.g., "Gaming Companies Overview.md" rather than "README.md")
 - **Descriptive filenames**: All markdown files should have descriptive names that clearly identify their content
   - ✅ Good: `Netflix.md`, `AI Infrastructure Overview.md`, `Tool Evaluation Template.md`
   - ❌ Bad: `README.md` (in subdirectories), `index.md`, `main.md`, `content.md`
