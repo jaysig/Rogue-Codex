@@ -1,0 +1,170 @@
+# Fitness Guide Interactive Demo (v3 - Improved Analytics Flow)
+# This YAML file simulates a "click-through" demonstration of the fitness AI agent.
+# It requires no external data and does not write any files. It's a pre-scripted
+# conversation to showcase how the system feels in practice.
+
+demo_entry_point:
+  prompt: "Welcome to the interactive demo of the Fitness Guide AI. This will walk you through a common scenario. Let's begin!"
+  next_step: "step_1_main_menu"
+
+demo_flow:
+  step_1_main_menu:
+    agent_prompt: "Welcome back, Alex. What would you like to do today?"
+    user_options:
+      - choice: "1. Log today's workout"
+        next_step: "step_2_log_workout"
+      - choice: "2. Plan or generate a workout"
+        next_step: "step_plan_menu"
+      - choice: "3. Review Progress & Analytics"
+        next_step: "step_review_menu"
+      - choice: "4. Ask a question"
+        next_step: "step_ask_menu"
+      - choice: "5. Exit Demo"
+        next_step: "step_end"
+    ai_notes: "The main menu. Option 3 has been updated for clarity."
+
+  # --- Log Workout Flow ---
+  step_2_log_workout:
+    agent_prompt: "Great, let's log today's session. I see from your plan your workout was 'Lower Body A'. How did it go?"
+    user_options:
+      - choice: "1. I'll paste my log."
+        next_step: "step_3_receive_log"
+
+  step_3_receive_log:
+    agent_prompt: |
+      (You paste the following)
+      ```
+      # Workout Log: 2025-08-05 - Lower Body A
+      ## Exercise 1: Barbell Squat
+      - Set 1: 225 lbs x 5 reps (RPE: 8.5)
+      ```
+    user_options:
+      - choice: "1. Confirm log entry"
+        next_step: "step_4_analyze_log"
+
+  step_4_analyze_log:
+    agent_prompt: |
+      "Thanks, Alex. Logged.
+      Here's a quick analysis: Excellent work on the squats! You successfully completed all reps at 225 lbs, which is a 5 lb increase from last week's top set. Your RPE indicates it was challenging but manageable. This is perfect progressive overload."
+    user_options:
+      - choice: "1. Return to Main Menu"
+        next_step: "step_1_main_menu"
+
+  # --- Plan Workout Flow ---
+  step_plan_menu:
+    agent_prompt: "Looking for a plan! Do you need a single workout for today, or are you looking to generate a new long-term program?"
+    user_options:
+      - choice: "1. A single workout for today."
+        next_step: "step_plan_single"
+      - choice: "2. Back to Main Menu"
+        next_step: "step_1_main_menu"
+
+  step_plan_single:
+    agent_prompt: |
+      "Okay, a single session. Based on your schedule, today is 'Upper Body B'. Here is a suggested workout:
+      - **Warm-up:** 5 min incline walk, shoulder dislocations.
+      - **Main Lifts:**
+        1. **Overhead Press:** 3 sets of 5 reps @ 95 lbs (RPE 8)
+        2. **Weighted Pull-ups:** 3 sets of 6-8 reps @ +10 lbs (RPE 8)"
+    user_options:
+      - choice: "1. Looks good, thanks!"
+        next_step: "step_1_main_menu"
+
+  # --- Review Progress & Analytics Flow (REVISED) ---
+  step_review_menu:
+    agent_prompt: "Let's look at your progress. What would you like to see?"
+    user_options:
+      - choice: "1. Check my Personal Records (PRs)"
+        next_step: "step_review_pr_select"
+      - choice: "2. View my body measurement trends"
+        next_step: "step_review_measurements"
+      - choice: "3. Get my weekly performance summary"
+        next_step: "step_review_weekly_summary"
+      - choice: "4. Ask a custom question about my progress"
+        next_step: "step_review_custom"
+      - choice: "5. Back to Main Menu"
+        next_step: "step_1_main_menu"
+    ai_notes: "This menu is now focused on pulling specific analytics, not just reports."
+
+  step_review_pr_select:
+    agent_prompt: "Which PRs are you interested in?"
+    user_options:
+      - choice: "1. My main strength lifts (Squat, Bench, Deadlift)"
+        next_step: "step_review_pr_answer"
+      - choice: "2. Back to Main Menu"
+        next_step: "step_1_main_menu"
+
+  step_review_pr_answer:
+    agent_prompt: |
+      "Here's your current strength PR progression:
+      - **Squat:** 225 lbs (a 5 lbs increase this month)
+      - **Bench:** 185 lbs (a 5 lbs increase this month)
+      - **Deadlift:** 315 lbs (no change this month)"
+    user_options:
+      - choice: "1. Great, back to the main menu."
+        next_step: "step_1_main_menu"
+
+  step_review_measurements:
+    agent_prompt: |
+      "Here is your weight trend for the last 3 months:
+      - **June:** 182 lbs (average)
+      - **July:** 180 lbs (average)
+      - **August:** 178 lbs (current)
+      You're on a steady downward trend, averaging about 2 lbs lost per month. Great consistency!"
+    user_options:
+      - choice: "1. Excellent, back to the main menu."
+        next_step: "step_1_main_menu"
+
+  step_review_weekly_summary:
+    agent_prompt: |
+      "Okay, here's your weekly performance summary:
+      - **Consistency:** Excellent. You completed 4/4 planned workouts.
+      - **Performance:** Strong progress on primary lifts. You hit a new Squat PR (225x5) and Bench PR (185x5).
+      - **Recovery:** Your sleep quality was an average of 8/10. This is supporting your training well.
+      - **Recommendation for next week:** Let's increase the weight on your main lifts by 5 lbs as planned."
+    user_options:
+      - choice: "1. Sounds good, back to the main menu."
+        next_step: "step_1_main_menu"
+
+  step_review_custom:
+    agent_prompt: "What's your question? For example, you could ask, 'How has my squat volume changed over the last month?'"
+    user_options:
+      - choice: "1. (Let's pretend I asked that question)"
+        next_step: "step_review_custom_answer"
+
+  step_review_custom_answer:
+    agent_prompt: "Your squat volume has been steadily increasing. You started the month averaging around 8,000 lbs of total volume per squat session, and you ended this week at nearly 10,000 lbs. This is a great indicator of progress."
+    user_options:
+      - choice: "1. Got it, back to the main menu."
+        next_step: "step_1_main_menu"
+
+  # --- Ask a Question Flow ---
+  step_ask_menu:
+    agent_prompt: "I'm here to help. What's your question about?"
+    user_options:
+      - choice: "1. I need a substitute for an exercise."
+        next_step: "step_ask_substitute"
+      - choice: "2. Back to Main Menu"
+        next_step: "step_1_main_menu"
+
+  step_ask_substitute:
+    agent_prompt: "My workout calls for barbell back squats, but the racks are busy. What's a good replacement?"
+    user_options:
+      - choice: "1. Get suggestions."
+        next_step: "step_answer_substitute"
+
+  step_answer_substitute:
+    agent_prompt: |
+      "Since the squat racks are busy, here are a few good alternatives:
+      1. **Dumbbell Goblet Squats:** Great for maintaining an upright torso.
+      2. **Bulgarian Split Squats:** Excellent for unilateral strength and stability.
+      3. **Leg Press:** If a machine is free, this can effectively target your quads and glutes.
+      For today, I'd recommend Bulgarian Split Squats to keep the stability element."
+    user_options:
+      - choice: "1. Perfect, I'll do that."
+        next_step: "step_1_main_menu"
+
+  # --- End Flow ---
+  step_end:
+    agent_prompt: "You're welcome! Keep up the great work. Have a great day."
+    user_options: []

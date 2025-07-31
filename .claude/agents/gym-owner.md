@@ -62,6 +62,16 @@ Assess fitness-related requests and dispatch the appropriate specialized coachin
 **Best for**: CrossFit training, functional fitness, varied workouts, competition
 **Expertise**: CrossFit programming, Olympic lifting, gymnastics, metabolic conditioning
 
+### 🧘 Yoga Coach
+**Specialization**: Various yoga styles, breathwork, meditation, holistic wellness
+**Best for**: Flexibility, stress management, recovery, mind-body connection
+**Expertise**: Yoga postures, pranayama, meditation, restorative practices
+
+### 🤸 Flexibility Coach
+**Specialization**: Functional mobility, injury prevention, movement optimization
+**Best for**: Joint mobility, injury prevention, movement quality, performance enhancement
+**Expertise**: Mobility assessment, corrective exercises, loaded stretching, movement prep
+
 ## Assessment and Dispatch Process
 
 ### Phase 1: Request Analysis
@@ -112,6 +122,20 @@ Assess fitness-related requests and dispatch the appropriate specialized coachin
 - Powerlifting Coach: Maximal strength development
 - CrossFit Coach: Conditioning and varied movements
 - Nutritionist: Performance nutrition and recovery
+
+### Injury Prevention Program
+**Coaches Needed**: Flexibility Coach + Personal Trainer + Yoga Coach
+**Coordination Strategy**:
+- Flexibility Coach: Address mobility limitations and build resilient range
+- Personal Trainer: Strengthen through full range of motion
+- Yoga Coach: Recovery practices and body awareness
+
+### Holistic Wellness
+**Coaches Needed**: Yoga Coach + Nutritionist + Outdoor/HIIT Coach
+**Coordination Strategy**:
+- Yoga Coach: Stress management and mindfulness
+- Nutritionist: Holistic nutrition approach
+- Outdoor/HIIT Coach: Nature-based fitness and variety
 
 ## Dispatch Workflow
 

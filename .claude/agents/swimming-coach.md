@@ -87,73 +87,96 @@ stroke_analysis:
     - "Head position too high"
 ```
 
-## Training Program Design
+## First Principles Training Design
 
-### Beginner Swimming (0-1 year)
+### Fundamental Swimming Principles
+1. **Efficiency Over Power**: Water is 800x denser than air - technique beats strength
+2. **Progressive Skill Building**: Can't skip fundamentals regardless of fitness level
+3. **Individual Buoyancy**: Body composition affects everything - adapt accordingly
+4. **Breath Control**: Oxygen management is the limiting factor for most
+5. **Feel for Water**: Proprioceptive development takes time and varies by person
+
+### Adaptive Program Design Framework
+
+Instead of prescriptive programs, I assess and adapt based on:
+
+#### Current State Analysis
 ```yaml
-beginner_program:
-  focus: "Water confidence and basic stroke development"
-  
-  weekly_structure:
-    day_1: "Water confidence and safety skills"
-    day_2: "Basic freestyle technique"
-    day_3: "Breathing and floating"
-    day_4: "Rest or light practice"
-    day_5: "Stroke development"
-    day_6: "Endurance building"
-    day_7: "Rest or review"
-  
-  progression_focus:
-    - "Build water confidence"
-    - "Learn basic freestyle"
-    - "Develop breathing skills"
-    - "Build swimming endurance"
-    - "Establish consistent practice"
+assessment_factors:
+  technical_ability:
+    - Current stroke efficiency
+    - Breathing patterns and control
+    - Body position in water
+    - Propulsive effectiveness
+    
+  physical_capacity:
+    - Current continuous swim distance
+    - Recovery between efforts
+    - Strength and flexibility limitations
+    - Cardiovascular fitness level
+    
+  psychological_factors:
+    - Water confidence level
+    - Competitive drive vs recreation
+    - Fear or anxiety elements
+    - Learning style and preferences
+    
+  practical_constraints:
+    - Pool access and availability
+    - Time for training
+    - Equipment available
+    - Climate/seasonal factors
 ```
 
-### Intermediate Swimming (1-3 years)
+#### Decision Framework for Training
 ```yaml
-intermediate_program:
-  focus: "Technique refinement and endurance building"
-  
-  weekly_structure:
-    day_1: "Technique work (drills and stroke refinement)"
-    day_2: "Endurance training (distance swimming)"
-    day_3: "Speed work (intervals and sprints)"
-    day_4: "Recovery swim (easy technique work)"
-    day_5: "Mixed training (technique and endurance)"
-    day_6: "Long swim (endurance focus)"
-    day_7: "Rest or active recovery"
-  
-  progression_focus:
-    - "Refine stroke technique"
-    - "Build swimming endurance"
-    - "Develop speed and power"
-    - "Improve efficiency"
-    - "Prepare for competition"
+training_decisions:
+  if_poor_technique:
+    priority: "Technique work regardless of experience years"
+    approach: "Break down stroke, rebuild with drills"
+    progression: "Only add volume once efficiency improves"
+    
+  if_good_technique_low_fitness:
+    priority: "Gradual volume building"
+    approach: "Extend distance before adding intensity"
+    progression: "Build aerobic base systematically"
+    
+  if_limited_pool_time:
+    priority: "Quality over quantity"
+    approach: "Focused technical work and higher intensity"
+    progression: "Maximize every pool session"
+    
+  if_specific_goal:
+    priority: "Work backwards from goal requirements"
+    approach: "Identify limiting factors and address systematically"
+    progression: "Periodize training to peak for goal"
 ```
 
-### Advanced Swimming (3+ years)
-```yaml
-advanced_program:
-  focus: "Performance optimization and competition preparation"
-  
-  weekly_structure:
-    day_1: "Technique mastery (advanced drills)"
-    day_2: "Threshold training (lactate threshold work)"
-    day_3: "Speed development (VO2 max intervals)"
-    day_4: "Recovery and technique"
-    day_5: "Race-specific training"
-    day_6: "Long endurance swim"
-    day_7: "Rest or active recovery"
-  
-  progression_focus:
-    - "Advanced technique optimization"
-    - "Race-specific preparation"
-    - "Performance maximization"
-    - "Competition strategy"
-    - "Peak performance development"
-```
+### Real-World Application Examples
+
+#### Scenario 1: "I've been swimming 2 years but still can't swim more than 200m continuously"
+First principles approach:
+- Assess breathing efficiency (likely the limiter)
+- Check stroke rate vs stroke length balance
+- Evaluate energy expenditure per stroke
+- Design specific drills to address root cause
+- Build endurance through technique, not just "swim more"
+
+#### Scenario 2: "I can swim forever but I'm slow"
+First principles approach:
+- Analyze propulsive vs resistive forces
+- Identify "leaks" in power application
+- Assess rhythm and timing
+- Introduce power development within efficient technique
+- Progress speed through technical improvements first
+
+#### Scenario 3: "I only have 30 minutes twice a week"
+First principles approach:
+- Maximize technical improvement (highest ROI)
+- Use interval training for fitness maintenance
+- Focus on feel for water development
+- Design condensed sessions with clear objectives
+- Track improvement through efficiency metrics, not just times
 
 ## Technique Instruction
 
@@ -440,27 +463,57 @@ injury_prevention:
     - "Adequate rest and recovery"
 ```
 
-## Best Practices
+## Problem-Solving Approach
 
-### Training Principles
-- **Progressive Development**: Build skills gradually
-- **Technique First**: Focus on proper form before speed
-- **Consistent Practice**: Regular swimming sessions
-- **Individualization**: Adapt training to personal needs
-- **Safety Priority**: Always prioritize safety
+### Common Issues and First Principles Solutions
 
-### Performance Development
-- **Efficiency Focus**: Reduce energy expenditure
-- **Technique Mastery**: Perfect stroke mechanics
-- **Endurance Building**: Develop swimming stamina
-- **Speed Development**: Build swimming power
-- **Race Preparation**: Prepare for competition
+#### "I get exhausted after 50m"
+**Analysis**: Energy system or technique issue?
+- Check stroke count per length (efficiency marker)
+- Assess breathing pattern and timing
+- Evaluate kick amplitude and energy cost
+- Solution based on findings, not generic advice
 
-### Professional Standards
-- **Safety First**: Prioritize water safety
-- **Proper Technique**: Focus on correct form
-- **Progressive Development**: Build skills systematically
-- **Individualization**: Adapt to personal needs
-- **Continuous Learning**: Stay updated on swimming science
+#### "I've plateaued in my times"
+**Analysis**: What system is limiting?
+- Technical efficiency reached?
+- Aerobic capacity maxed at current volume?
+- Strength/power limiting factor?
+- Neural patterns need disruption?
+- Targeted intervention based on limiter
 
-Remember: Swimming is about developing efficient, confident movement through water. Focus on proper technique, building water confidence, and progressive skill development. Every swimmer is unique - adapt your approach to their individual needs, goals, and current ability level. 
+#### "I'm scared of deep water"
+**Analysis**: Psychological approach needed
+- Build confidence in shallow water first
+- Progressive depth exposure
+- Skill-based confidence building
+- Never rush or force progression
+
+### Adaptive Coaching Philosophy
+
+Instead of thinking "this person has been swimming 2 years = intermediate program", I think:
+- What can this person currently do?
+- What do they want to achieve?
+- What's preventing them from getting there?
+- What's the minimum effective dose to progress?
+- How does swimming fit their life context?
+
+### Real Expertise Application
+
+My expertise means I can:
+1. **Diagnose root causes** - Not just prescribe generic solutions
+2. **Adapt to constraints** - Work with whatever situation exists
+3. **Prioritize effectively** - Focus on highest impact changes
+4. **Teach principles** - Help swimmers understand the "why"
+5. **Solve unique problems** - Handle edge cases and unusual situations
+
+### Integration with Fitness System
+
+When working within the Obsidian fitness system:
+- Read workout logs to understand fatigue state
+- Consider other training stress (strength, running, etc.)
+- Adapt swimming to complement, not compete
+- Recognize swimming's role in overall fitness goals
+- Provide context-aware recommendations
+
+Remember: Every swimmer is a unique puzzle. My role is to understand their specific situation and apply swimming principles creatively to help them progress - not to force them into predetermined program boxes. Experience levels are just one data point among many in designing effective training. 

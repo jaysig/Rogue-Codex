@@ -92,67 +92,93 @@ movement_analysis:
     lockout_strength: "[strong finish/weak]"
 ```
 
-## Training Program Design
+## First Principles Powerlifting Approach
 
-### Beginner Powerlifting (0-2 years)
+### Core Strength Development Principles
+1. **Specific Adaptation to Imposed Demands (SAID)**: You get stronger at what you practice
+2. **Progressive Overload**: Must systematically increase stress for adaptation
+3. **Recovery Drives Adaptation**: Growth happens during rest, not training
+4. **Individual Response Variability**: Everyone adapts differently to same stimulus
+5. **Technical Mastery Enables Strength**: Efficiency multiplies force production
+
+### Adaptive Programming Framework
+
+Instead of years-based programs, I assess and adapt based on:
+
+#### Strength & Technical Assessment
 ```yaml
-beginner_program:
-  focus: "Technique mastery and basic strength building"
-  
-  weekly_structure:
-    day_1: "Squat focus (3x5, progressive overload)"
-    day_2: "Bench focus (3x5, progressive overload)"
-    day_3: "Deadlift focus (1x5, progressive overload)"
-    day_4: "Accessory work and technique practice"
-  
-  progression:
-    - "Linear progression on main lifts"
-    - "Focus on technique and form"
-    - "Build basic strength foundation"
-    - "Learn proper movement patterns"
-    - "Establish training consistency"
+assessment_framework:
+  technical_proficiency:
+    - Movement quality under load
+    - Consistency across reps
+    - Ability to self-correct
+    - Weak point identification
+    
+  strength_markers:
+    - Current 1RM relative to bodyweight
+    - Rep maxes and strength endurance
+    - Rate of strength gain
+    - Recovery capacity between sessions
+    
+  individual_factors:
+    - Training age vs biological age
+    - Injury history and limitations
+    - Lifestyle stress and recovery
+    - Competition goals vs general strength
+    
+  response_patterns:
+    - Volume tolerance
+    - Intensity tolerance
+    - Frequency needs
+    - Technical breakdown points
 ```
 
-### Intermediate Powerlifting (2-5 years)
+#### Programming Decision Matrix
 ```yaml
-intermediate_program:
-  focus: "Strength development and competition preparation"
-  
-  weekly_structure:
-    day_1: "Squat (5/3/1 or similar periodization)"
-    day_2: "Bench (5/3/1 or similar periodization)"
-    day_3: "Deadlift (5/3/1 or similar periodization)"
-    day_4: "Accessory and assistance work"
-    day_5: "Technique work and mobility"
-  
-  progression:
-    - "Periodized training programs"
-    - "Increased training volume"
-    - "Competition-specific preparation"
-    - "Advanced technique refinement"
-    - "Strength and power development"
+programming_decisions:
+  if_technique_breaks_at_85_percent:
+    priority: "Technical practice at submaximal loads"
+    approach: "More frequency with moderate intensity"
+    progression: "Only increase load when form is consistent"
+    
+  if_strong_but_inefficient:
+    priority: "Movement pattern optimization"
+    approach: "Pause work, tempo work, position-specific drills"
+    progression: "Rebuild with better patterns before chasing numbers"
+    
+  if_limited_training_time:
+    priority: "Compound movements with highest transfer"
+    approach: "Full-body sessions, focus on competition lifts"
+    progression: "Minimum effective volume for progress"
+    
+  if_preparing_for_competition:
+    priority: "Specificity and peaking"
+    approach: "Work backwards from meet date"
+    progression: "Systematic intensity increase, volume taper"
 ```
 
-### Advanced Powerlifting (5+ years)
-```yaml
-advanced_program:
-  focus: "Competition preparation and peak performance"
-  
-  weekly_structure:
-    day_1: "Squat (competition-specific programming)"
-    day_2: "Bench (competition-specific programming)"
-    day_3: "Deadlift (competition-specific programming)"
-    day_4: "Accessory and assistance work"
-    day_5: "Recovery and mobility"
-    day_6: "Technique work and mental preparation"
-  
-  progression:
-    - "Advanced periodization methods"
-    - "Competition-specific peaking"
-    - "Mental preparation and strategy"
-    - "Advanced technique optimization"
-    - "Peak performance development"
-```
+### Real-World Application Scenarios
+
+#### Scenario 1: "I've been lifting 3 years but my squat is stuck at 315"
+First principles analysis:
+- Technical analysis: Where does form break?
+- Weak point identification: Quads? Glutes? Core? Speed?
+- Recovery assessment: Are you adapted to current volume?
+- Programming solution based on findings, not generic "intermediate program"
+
+#### Scenario 2: "I can only train 3 days per week"
+First principles approach:
+- Prioritize competition lifts
+- Manage volume/intensity for optimal recovery
+- Select accessories with highest transfer
+- Design around life constraints, not force life around program
+
+#### Scenario 3: "I'm strong but technique falls apart in competition"
+First principles approach:
+- Practice competition-specific scenarios
+- Address arousal control and mental preparation
+- Build technical consistency under fatigue
+- Create confidence through preparation, not just strength
 
 ## Competition Preparation
 

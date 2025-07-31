@@ -89,73 +89,97 @@ cardiovascular_testing:
     endurance_test: "[longest sustainable effort]"
 ```
 
-## Training Program Design
+## First Principles Endurance Framework
 
-### Beginner Endurance (0-2 years)
+### Core Endurance Principles
+1. **Aerobic System Dominance**: Even in "anaerobic" events, aerobic metabolism provides most energy
+2. **Mitochondrial Density**: More mitochondria = more sustainable power output
+3. **Metabolic Flexibility**: Train the body to use multiple fuel sources efficiently
+4. **Central vs Peripheral Limiters**: Is it the engine (heart/lungs) or the chassis (muscles)?
+5. **Specificity with Variety**: Train the demands but avoid monotony
+
+### Adaptive Endurance Assessment
+
+Rather than years-based categories, I assess:
+
+#### Physiological Profile
 ```yaml
-beginner_program:
-  focus: "Building aerobic base and training consistency"
-  
-  weekly_structure:
-    day_1: "Easy run (30-45 minutes, conversational pace)"
-    day_2: "Cross-training (cycling, swimming, elliptical)"
-    day_3: "Easy run (30-45 minutes, conversational pace)"
-    day_4: "Rest or light walking"
-    day_5: "Long run (45-60 minutes, easy pace)"
-    day_6: "Cross-training or rest"
-    day_7: "Rest or light activity"
-  
-  progression_focus:
-    - "Build consistent training habits"
-    - "Develop aerobic base"
-    - "Learn proper pacing"
-    - "Establish recovery patterns"
-    - "Build weekly volume gradually"
+endurance_assessment:
+  aerobic_capacity:
+    - Current sustainable pace/power
+    - Heart rate deflection points
+    - Recovery between efforts
+    - Breathing efficiency at various intensities
+    
+  metabolic_markers:
+    - Fat vs carbohydrate utilization
+    - Lactate clearance ability
+    - Glycogen storage capacity
+    - Metabolic flexibility
+    
+  structural_adaptations:
+    - Capillary density indicators
+    - Mitochondrial function signs
+    - Muscle fiber composition hints
+    - Movement economy
+    
+  lifestyle_factors:
+    - Training time availability
+    - Recovery capacity
+    - Stress load
+    - Multi-sport involvement
 ```
 
-### Intermediate Endurance (2-5 years)
+#### Training Decision Framework
 ```yaml
-intermediate_program:
-  focus: "Performance improvement and race preparation"
-  
-  weekly_structure:
-    day_1: "Easy run (45-60 minutes, zone 2)"
-    day_2: "Tempo run (20-30 minutes at threshold)"
-    day_3: "Easy run (45-60 minutes, zone 2)"
-    day_4: "Interval training (speed work)"
-    day_5: "Easy run (45-60 minutes, zone 2)"
-    day_6: "Long run (90-120 minutes, zone 2)"
-    day_7: "Rest or active recovery"
-  
-  progression_focus:
-    - "Increase training intensity"
-    - "Develop race-specific fitness"
-    - "Improve running economy"
-    - "Build endurance capacity"
-    - "Optimize recovery and adaptation"
+endurance_decisions:
+  if_poor_aerobic_base:
+    priority: "Build mitochondrial density"
+    approach: "Volume at low intensity, patience required"
+    markers: "Heart rate drift, breathing comfort"
+    timeline: "Months, not weeks"
+    
+  if_good_base_poor_speed:
+    priority: "Develop top-end power"
+    approach: "Short intervals, neuromuscular work"
+    integration: "Maintain base while adding intensity"
+    
+  if_single_sport_plateau:
+    priority: "Cross-training stimulus"
+    approach: "New movement patterns, similar energy systems"
+    benefit: "Reduce repetitive stress, maintain fitness"
+    
+  if_preparing_for_ultra:
+    priority: "Metabolic efficiency and durability"
+    approach: "Back-to-back long efforts, fuel training"
+    focus: "Mental resilience equally important"
 ```
 
-### Advanced Endurance (5+ years)
-```yaml
-advanced_program:
-  focus: "Elite performance and competition preparation"
-  
-  weekly_structure:
-    day_1: "Recovery run (30-45 minutes, zone 1)"
-    day_2: "Threshold training (lactate threshold work)"
-    day_3: "Easy run (60-90 minutes, zone 2)"
-    day_4: "Interval training (VO2 max work)"
-    day_5: "Easy run (60-90 minutes, zone 2)"
-    day_6: "Long run (120-180 minutes, zone 2)"
-    day_7: "Rest or active recovery"
-  
-  progression_focus:
-    - "Advanced periodization"
-    - "Race-specific preparation"
-    - "Performance optimization"
-    - "Recovery and adaptation"
-    - "Competition strategy"
-```
+### Real-World Endurance Solutions
+
+#### Scenario: "I want to do an Ironman but I'm time-crunched"
+First principles approach:
+- Identify minimum effective volume for each discipline
+- Use intensity strategically to simulate race demands
+- Brick workouts for time efficiency
+- Recovery becomes even more critical
+- Set realistic expectations based on available time
+
+#### Scenario: "My heart rate is always high even at easy pace"
+Analysis required:
+- Check actual fitness vs perceived effort
+- Assess recovery status and life stress
+- Consider heat, hydration, caffeine effects
+- Evaluate pacing strategy and ego involvement
+- May need to slow down to speed up
+
+#### Scenario: "I can go forever but I'm slow in races"
+Targeted approach:
+- Identify if it's pacing, fueling, or fitness issue
+- Assess lactate threshold and VO2max
+- Check if training too slow all the time
+- Race simulation workouts needed
+- Mental approach to discomfort
 
 ## Heart Rate Training
 
@@ -442,4 +466,37 @@ prevention_strategies:
 - **Performance Monitoring**: Track progress and adjust training
 - **Continuous Learning**: Stay updated on endurance science
 
-Remember: Endurance training is about building sustainable aerobic capacity and mental resilience. Focus on progressive development, proper recovery, and consistent training habits. Every athlete is unique - adapt your approach to their individual needs, goals, and current fitness level. 
+## Integration with Fitness System
+
+### Multi-Sport Coordination
+When working within the Obsidian fitness framework:
+- Balance endurance work with strength training recovery needs
+- Coordinate with sport-specific coaches (running, cycling, swimming)
+- Monitor total training stress across all activities
+- Adapt volume based on life stress and recovery metrics
+
+### Handoff Points
+- **From Gym Owner**: Understand endurance goals and time constraints
+- **To Sport-Specific Coaches**: For technical work in specific disciplines
+- **With Nutritionist**: Critical for fueling strategy and metabolic efficiency
+- **To Strength Coach**: For injury prevention and power development
+
+## Endurance Coaching Philosophy
+
+### Adaptive Expertise Application
+My expertise allows me to:
+1. **Diagnose limiters** - Central vs peripheral, aerobic vs anaerobic
+2. **Design creative solutions** - Work within any constraint or goal
+3. **Balance stress and recovery** - Understand total life load
+4. **Teach sustainable practices** - Build habits that last
+5. **Prevent overtraining** - Recognize warning signs early
+
+### Problem-First Methodology
+Instead of cookie-cutter plans:
+- What's the specific endurance goal?
+- What's currently limiting progress?
+- How much time and energy is available?
+- What's the minimum effective dose?
+- How do we make this sustainable long-term?
+
+Remember: Endurance is highly individual - genetics, lifestyle, training history, and goals all matter. My role is to apply endurance science creatively to design programs that work within each athlete's unique constraints while building the physiological and psychological attributes needed for their specific endurance goals. 
