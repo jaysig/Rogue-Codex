@@ -1,0 +1,43 @@
+# Bench Press Personal Records
+
+## Current Records
+| Rep Scheme | Weight | Date | Bodyweight | Relative Strength | Notes |
+|------------|--------|------|------------|-------------------|-------|
+| **1RM** | [weight] lbs | [date] | [BW] lbs | [X.X × BW] | |
+| **3RM** | [weight] lbs | [date] | [BW] lbs | [X.X × BW] | |
+| **5RM** | [weight] lbs | [date] | [BW] lbs | [X.X × BW] | |
+| **8RM** | [weight] lbs | [date] | [BW] lbs | [X.X × BW] | |
+| **10RM** | [weight] lbs | [date] | [BW] lbs | [X.X × BW] | |
+
+## PR History
+| Date | Weight | Reps | Previous PR | Improvement | Training Phase | Notes |
+|------|--------|------|-------------|-------------|----------------|-------|
+| [date] | [weight] | [reps] | [previous] | +[X] lbs | [phase] | [context] |
+
+## Rep Max Estimates
+Based on current PRs:
+- Estimated 1RM: [weight] lbs
+- Estimated 5RM: [weight] lbs
+- Estimated 10RM: [weight] lbs
+
+## Goals & Targets
+| Target | Current | Gap | Target Date | Strategy |
+|--------|---------|-----|-------------|----------|
+| 1RM: [weight] | [current] | [gap] | [date] | [approach] |
+| Bodyweight Bench | [current ratio] | [gap] | [date] | [approach] |
+| 225 lbs | [current] | [gap] | [date] | [approach] |
+
+## Technical Notes
+- **Grip Width**: [Your preference]
+- **Arch Setup**: [How you set up]
+- **Leg Drive**: [Technique notes]
+- **Weak Points**: [Lockout, off chest, etc.]
+- **Variations Used**: [Close grip, incline, etc.]
+
+## Progress Tracking
+- **Last 30 days**: [+X lbs or X%]
+- **Last 90 days**: [+X lbs or X%]
+- **Since starting**: [+X lbs from initial]
+
+---
+*Last Updated: [date]*

@@ -1,0 +1,309 @@
+# Fitness Guide Mini-App Experiences
+# Focused, streamlined workflows for common fitness tasks
+
+# Quick Log App
+quick_log:
+  name: "Lightning Logger"
+  description: "Natural language workout logging in seconds"
+  
+  entry_patterns:
+    simple: "Did squats 225x5, 235x3, 245x1"
+    detailed: "Crushed legs today. Squats 315x5 (RPE 9), leg press 4 plates x 12, 15, 18"
+    cardio: "Ran 5k in 24:30, felt great"
+    mixed: "Upper body: bench 185x8,8,7, rows 135x10x3, then 20 min bike"
+  
+  parsing_logic:
+    exercise_detection:
+      - Match against exercise library
+      - Handle common abbreviations (SQ, BP, DL)
+      - Infer from context ("pressed" = likely overhead or bench press)
+    
+    set_extraction:
+      - Parse "weight x reps" format
+      - Handle multiple sets: "225x5,5,5" or "225x5x3"
+      - Extract RPE if mentioned
+      - Default rest periods based on load
+    
+    pr_detection:
+      - Keywords: "PR", "PB", "best ever", "finally hit"
+      - Compare to existing PRs automatically
+      - Flag for celebration
+  
+  output_format:
+    immediate_feedback: |
+      ✅ Workout logged for [DATE]
+      
+      Highlights:
+      - [Exercise]: [Sets] sets, [Volume] lbs total
+      - Session duration: [Time]
+      - Total volume: [Volume] lbs
+      
+      🔥 New PR Alert: [Exercise] [Weight]x[Reps]!
+      Previous best was [Old PR] on [Date]
+    
+    file_creation:
+      location: "Workouts/Daily Logs/YYYY-MM-DD.md"
+      template: "Standard workout_log from Data_Models.yaml"
+
+# Smart Workout Generator
+workout_generator:
+  name: "Intelligent Program Designer"
+  description: "Creates personalized workouts based on multiple factors"
+  
+  input_collection:
+    time_available:
+      quick_options: ["30 min", "45 min", "60 min", "90 min"]
+      custom: "How long do you have?"
+    
+    energy_level:
+      scale: 1-10
+      adjust_intensity: true
+      adjust_volume: true
+    
+    target_focus:
+      options: ["Strength", "Hypertrophy", "Endurance", "Mixed", "Recovery"]
+      body_parts: ["Upper", "Lower", "Full Body", "Push", "Pull", "Specific muscle"]
+    
+    equipment_available:
+      home: ["Dumbbells", "Bands", "Bodyweight only"]
+      gym: ["Full gym", "Just barbells", "No machines"]
+  
+  generation_logic:
+    data_sources:
+      - "Check Coach AI/Coaching Plan Overview.md for current program"
+      - "Review last 7 days of workouts for recovery needs"
+      - "Consider Personal Records for appropriate loading"
+      - "Reference Exercise Library for movement selection"
+    
+    workout_structure:
+      warmup:
+        duration: "5-10 min"
+        components: ["General movement", "Dynamic stretching", "Activation"]
+      
+      main_work:
+        compound_first: true
+        rep_ranges_by_goal:
+          strength: "1-5 reps"
+          hypertrophy: "8-12 reps"
+          endurance: "15+ reps"
+        
+        set_schemes:
+          strength: ["5x5", "5,3,1", "3x3"]
+          hypertrophy: ["4x8-10", "3x12", "2x15"]
+          mixed: ["5,8,12,15"]
+      
+      finisher:
+        optional: true
+        based_on_time: true
+        options: ["AMRAP", "Circuits", "Carries", "Core"]
+  
+  output_format:
+    workout_display: |
+      ## Today's Workout: [Type] - [Duration]
+      
+      ### Warm-up (5-10 min)
+      [Warmup exercises]
+      
+      ### Main Work
+      [Exercise list with sets, reps, rest, notes]
+      
+      ### Optional Finisher
+      [If time allows]
+      
+      ### Cool-down
+      [Stretches based on muscles worked]
+    
+    save_option: "Save this workout to today's log? (Y/N)"
+
+# Progress Analytics Dashboard
+analytics_dashboard:
+  name: "Performance Insights"
+  description: "Visual and statistical analysis of fitness journey"
+  
+  dashboard_sections:
+    strength_trends:
+      visualization: "Line graphs for major lifts"
+      metrics:
+        - "1RM progression"
+        - "Volume trends"
+        - "Tonnage per session"
+        - "Frequency analysis"
+      
+      insights:
+        - "Fastest progressing lift"
+        - "Potential plateaus"
+        - "Volume recommendations"
+    
+    body_composition:
+      visualization: "Progress charts and photos timeline"
+      metrics:
+        - "Weight trend with moving average"
+        - "Measurement changes"
+        - "Body fat estimate progression"
+        - "Muscle gain estimate"
+      
+      analysis:
+        - "Rate of change"
+        - "Goal timeline projection"
+        - "Correlation with training volume"
+    
+    consistency_score:
+      calculation: "Planned vs completed workouts"
+      display: "Weekly and monthly percentages"
+      rewards: "Streak celebrations and badges"
+    
+    recovery_quality:
+      metrics:
+        - "Average sleep score"
+        - "HRV trends"
+        - "Subjective energy ratings"
+        - "Injury/pain tracking"
+  
+  report_types:
+    weekly_summary:
+      sections: ["Workouts completed", "PRs hit", "Volume analysis", "Next week focus"]
+      delivery: "Auto-generate every Sunday"
+    
+    monthly_deep_dive:
+      sections: ["Progress photos comparison", "Measurement changes", "Strength gains", "Program effectiveness"]
+      recommendations: "Adjustments for next month"
+    
+    pr_celebration:
+      trigger: "New personal record"
+      content: ["Achievement context", "Progress timeline", "Next targets"]
+
+# Nutrition Tracker
+nutrition_tracker:
+  name: "Macro Master"
+  description: "Simplified nutrition logging and analysis"
+  
+  logging_methods:
+    quick_add:
+      format: "chicken breast 8oz, rice 1 cup, broccoli"
+      parsing: "Match to food database, estimate if needed"
+    
+    meal_photo:
+      process: "Describe photo for AI estimation"
+      output: "Estimated macros and calories"
+    
+    recipe_import:
+      source: "Paste recipe URL or ingredients"
+      calculation: "Auto-calculate per serving"
+  
+  tracking_features:
+    daily_targets:
+      source: "User profile or custom"
+      display: "Progress bars throughout day"
+      alerts: "Meal timing reminders"
+    
+    meal_planning:
+      templates: "Save frequent meals"
+      suggestions: "Based on remaining macros"
+      prep_guidance: "Weekly prep lists"
+    
+    analysis:
+      adherence: "% of target hit daily"
+      patterns: "Identify consistent gaps"
+      performance_correlation: "Link to workout quality"
+  
+  integration:
+    with_workouts: "Pre/post workout nutrition"
+    with_goals: "Adjust for bulking/cutting"
+    with_recovery: "Nutrition for rest days"
+
+# Recovery Advisor
+recovery_advisor:
+  name: "Rest & Restore"
+  description: "Intelligent recovery recommendations"
+  
+  assessment_inputs:
+    subjective:
+      - "Soreness level by muscle group"
+      - "Energy rating"
+      - "Motivation score"
+      - "Sleep quality"
+    
+    objective:
+      - "HRV if available"
+      - "Resting heart rate"
+      - "Previous workout intensity"
+      - "Training volume trends"
+  
+  recommendations:
+    training_adjustments:
+      green_light: "Full intensity training"
+      yellow_light: "Moderate intensity, reduce volume"
+      red_light: "Active recovery or rest"
+    
+    recovery_protocols:
+      mobility_work: "Specific to tight/sore areas"
+      active_recovery: "Light cardio options"
+      recovery_tools: "Foam rolling, stretching sequences"
+      nutrition: "Recovery-focused meal suggestions"
+  
+  scheduling:
+    deload_planning: "Based on accumulated fatigue"
+    rest_day_optimization: "Strategic placement"
+    recovery_week_design: "Periodic intensity reduction"
+
+# PR Celebration System
+pr_celebration:
+  name: "Victory Tracker"
+  description: "Recognize and celebrate achievements"
+  
+  pr_types:
+    strength_prs:
+      categories: ["1RM", "Rep PR", "Volume PR", "Technique PR"]
+      celebration_level: "Based on improvement magnitude"
+    
+    endurance_prs:
+      categories: ["Distance", "Time", "Pace", "Heart rate efficiency"]
+      context: "Weather conditions, route difficulty"
+    
+    consistency_prs:
+      categories: ["Workout streak", "Program completion", "Habit formation"]
+      milestones: [7, 30, 60, 90, 365]
+    
+    wellness_prs:
+      categories: ["Sleep quality", "Recovery score", "Nutrition adherence"]
+      recognition: "Weekly and monthly bests"
+  
+  celebration_features:
+    instant_recognition:
+      visual: "🎉 NEW PR! 🎉"
+      audio_cue: "Victory sound"
+      social_share: "Format for sharing"
+    
+    pr_history:
+      timeline: "Visual progression chart"
+      context: "Journey from start to now"
+      next_target: "Suggested next milestone"
+    
+    motivation_boost:
+      quotes: "Personalized based on achievement"
+      comparison: "Show progress percentage"
+      peer_comparison: "Optional leaderboards"
+
+# Implementation Instructions
+implementation:
+  ai_guidance: |
+    When a user interacts with the fitness guide:
+    1. Identify which mini-app experience fits their need
+    2. Guide them through the streamlined workflow
+    3. Use the Data Registry to find/store information
+    4. Provide immediate, actionable feedback
+    5. Suggest logical next steps
+  
+  user_experience:
+    principles:
+      - "Minimize input friction"
+      - "Provide instant gratification"
+      - "Make data entry feel rewarding"
+      - "Surface insights automatically"
+      - "Celebrate progress frequently"
+  
+  technical_notes:
+    - "All data stored in markdown per Data Models"
+    - "Use Data Registry for file locations"
+    - "Maintain conversation context"
+    - "Progressive disclosure of features"

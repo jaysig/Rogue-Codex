@@ -1,0 +1,351 @@
+# Fitness Guide Data Models and Schemas
+# Defines the structure and format for all markdown-based data storage
+
+# Core Data Models
+
+user_profile:
+  description: "Comprehensive user information and preferences"
+  file_location: "Baseline Stats/User Profile.md"
+  schema:
+    basic_info:
+      name: string
+      age: number
+      gender: string
+      height: string # e.g., "5'10" or "178cm"
+      starting_date: date
+    
+    fitness_goals:
+      primary_goal: string # strength, endurance, weight_loss, muscle_gain, general_fitness
+      specific_targets:
+        - target: string
+          deadline: date
+          priority: high|medium|low
+      
+    training_preferences:
+      available_days: number # per week
+      session_duration: string # e.g., "45-60 min"
+      equipment_access: array[string]
+      training_style: array[string] # powerlifting, crossfit, bodybuilding, etc.
+    
+    limitations:
+      injuries: array[{body_part: string, severity: string, notes: string}]
+      medical_conditions: array[string]
+      movement_restrictions: array[string]
+
+workout_log:
+  description: "Individual workout session data"
+  file_pattern: "Workouts/Daily Logs/YYYY-MM-DD.md"
+  schema:
+    session_info:
+      date: date
+      start_time: time
+      end_time: time
+      type: string # strength, cardio, mixed, recovery
+      program_day: string # e.g., "Upper A", "Leg Day"
+      
+    pre_workout:
+      energy_level: number # 1-10
+      motivation: number # 1-10
+      soreness: object # {muscle_group: level}
+      sleep_quality: number # 1-10
+      notes: string
+    
+    exercises:
+      - exercise_name: string
+        sets:
+          - set_number: number
+            weight: number
+            reps: number
+            rpe: number # 1-10
+            rest_period: string # e.g., "2 min"
+            notes: string
+        
+    cardio:
+      - type: string # run, bike, row, etc.
+        duration: string
+        distance: number
+        avg_heart_rate: number
+        max_heart_rate: number
+        notes: string
+    
+    post_workout:
+      session_rpe: number # 1-10
+      pump_level: number # 1-10
+      satisfaction: number # 1-10
+      notes: string
+    
+    metrics:
+      total_volume: number # calculated
+      total_sets: number
+      total_reps: number
+      workout_density: number # sets per minute
+      calories_burned: number # estimated
+
+personal_records:
+  description: "All-time best performances"
+  schema:
+    strength_prs:
+      file_location: "Personal Records/Strength PRs.md"
+      format:
+        exercise: string
+        current_pr:
+          weight: number
+          reps: number
+          date: date
+          bodyweight: number
+          notes: string
+        history:
+          - weight: number
+            reps: number
+            date: date
+            improvement: string # e.g., "+5 lbs"
+    
+    endurance_prs:
+      file_location: "Personal Records/Endurance PRs.md"
+      format:
+        activity: string # run, bike, swim, row
+        distance_prs:
+          - distance: string
+            time: string
+            pace: string
+            date: date
+            conditions: string
+        time_prs:
+          - duration: string
+            distance: number
+            pace: string
+            date: date
+    
+    skill_prs:
+      file_location: "Personal Records/Skill Movement PRs.md"
+      format:
+        skill: string
+        achievement:
+          description: string
+          date: date
+          progression_from: string
+          video_link: string # optional
+
+body_measurements:
+  description: "Physical measurements and body composition"
+  file_location: "Baseline Stats/Body Measurements Tracker.md"
+  schema:
+    measurement_entry:
+      date: date
+      weight: number
+      body_fat_percentage: number # optional
+      measurements: # all in inches or cm
+        neck: number
+        shoulders: number
+        chest: number
+        waist: number
+        hips: number
+        left_arm: number
+        right_arm: number
+        left_thigh: number
+        right_thigh: number
+        left_calf: number
+        right_calf: number
+      
+      photos:
+        front: boolean
+        side: boolean
+        back: boolean
+        photo_notes: string
+
+nutrition_log:
+  description: "Daily nutrition tracking"
+  file_pattern: "Nutrition/Daily Logs/YYYY-MM-DD.md"
+  schema:
+    daily_targets:
+      calories: number
+      protein: number
+      carbs: number
+      fats: number
+      fiber: number
+      water: string # e.g., "1 gallon"
+    
+    meals:
+      - meal_name: string # breakfast, lunch, dinner, snack
+        time: time
+        foods:
+          - name: string
+            quantity: string
+            calories: number
+            protein: number
+            carbs: number
+            fats: number
+        meal_totals:
+          calories: number
+          protein: number
+          carbs: number
+          fats: number
+    
+    daily_totals:
+      calories: number
+      protein: number
+      carbs: number
+      fats: number
+      adherence_score: number # percentage
+
+program_template:
+  description: "Training program structure"
+  file_location: "Workouts/Program Templates/[Program Name].md"
+  schema:
+    program_info:
+      name: string
+      duration: string # e.g., "12 weeks"
+      frequency: string # e.g., "4x/week"
+      goal: string
+      level: string # beginner, intermediate, advanced
+    
+    structure:
+      phases:
+        - phase_name: string
+          weeks: string # e.g., "1-4"
+          focus: string
+          volume: string # sets per week
+          intensity: string # percentage ranges
+      
+      weekly_split:
+        - day: string
+          focus: string
+          exercises: array[string]
+          notes: string
+    
+    progression_scheme:
+      method: string # linear, undulating, block
+      increments: string
+      deload_frequency: string
+
+recovery_metrics:
+  description: "Recovery and wellness tracking"
+  file_location: "Baseline Stats/Recovery Tracker.md"
+  schema:
+    daily_entry:
+      date: date
+      sleep:
+        duration: string
+        quality: number # 1-10
+        wake_ups: number
+        sleep_time: time
+        wake_time: time
+      
+      recovery_scores:
+        hrv: number # if tracked
+        resting_hr: number
+        energy: number # 1-10
+        mood: number # 1-10
+        stress: number # 1-10
+        soreness: object # {muscle_group: level}
+      
+      recovery_activities:
+        - type: string # stretching, foam rolling, massage, etc.
+          duration: string
+          notes: string
+
+# Data Relationships and Queries
+
+data_relationships:
+  workout_to_prs:
+    description: "Check if workout contains PR attempts"
+    logic: |
+      Compare exercise performances in workout_log to personal_records
+      If weight x reps exceeds current PR, flag for update
+  
+  nutrition_to_performance:
+    description: "Correlate nutrition with workout quality"
+    logic: |
+      Match nutrition_log dates with workout_log dates
+      Analyze meal timing relative to workout times
+      Identify patterns in performance based on nutrition
+  
+  recovery_to_readiness:
+    description: "Predict workout readiness from recovery metrics"
+    logic: |
+      Aggregate sleep, HRV, soreness from recovery_metrics
+      Generate readiness score for workout planning
+  
+  measurements_to_goals:
+    description: "Track progress toward body composition goals"
+    logic: |
+      Compare current body_measurements to user_profile goals
+      Calculate rate of change and project timeline
+
+# Query Patterns
+
+query_examples:
+  get_current_squat_pr:
+    description: "Retrieve user's current squat PR"
+    steps:
+      1. Open "Personal Records/Strength PRs.md"
+      2. Find section for "Squat"
+      3. Extract current_pr values
+      4. Return weight, reps, and date
+  
+  last_leg_workout:
+    description: "Find most recent leg-focused workout"
+    steps:
+      1. List files in "Workouts/Daily Logs/" by date descending
+      2. Open each file until finding type: "legs" or program_day containing "leg"
+      3. Return full workout data
+  
+  weekly_volume_trend:
+    description: "Calculate training volume trends"
+    steps:
+      1. Get last 4 weeks of workout files
+      2. Sum total_volume from each workout
+      3. Group by week
+      4. Calculate trend direction and percentage change
+  
+  nutrition_adherence:
+    description: "Check nutrition goal adherence"
+    steps:
+      1. Get nutrition logs for specified period
+      2. Compare daily_totals to daily_targets
+      3. Calculate adherence percentage
+      4. Identify patterns in missed targets
+
+# File Organization Rules
+
+file_organization:
+  naming_conventions:
+    daily_logs: "YYYY-MM-DD.md" # 2024-01-15.md
+    programs: "[Program Name] - [Start Date].md"
+    progress_photos: "YYYY-MM-DD_[front|side|back].jpg"
+  
+  archival_strategy:
+    workout_logs:
+      active: "Last 3 months in Daily Logs/"
+      archive: "Move to Archive/YYYY/MM/ after 3 months"
+    
+    nutrition_logs:
+      active: "Last 30 days in Daily Logs/"
+      archive: "Move to Archive/YYYY/MM/ after 30 days"
+  
+  indexing:
+    create_monthly_summary: "Generate summary stats for archived months"
+    maintain_pr_history: "Keep all PR history in main PR files"
+    update_progress_charts: "Monthly update to visual progress files"
+
+# Data Validation Rules
+
+validation:
+  weight_values:
+    min: 0
+    max: 1000
+    unit: "lbs or kg (specified)"
+  
+  rpe_values:
+    min: 1
+    max: 10
+    type: "number or decimal"
+  
+  date_formats:
+    preferred: "YYYY-MM-DD"
+    acceptable: ["MM/DD/YYYY", "DD/MM/YYYY"]
+  
+  required_fields:
+    workout_log: ["date", "exercises", "session_info"]
+    nutrition_log: ["date", "meals", "daily_totals"]
+    measurements: ["date", "weight"]

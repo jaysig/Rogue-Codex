@@ -1,0 +1,340 @@
+# Fitness Guide Data Registry
+# Central registry for all data locations and access patterns
+# This file tells the AI where to find any piece of information
+
+registry_version: "1.0"
+last_updated: "2025-07-31"
+
+# Quick Access Map - Common queries to file locations
+quick_access:
+  "current PRs": 
+    - "User Data/PRs/Strength/" # Individual exercise files
+    - "User Data/PRs/Endurance/" # Individual distance files  
+    - "User Data/PRs/Skills/" # Individual skill files
+  
+  "squat PR":
+    file: "User Data/PRs/Strength/Squat.md"
+  
+  "bench PR":
+    file: "User Data/PRs/Strength/Bench_Press.md"
+    
+  "deadlift PR":
+    file: "User Data/PRs/Strength/Deadlift.md"
+  
+  "today's workout":
+    primary: "User Data/Logs/Workouts/[WEEK].md"
+    fallback: "Coach AI/Next Workout Planning.md"
+  
+  "recent workouts":
+    location: "User Data/Logs/Workouts/"
+    pattern: "Last 4 weekly files"
+  
+  "body weight":
+    current: "User Data/Tracking/Body_Metrics.md#Current Stats"
+    history: "User Data/Tracking/Body_Metrics.md#Weight Log"
+  
+  "user goals":
+    primary: "User Data/Profile.md#Current Fitness Goals"
+    settings: "User Data/Workout_Settings.md"
+
+# Data Location Registry
+data_locations:
+  user_information:
+    profile:
+      file: "User Data/Profile.md"
+      contains:
+        - name
+        - age
+        - training_experience
+        - goals
+        - preferences
+        - limitations
+        - baseline_assessments
+    
+    workout_settings:
+      file: "User Data/Workout_Settings.md"
+      contains:
+        - gym_setup
+        - home_setup
+        - travel_setup
+        - equipment_access
+    
+    measurements:
+      file: "User Data/Tracking/Body_Metrics.md"
+      update_frequency: "Bi-weekly"
+      contains:
+        - weight
+        - body_fat_percentage
+        - circumference_measurements
+        - progress_analysis
+        - progress_photos_log
+    
+    health_metrics:
+      file: "User Data/Tracking/Health_Vitals.md"
+      update_frequency: "Daily (as needed)"
+      contains:
+        - resting_heart_rate
+        - sleep_hours_and_quality
+        - energy_levels
+        - stress_levels
+        - recovery_metrics
+        - lifestyle_factors
+    
+    progress_photos:
+      file: "User Data/Tracking/Progress_Photos.md"
+      update_frequency: "Bi-weekly"
+      contains:
+        - photo_session_log
+        - consistency_protocols
+        - progress_analysis
+        - photo_storage_organization
+  
+  workout_data:
+    daily_logs:
+      directory: "User Data/Logs/Workouts/"
+      file_pattern: "YYYY_Week_##.md"
+      retention: "3 months active, then archive"
+      contains:
+        - weekly_workout_sessions
+        - exercises_performed
+        - sets_reps_weight
+        - rpe_ratings
+        - session_notes
+    
+    exercise_library:
+      directory: "Workouts/Exercise Library/"
+      file_pattern: "[Exercise Name].md"
+      contains:
+        - exercise_description
+        - form_cues
+        - common_mistakes
+        - progressions
+        - regressions
+        - video_links
+    
+    program_templates:
+      directory: "Workouts/Program Templates/"
+      file_pattern: "[Program Name].md"
+      contains:
+        - program_structure
+        - weekly_split
+        - progression_scheme
+        - exercise_selection
+        - periodization
+    
+    ai_planning:
+      current_plan: "Coach AI/Next Workout Planning.md"
+      analysis_log: "Coach AI/Workout Analysis and Feedback.md"
+      weekly_review: "Coach AI/Weekly Coaching Review.md"
+  
+  performance_records:
+    strength:
+      directory: "User Data/PRs/Strength/"
+      file_pattern: "[Exercise_Name].md"
+      format: "Individual exercise files with rep max tables"
+      update_trigger: "New max effort or rep PR"
+      common_files:
+        - "Squat.md"
+        - "Bench_Press.md" 
+        - "Deadlift.md"
+        - "Overhead_Press.md"
+    
+    endurance:
+      directory: "User Data/PRs/Endurance/"
+      file_pattern: "[Activity_Distance].md"
+      format: "Individual distance/activity files with time records"
+      common_files:
+        - "Running_5K.md"
+        - "Running_Mile.md"
+        - "Running_10K.md"
+        - "Cycling_20K.md"
+    
+    skills:
+      directory: "User Data/PRs/Skills/"
+      file_pattern: "[Skill_Name].md"
+      format: "Individual skill files with progression tracking"
+      common_files:
+        - "Pull_Ups.md"
+        - "Handstand.md"
+        - "Push_Ups.md"
+        - "Muscle_Up.md"
+        - nutrition_adherence
+        - recovery_practices
+  
+  nutrition_data:
+    daily_logs:
+      directory: "Nutrition/Daily Logs/"
+      file_pattern: "YYYY-MM-DD.md"
+      contains:
+        - meal_entries
+        - macro_breakdowns
+        - calorie_totals
+        - water_intake
+        - supplement_log
+    
+    meal_plans:
+      directory: "Nutrition/Meal Plans/"
+      file_pattern: "[Plan Name].md"
+      contains:
+        - weekly_meal_schedule
+        - shopping_lists
+        - prep_instructions
+        - macro_targets
+    
+    recipes:
+      directory: "Nutrition/Recipes/"
+      file_pattern: "[Recipe Name].md"
+      contains:
+        - ingredients
+        - instructions
+        - macro_breakdown
+        - serving_size
+
+# Intelligent Retrieval Patterns
+retrieval_patterns:
+  get_exercise_history:
+    description: "Retrieve all instances of a specific exercise"
+    steps:
+      1: "Search Workouts/Daily Logs/ for exercise name"
+      2: "Extract sets, reps, weight from each occurrence"
+      3: "Sort by date"
+      4: "Include PR highlights from Personal Records"
+    returns: "Chronological list with performance trends"
+  
+  calculate_weekly_volume:
+    description: "Sum total training volume for current week"
+    steps:
+      1: "Get files from Workouts/Daily Logs/ for current week"
+      2: "Sum total_volume field from each workout"
+      3: "Group by muscle group if specified"
+      4: "Compare to previous weeks"
+    returns: "Volume statistics with trend analysis"
+  
+  check_nutrition_compliance:
+    description: "Analyze nutrition adherence to targets"
+    steps:
+      1: "Get Nutrition/Daily Logs/ for specified period"
+      2: "Compare daily_totals to targets"
+      3: "Calculate compliance percentage"
+      4: "Identify patterns"
+    returns: "Compliance score with insights"
+  
+  generate_progress_report:
+    description: "Comprehensive progress analysis"
+    steps:
+      1: "Collect PR improvements from all PR files"
+      2: "Get body measurement changes"
+      3: "Analyze workout consistency"
+      4: "Review goal achievement"
+    returns: "Multi-dimensional progress summary"
+
+# File Creation Guidelines
+file_creation:
+  workout_log:
+    trigger: "User completes a workout"
+    location: "Workouts/Daily Logs/YYYY-MM-DD.md"
+    template: "Use workout_log schema from Data_Models.yaml"
+    
+  new_pr:
+    trigger: "Performance exceeds current record"
+    location: "Update existing PR file"
+    action: "Add new entry to history, update current"
+  
+  nutrition_log:
+    trigger: "User logs meals"
+    location: "Nutrition/Daily Logs/YYYY-MM-DD.md"
+    template: "Use nutrition_log schema from Data_Models.yaml"
+  
+  measurement_update:
+    trigger: "Scheduled measurement day"
+    location: "Append to Body Measurements Tracker.md"
+    format: "Add new row to tracking table"
+
+# Search Optimization
+search_hints:
+  exercise_variations:
+    "squat": ["back squat", "front squat", "goblet squat", "bulgarian split squat"]
+    "press": ["bench press", "overhead press", "dumbbell press", "military press"]
+    "deadlift": ["conventional deadlift", "sumo deadlift", "romanian deadlift", "trap bar deadlift"]
+  
+  common_abbreviations:
+    "BP": "bench press"
+    "SQ": "squat"
+    "DL": "deadlift"
+    "OHP": "overhead press"
+    "BB": "barbell"
+    "DB": "dumbbell"
+    "BW": "bodyweight"
+  
+  muscle_group_mapping:
+    "legs": ["quads", "hamstrings", "glutes", "calves"]
+    "upper": ["chest", "back", "shoulders", "arms"]
+    "push": ["chest", "shoulders", "triceps"]
+    "pull": ["back", "biceps"]
+
+# Integration Points
+external_integrations:
+  agent_dispatch:
+    complex_questions: "Route to appropriate fitness agent"
+    data_location: "Provide agent with relevant file paths"
+    context_passing: "Include recent history and current goals"
+  
+  visualization:
+    progress_charts: "Generate from measurement and PR data"
+    workout_calendar: "Build from daily log files"
+    nutrition_dashboard: "Aggregate from nutrition logs"
+
+# Maintenance Schedule
+maintenance:
+  daily:
+    - "Check for new workout logs"
+    - "Update recovery metrics if provided"
+    - "Flag potential PRs for celebration"
+  
+  weekly:
+    - "Generate weekly summary"
+    - "Archive old daily logs"
+    - "Update progress tracking"
+  
+  monthly:
+    - "Comprehensive progress report"
+    - "Goal reassessment"
+    - "Data cleanup and organization"
+
+# Error Handling
+error_scenarios:
+  missing_data:
+    scenario: "Requested file doesn't exist"
+    response: "Create file with template or guide user to log data"
+  
+  ambiguous_query:
+    scenario: "Multiple possible data sources"
+    response: "Ask clarifying question or check most likely source first"
+  
+  outdated_data:
+    scenario: "Data hasn't been updated recently"
+    response: "Prompt user to update or work with available data"
+
+# Usage Examples
+example_queries:
+  "What's my squat PR?":
+    lookup: quick_access["current PRs"][0]
+    section: "Squat"
+    return: "Current PR weight, reps, and date"
+  
+  "Show me last week's workouts":
+    lookup: data_locations.workout_data.daily_logs
+    filter: "Files from last 7 days"
+    return: "List of workouts with summary"
+  
+  "How much protein did I eat yesterday?":
+    lookup: data_locations.nutrition_data.daily_logs
+    file: "Yesterday's date.md"
+    field: "daily_totals.protein"
+  
+  "Am I getting stronger?":
+    lookup: 
+      - retrieval_patterns.get_exercise_history
+      - quick_access["current PRs"]
+    analysis: "Compare recent performance to historical"
+    return: "Strength trend analysis with specific examples"

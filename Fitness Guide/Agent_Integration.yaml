@@ -1,0 +1,296 @@
+# Fitness Guide Agent Integration System
+# Intelligent routing to specialized fitness coaching agents
+
+agent_roster:
+  available_agents:
+    gym-owner:
+      role: "Master coordinator and dispatcher"
+      use_for: "Complex multi-domain requests, initial assessment"
+      never_use_for: "Direct fitness advice (only dispatches)"
+    
+    personal-trainer:
+      role: "General fitness and beginner guidance"
+      use_for: "Form checks, basic programming, habit building"
+      specialties: ["Beginner programs", "Form instruction", "General fitness"]
+    
+    powerlifting-coach:
+      role: "Maximal strength development"
+      use_for: "Powerlifting programming, 1RM improvement, competition prep"
+      specialties: ["Squat", "Bench", "Deadlift", "Peaking", "Meet strategy"]
+    
+    crossfit-coach:
+      role: "Varied functional fitness"
+      use_for: "MetCons, Olympic lifts, gymnastics movements"
+      specialties: ["WODs", "Skill development", "Competition prep"]
+    
+    running-coach:
+      role: "Running performance optimization"
+      use_for: "Running form, race training, pacing strategies"
+      specialties: ["5K to marathon", "Speed work", "Running economy"]
+    
+    endurance-coach:
+      role: "Cardiovascular and endurance development"
+      use_for: "Long-distance events, cardio programming, endurance base"
+      specialties: ["Triathlon", "Ultra events", "Heart rate training"]
+    
+    swimming-coach:
+      role: "Aquatic training specialist"
+      use_for: "Swim technique, triathlon swimming, water confidence"
+      specialties: ["Stroke mechanics", "Open water", "Pool training"]
+    
+    cycling-coach:
+      role: "Cycling performance expert"
+      use_for: "Bike training, cycling events, power development"
+      specialties: ["Road cycling", "Time trials", "Power training"]
+    
+    special-forces-coach:
+      role: "Military and extreme fitness preparation"
+      use_for: "Selection prep, mental toughness, extreme challenges"
+      specialties: ["GoRuck", "Military selection", "Rucking", "Mental resilience"]
+    
+    outdoor-hiit-coach:
+      role: "High-intensity and outdoor training"
+      use_for: "HIIT workouts, outdoor training, metabolic conditioning"
+      specialties: ["Fat loss", "Conditioning", "Minimal equipment"]
+    
+    nutritionist:
+      role: "Dietary optimization specialist"
+      use_for: "Meal planning, macro calculations, performance nutrition"
+      specialties: ["Weight management", "Performance fueling", "Meal prep"]
+    
+    flexibility-coach:
+      role: "Mobility and movement quality"
+      use_for: "Flexibility issues, injury prevention, movement optimization"
+      specialties: ["Joint mobility", "Loaded stretching", "Movement prep"]
+    
+    yoga-coach:
+      role: "Holistic wellness and recovery"
+      use_for: "Stress management, recovery practices, mind-body connection"
+      specialties: ["Various yoga styles", "Breathwork", "Meditation"]
+
+# Intelligent Dispatch Logic
+dispatch_rules:
+  keyword_mapping:
+    strength_keywords:
+      triggers: ["squat", "bench", "deadlift", "PR", "1RM", "powerlifting"]
+      primary_agent: "powerlifting-coach"
+      secondary: "personal-trainer"
+    
+    endurance_keywords:
+      triggers: ["marathon", "5K", "10K", "running", "cardio", "aerobic"]
+      primary_agent: "running-coach"
+      secondary: "endurance-coach"
+    
+    nutrition_keywords:
+      triggers: ["diet", "meals", "macros", "calories", "eating", "weight loss"]
+      primary_agent: "nutritionist"
+      secondary: null
+    
+    recovery_keywords:
+      triggers: ["sore", "tired", "recovery", "rest", "injury", "pain"]
+      primary_agent: "flexibility-coach"
+      secondary: "yoga-coach"
+    
+    complex_keywords:
+      triggers: ["program", "plan", "schedule", "routine", "split"]
+      primary_agent: "gym-owner"
+      secondary: null
+  
+  context_analysis:
+    user_level:
+      beginner:
+        preferred_agents: ["personal-trainer", "nutritionist"]
+        avoid: ["special-forces-coach", "powerlifting-coach"]
+      
+      intermediate:
+        preferred_agents: ["powerlifting-coach", "running-coach", "crossfit-coach"]
+        flexible: true
+      
+      advanced:
+        preferred_agents: ["special-forces-coach", "sport-specific coaches"]
+        complex_programming: true
+    
+    goal_matching:
+      strength_goals:
+        agents: ["powerlifting-coach", "personal-trainer"]
+        nutrition_support: true
+      
+      endurance_goals:
+        agents: ["endurance-coach", "running-coach", "cycling-coach"]
+        recovery_emphasis: true
+      
+      body_composition:
+        agents: ["nutritionist", "outdoor-hiit-coach", "personal-trainer"]
+        tracking_focus: true
+      
+      sport_specific:
+        agents: ["Match sport to specialized coach"]
+        multi_agent: true
+
+# Agent Handoff Protocols
+handoff_templates:
+  single_agent:
+    format: |
+      Based on your request about [topic], I'll connect you with our [agent_type].
+      
+      [Agent Name] specializes in:
+      - [Specialty 1]
+      - [Specialty 2]
+      - [Specialty 3]
+      
+      They'll help you with [specific_need].
+    
+    context_passing:
+      - User's current goals
+      - Recent workout history
+      - Relevant PRs
+      - Any limitations or injuries
+  
+  multi_agent:
+    format: |
+      Your request involves multiple areas of expertise. I'll coordinate with:
+      
+      1. [Agent 1] for [aspect 1]
+      2. [Agent 2] for [aspect 2]
+      
+      They'll work together to create a comprehensive plan.
+    
+    coordination:
+      primary_agent: "Leads the response"
+      supporting_agents: "Provide specialized input"
+      integration: "Gym-owner synthesizes if needed"
+
+# Common Routing Scenarios
+routing_examples:
+  beginner_start:
+    query: "I want to get in shape but don't know where to start"
+    routing:
+      primary: "personal-trainer"
+      support: "nutritionist"
+      context: "New to fitness, needs foundation"
+  
+  plateau_breaking:
+    query: "My squat has been stuck at 315 for months"
+    routing:
+      primary: "powerlifting-coach"
+      context: "Include recent squat history and programming"
+  
+  race_prep:
+    query: "Training for my first marathon in 16 weeks"
+    routing:
+      primary: "running-coach"
+      support: "nutritionist"
+      context: "Current running volume and experience"
+  
+  selection_prep:
+    query: "Preparing for military selection in 6 months"
+    routing:
+      primary: "special-forces-coach"
+      support: ["powerlifting-coach", "endurance-coach", "nutritionist"]
+      context: "Current fitness level and selection requirements"
+  
+  injury_management:
+    query: "Lower back is tight after deadlifts"
+    routing:
+      primary: "flexibility-coach"
+      escalate_if: "Pain persists or worsens"
+      context: "Recent deadlift sessions and form notes"
+
+# Integration with Data System
+data_integration:
+  pre_dispatch:
+    collect:
+      - "User profile from Baseline Stats/User Profile.md"
+      - "Recent workouts from Daily Logs"
+      - "Current goals from Coaching Plan Overview"
+      - "Relevant PRs based on query topic"
+    
+    prepare_context: |
+      User: [Name]
+      Experience: [Level]
+      Goals: [Primary goals]
+      Recent Activity: [Last 3 workouts summary]
+      Relevant PRs: [Topic-specific records]
+      Limitations: [Any injuries or restrictions]
+  
+  post_dispatch:
+    save_recommendations: "Coach AI/Agent Recommendations/[Date]-[Agent].md"
+    update_plan: "If program changes, update Coaching Plan Overview"
+    log_interaction: "Track which agents consulted for continuity"
+
+# Quality Control
+quality_assurance:
+  agent_selection:
+    - "Match expertise to user need precisely"
+    - "Consider user experience level"
+    - "Avoid over-complicating for beginners"
+    - "Escalate to multiple agents only when necessary"
+  
+  context_completeness:
+    required_always:
+      - "User's primary goal"
+      - "Current fitness level"
+      - "Any limitations"
+    
+    include_if_relevant:
+      - "Recent performance data"
+      - "Nutrition habits"
+      - "Recovery metrics"
+      - "Equipment availability"
+  
+  follow_up:
+    - "Log agent recommendations"
+    - "Schedule check-ins if needed"
+    - "Update user's plan based on advice"
+    - "Track implementation success"
+
+# Agent Dispatch Examples
+dispatch_examples:
+  simple_dispatch: |
+    User: "How do I improve my bench press?"
+    
+    System: Check powerlifting keywords ✓
+    Action: Route to powerlifting-coach with bench press history
+    
+    Response: "I'll connect you with our powerlifting coach who specializes 
+    in improving the big three lifts. They'll analyze your current bench 
+    technique and programming to help you break through."
+  
+  complex_dispatch: |
+    User: "I need to lose 20 pounds and get stronger for a Spartan race"
+    
+    System: Multiple goals detected - weight loss + strength + obstacle racing
+    Action: Route to gym-owner for coordination
+    
+    Response: "This requires a comprehensive approach. Let me coordinate 
+    with our team:
+    - Nutritionist for the weight loss component
+    - Special Forces coach for obstacle-specific training
+    - Strength coach for building functional power
+    
+    They'll create an integrated plan for your Spartan race success."
+  
+  contextual_dispatch: |
+    User: "My knees hurt during squats"
+    
+    System: Pain/injury keyword detected
+    Action: Route to flexibility-coach, include squat form history
+    
+    Response: "I'm connecting you with our flexibility and mobility coach.
+    They'll assess your movement patterns and help identify what might be
+    causing the knee discomfort during squats. I'm sharing your recent
+    squat sessions and any form notes we have on file."
+
+# Error Handling
+error_scenarios:
+  no_agent_match:
+    response: "I'll help you with that directly using our fitness guide resources."
+    action: "Use general fitness guide data instead of agent"
+  
+  agent_unavailable:
+    response: "Let me help you with the available information we have."
+    action: "Provide best available guidance from markdown files"
+  
+  conflicting_agents:
+    response: "This touches on multiple areas. Let me coordinate the best approach."
+    action: "Use gym-owner to orchestrate"
