@@ -48,7 +48,10 @@ Since this is a documentation repository without build tools, primary tasks invo
 - **Lesson Formatting**: When creating lessons learned files, maintain at least 2 line spaces between the last section in a group and the next group for better readability and visual separation
 
 ### RC Changes and Public Documentation
-- **RC Changes.md**: Public-facing changelog documenting all significant updates and additions
+- **Recent Changes.md**: Public-facing changelog with recent updates (last 4-5 weeks)
+- **Archived Changes.md**: Historical archive of older changelog entries
+- **Monthly archiving**: At end of each month, move entries to archive except last week of previous month (for continuity)
+- **Append-only editing**: Always add new entries at bottom of Recent Changes.md (token efficient)
 - **Exclude folder**: Internal working folder for tasks, drafts, and temporary items
 - **Changelog entries**: Should only include public-facing information, never reference exclude folder operations or internal workflow details (e.g., avoid "removed from companies to add list" - focus on the actual addition/update)
 
