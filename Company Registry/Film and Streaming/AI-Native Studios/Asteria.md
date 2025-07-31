@@ -55,7 +55,7 @@ Asteria Film Co. is an AI-native film and animation studio formed through XTR's 
 
 ## Leadership
 - **Co-Founder & CEO (XTR):** Bryn Mooser - Emmy-winning, twice Oscar-nominated filmmaker
-  - X: [@brynmooser](https://twitter.com/brynmooser) | LinkedIn: [brynmooser](https://www.linkedin.com/in/brynmooser/)
+  -  LinkedIn: [brynmooser](https://www.linkedin.com/in/brynmooser/)
 - **Co-Founder:** Natasha Lyonne - Actor, director, writer (Poker Face, Russian Doll)
   - X: [@nlyonne](https://twitter.com/nlyonne) | Instagram: [@nlyonne](https://www.instagram.com/nlyonne/)
 - **Founding Partner/Head of Generative Animation:** Benjamin Michel
