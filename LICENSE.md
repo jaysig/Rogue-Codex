@@ -41,8 +41,8 @@ If you use, modify, or build upon the Rogue Codex in your own projects, we kindl
 
 ### Original Repository
 
-- **Source**: [Link to original repository when published]
-- **Community**: Coming soon - we're setting up community discussions
+- **Source**: [https://github.com/jaysig/Rogue-Codex](https://github.com/jaysig/Rogue-Codex)
+- **Community**: [https://github.com/jaysig/Rogue-Codex/discussions](https://github.com/jaysig/Rogue-Codex/discussions)
 
 ### What You Can Do
 

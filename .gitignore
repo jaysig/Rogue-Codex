@@ -1,0 +1,57 @@
+# Rogue Codex - Git Ignore File
+
+# Internal working folders (not for public repo)
+Exclude/
+zClaude/
+ZClaude demo/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Obsidian workspace files (user-specific)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/hotkeys.json
+.obsidian/graph.json
+
+# Keep but ignore user-specific Obsidian config
+.obsidian/plugins/*/data.json
+.obsidian/snippets/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Logs
+*.log
+
+# Personal notes/drafts (common patterns)
+**/PRIVATE/
+**/Draft/
+**/Personal/
+**/*-DRAFT.*
+**/*-PRIVATE.*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if any fitness guide features need them)
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Git keep files for empty directories
+!.gitkeep
