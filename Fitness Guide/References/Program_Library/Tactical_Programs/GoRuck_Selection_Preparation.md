@@ -8,6 +8,68 @@
 
 *Preparing candidates for GoRuck Selection events through progressive load building, stress inoculation, and team-based challenges*
 
+## What GoRuck Selection Entails
+
+**Based on my knowledge, here's what GoRuck Selection involves:**
+
+GoRuck Selection is an extreme endurance event that typically requires:
+- **12-48+ hours of continuous movement** under stress and time pressure
+- **Heavy ruck marching** (30+ lbs) for extended distances in all conditions
+- **Team-based challenges** requiring leadership, cooperation, and problem solving
+- **Individual challenges** testing your physical and mental breaking points
+- **Sleep deprivation and minimal nutrition** - mental performance under stress
+- **Obstacle navigation** and carrying/dragging teammates when they can't continue
+- **Swimming with gear** (location dependent - some events include water crossings)
+- **Equipment accountability** - lose your gear, you're out
+
+**Here's what we need to improve:**
+- Aerobic base and muscular endurance for 12-48 hour efforts
+- Load-bearing capacity (rucking with heavy weight for long distances)
+- Mental toughness and ability to perform under extreme discomfort
+- Functional strength for team challenges (carries, drags, obstacle work)
+- Swimming endurance with gear (if your event location requires it)
+- Leadership and followership skills under fatigue and stress
+
+**This program will cover:**
+- Progressive ruck march training (systematically increasing distance and weight)
+- Strength training focused on functional patterns and team challenges
+- Mental resilience building through controlled discomfort training
+- Team challenge simulations (if you have a training partner)
+- Swimming integration (if needed for your specific event)
+- Selection-specific scenarios and time management
+
+## Customization Questions
+
+**Before we proceed, I need to customize this program for your situation:**
+
+1. **Training Partner:** "Do you have a training partner? Many GoRuck challenges are team-based and having someone to train with makes a huge difference."
+
+2. **Equipment Access:** "What equipment do you have access to?"
+   - Sandbags, kettlebells, or just basic gym equipment?
+   - Ruck/backpack suitable for heavy loads?
+   - Access to outdoor rucking terrain?
+
+3. **Swimming Component:** "Does your specific GoRuck event include swimming? This varies by location and event type."
+
+4. **Environment:** "Where will you be training?"
+   - Can you ruck outdoors year-round?
+   - Do you need treadmill alternatives?
+   - Access to varied terrain (hills, sand, etc.)?
+
+5. **Time Availability:** "How many hours per week can you dedicate to this preparation? GoRuck prep typically requires 8-12 hours of training weekly."
+
+6. **Experience Level:** "What's your background?"
+   - Previous military/law enforcement experience?
+   - Endurance sports background?
+   - Any previous GoRuck events?
+
+**Based on your answers, I'll modify the program to:**
+- Substitute exercises based on equipment availability
+- Add team challenge alternatives if training solo
+- Include/exclude swimming components
+- Adjust volume based on time constraints
+- Scale difficulty appropriately for experience level
+
 ## Program Philosophy
 
 This program prepares candidates for GoRuck Selection using proven military selection methodologies:

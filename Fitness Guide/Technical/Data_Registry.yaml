@@ -36,6 +36,11 @@ quick_access:
   "user goals":
     primary: "User Data/Profile.md#Current Fitness Goals"
     settings: "User Data/Workout_Settings.md"
+  
+  "nutrition plan":
+    current: "User Data/Nutrition_Plan.md"
+    preferences: "User Data/Tracking/Nutrition_Preferences.md"
+    history: "User Data/Tracking/Nutrition_Preferences.md#Nutrition Plan History"
 
 # Data Location Registry
 data_locations:
@@ -162,9 +167,30 @@ data_locations:
         - recovery_practices
   
   nutrition_data:
+    current_plan:
+      file: "User Data/Nutrition_Plan.md"
+      contains:
+        - daily_targets
+        - macro_splits
+        - meal_schedule
+        - sample_meals
+        - supplements
+        - review_date
+        - check_in_schedule
+    
+    preferences_history:
+      file: "User Data/Tracking/Nutrition_Preferences.md"
+      contains:
+        - dietary_restrictions
+        - food_preferences
+        - avoided_foods
+        - meal_timing
+        - diet_history
+        - plan_history_table
+    
     daily_logs:
-      directory: "Nutrition/Daily Logs/"
-      file_pattern: "YYYY-MM-DD.md"
+      directory: "User Data/Logs/Nutrition/"
+      file_pattern: "YYYY_Week_##.md"
       contains:
         - meal_entries
         - macro_breakdowns

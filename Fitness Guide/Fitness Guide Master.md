@@ -31,12 +31,22 @@ This Fitness Guide transforms a simple conversational interface into a comprehen
 
 ## How It Works
 
-### User Interaction Flow
+### Interaction Modes
+
+#### 1. Conversational Mode (Default)
+Natural language interaction with smart intent recognition:
 ```
 User Input → Intent Recognition → Data Retrieval → Processing → Response
                                          ↓
                                   Agent Dispatch (if needed)
 ```
+
+#### 2. Command Mode (Text Adventure Style)
+Direct command execution for power users:
+- Say "Run Fitness Adventure" to activate
+- Uses command syntax: `LOG squat 315x5`
+- Immediate execution without analysis
+- See `Fitness Adventure.md` for command reference
 
 ### Example Interactions
 
