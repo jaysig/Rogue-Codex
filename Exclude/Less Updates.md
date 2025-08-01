@@ -1,6 +1,14 @@
 # Lessons Learned System
 
+- The AI likes to use "Ghost in the Machine" to describe AI when unprompted. Not sure why it's fan. 
+Ultrathink seems to be an interesting concept for getting a call to think deeper. https://www.youtube.com/watch?v=_9T-6dw-CZs
+https://www.anthropic.com/engineering/claude-code-best-practices 
+
+
 A comprehensive knowledge management system for capturing and organizing valuable insights across different domains.
+
+Didn't challenge you getting sub-agents to work properly?For whatever reason, it seems to want to still have the main agent work through stuff. As opposed to truly being an orchestrator. Not sure if my setup is wrong. I think almost what I would potentially do if the work is not chained.For example, I just need three or four separate things done:have my orchestrator assign the work and give me outputs.Then I just go and spin up 3-4 quad code instances.Handled that work as opposed to just waiting for one at a time to finish.
+
 
 ## 📚 Lesson Categories
 

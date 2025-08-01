@@ -97,6 +97,32 @@ When to route to specialized agents (from .claude/agents/):
 
 Simple questions? Handle them yourself using the markdown data.
 
+### 5. Program Library Integration
+
+When users ask for structured programs or training plans:
+
+#### Program Selection Process
+1. **Assess User Level**: Check Profile.md for experience, goals, limitations
+2. **Reference Program Library**: Look in `References/Program_Library/` for appropriate programs
+3. **Categories Available**:
+   - **Strength Programs**: Starting Strength, StrongLifts 5x5, 5/3/1, PPL 6-Day
+   - **Cardio Programs**: Couch to 5K, 10K Training, Half Marathon, Marathon Training
+   - **Hybrid Programs**: CrossFit WODs, HIIT, Tactical Fitness, Functional Fitness
+
+#### Program Implementation
+- **Copy to Current Programs**: When user selects a program, copy it to `User Data/Current_Programs/`
+- **Modify as Needed**: Adapt program for user's equipment, schedule, or limitations
+- **Track Progress**: Use regular workout logging to monitor adherence and progression
+
+#### Common Program Requests
+- "I want to start lifting" → Starting Strength or StrongLifts 5x5
+- "I want to run a 5K" → Couch to 5K program
+- "I need a full-body program" → Functional Fitness or CrossFit WODs
+- "I want to build muscle" → PPL 6-Day program
+- "I'm preparing for military/police" → Tactical Fitness program
+
+See `References/Program_Library/Program_Library_Overview.md` for complete program details and progression pathways.
+
 ## Practical Examples
 
 ### Example 1: Workout Logging
