@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "______Personal Projects______.md",
+                "file": "ZClaude demo/60-Minute Legs Workout.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "______Personal Projects______"
+              "title": "60-Minute Legs Workout"
             }
           }
         ],
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "______Personal Projects______.md",
+                "file": "ZClaude demo/60-Minute Legs Workout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ______Personal Projects______"
+              "title": "Backlinks for 60-Minute Legs Workout"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "______Personal Projects______.md",
+                "file": "ZClaude demo/60-Minute Legs Workout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ______Personal Projects______"
+              "title": "Outgoing links from 60-Minute Legs Workout"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "______Personal Projects______.md",
+                "file": "ZClaude demo/60-Minute Legs Workout.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ______Personal Projects______"
+              "title": "Outline of 60-Minute Legs Workout"
             }
           }
         ]
@@ -214,42 +214,42 @@
   },
   "active": "33b50027a70af6e5",
   "lastOpenFiles": [
+    "ZClaude demo/Comprehensive Nutrition Plan - Fitness Focused.md",
+    "ZClaude demo/Weekly Grocery List - Nutrition Plan.md",
+    "ZClaude demo/60-Minute Legs Workout.md",
+    "Fitness Guide/User Data/Demo_Account.md",
+    "Fitness Guide/User Data/Current_Programs/Comprehensive Nutrition Plan - Fitness Focused.md",
+    "Fitness Guide/User Data/Current_Programs/Weekly Grocery List - Nutrition Plan.md",
+    "Fitness Guide/References/Complete Examples/Complete_Example_1_Beginner_Strength.md",
+    "Fitness Guide/References/Exercise_Library.md",
+    "Fitness Guide/References/ASCII_Graph_Examples.md",
+    "Fitness Guide/References/Demo/Nutrition_Plan_Output.md",
+    "ZClaude demo",
+    "Fitness Guide/User Data/Current_Programs/Full Body Shoulder Focus.md",
+    "Fitness Guide/Fitness Guide Master.md",
+    "Fitness Guide/User_Interaction_Guide.md",
+    "Fitness Guide/Fitness Adventure.md",
+    "______Personal Projects______.md",
+    "Exclude/Setup TODOs.md",
+    "Tech Setup.md",
+    "Exclude/Setup_TODOs.md",
+    "TECH_SETUP.md.tmp.59302.1754078597797",
+    "Setup_TODOs.md.tmp.59302.1754078585703",
+    "Setup_TODOs.md.tmp.59302.1754078578430",
+    "Setup_TODOs.md.tmp.59302.1754078570562",
+    "TECH_SETUP.md.tmp.59302.1754075183248",
+    "TECH_SETUP.md.tmp.59302.1754075179586",
+    "TECH_SETUP.md.tmp.59302.1754075175036",
+    "TECH_SETUP.md.tmp.59302.1754075170790",
+    "Setup_TODOs.md",
+    "TECH_SETUP.md",
+    "LICENSE.md",
     "Fitness Guide/References/Demo/Program_Progress_Overview.md",
     "Fitness Guide/References/Demo/Grocery_List_Example.md",
-    "Fitness Guide/References/Demo/Nutrition_Plan_Output.md",
     "Fitness Guide/DailyWorkout.md",
     "Fitness Guide/References/Demo/DailyWorkout.md",
     "Fitness Guide/References/Complete Examples/Complete_Example_2_Marathon_Training.md",
-    "Fitness Guide/References/Complete Examples/Complete_Example_1_Beginner_Strength.md",
     "Fitness Guide/References/Demo",
-    "Fitness Guide/References/Complete Examples",
-    "Fitness Guide/References/Complete_Example_2_Marathon_Training.md",
-    "Fitness Guide/References/Complete_Example_1_Beginner_Strength.md",
-    "Fitness Guide/Fitness Adventure.md.tmp.59302.1754072826955",
-    "Fitness Guide/References/Program_Customization_Template.md",
-    "Fitness Guide/References/Grocery_List_Template.md",
-    "Fitness Guide/User Data/Tracking/Nutrition_Preferences.md",
-    "Fitness Guide/User Data/Nutrition_Plan.md",
-    "Fitness Guide/References/Nutrition_Information_Template.md",
-    "Fitness Guide/References/ASCII_Graph_Examples.md",
-    "Fitness Guide/References/Workout_Generation_Template.md",
-    "______Personal Projects______.md",
-    "Fitness Guide/Fitness Adventure.md",
-    "Fitness Guide/User Data/Demo_Account.md",
-    "Fitness Guide/Documentation/app_conversion.md",
-    "Fitness Guide/Documentation/Personas.md",
-    "Fitness Guide/Documentation/Feature Gaps.md",
-    "Fitness Guide/Documentation/An_Expert_Review.md",
-    "Fitness Guide/Technical/Mini_Apps.yaml",
-    "Fitness Guide/Technical/Master_Prompt_v2.yaml",
-    "Fitness Guide/Technical/Data_Registry.yaml",
-    "Fitness Guide/Technical/Data_Models.yaml",
-    "Fitness Guide/Technical/Agent_Integration.yaml",
-    "Fitness Guide/Technical/AI_Implementation_Guide.yaml",
-    "Fitness Guide/Documentation",
-    "Fitness Guide/References/Program_Library/Endurance_Programs/Ultra_Endurance_Base_Building_Program.md",
-    "Fitness Guide/References/Program_Library/Endurance_Programs/Half_Marathon_Training_Program.md",
-    "Fitness Guide/References/Program_Library/Endurance_Programs/Marathon_Training_Advanced.md",
     "Untitled.canvas"
   ]
 }

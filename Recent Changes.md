@@ -39,3 +39,21 @@
 - **AI Agent Integration**: Seamless routing to specialized fitness coaches (powerlifting, running, CrossFit, nutrition, etc.)
 - **Complete Reference System**: Added exercise library, recovery protocols, and workout templates for all fitness levels
 
+### 2025-08-01
+
+**Fitness Guide v2.0 - Major Feature Expansion:**
+- **Text Adventure Mode**: Added command-based interface (`Fitness Adventure.md`) for power users with direct command execution
+- **File Organization**: Restructured with Technical/, Documentation/, and clean top-level entry points
+- **Workout Generation**: Enhanced with individual set tracking, specific weight targets, and detailed stretching instructions
+- **ASCII Progress Graphs**: Visual progress tracking with customizable charts for strength, endurance, and body metrics
+- **Comprehensive Nutrition System**: 
+  - Complete nutrition plan generation with macro tracking and meal scheduling
+  - Intelligent grocery list creation with inventory checking and cost optimization
+  - Food preferences tracking and dietary restriction management
+- **Program Customization**: 
+  - Event analysis for specialized training (GoRuck, Marathon, Ironman)
+  - Equipment and partner availability customization
+  - Personalized program modifications based on individual circumstances
+- **Complete Examples**: Added full user journey demonstrations showing all system features integrated
+- **Demo Content**: Mid-program progress examples showing realistic usage scenarios
+
