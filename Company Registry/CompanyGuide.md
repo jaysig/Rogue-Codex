@@ -34,6 +34,11 @@ Publishers, media companies, and platforms focused on creative content and artis
 
 - [Tollbit](Art%20and%20Publishing/Tollbit.md)
 
+### 💳 [FinTech and Payment](FinTech%20and%20Payment/)
+Financial technology companies focused on payment processing, digital transactions, and financial services.
+
+- [Sunday](FinTech%20and%20Payment/Sunday.md)
+
 ### 🎬 [Film and Streaming](Film%20and%20Streaming/)
 Movie studios, streaming platforms, and entertainment companies in the film and video space.
 
@@ -52,6 +57,7 @@ Legacy entertainment companies adapting AI into existing workflows and business 
 
 #### 🤖 AI-Native Studios
 Companies built from the ground up with AI as core technology for content creation and distribution.
+- [Asteria](Film%20and%20Streaming/AI-Native%20Studios/Asteria.md)
 - [Promise](Film%20and%20Streaming/AI-Native%20Studios/Promise.md)
 - [Staircase](Film%20and%20Streaming/AI-Native%20Studios/Staircase.md)
 
@@ -91,6 +97,7 @@ Music and entertainment companies built around AI-driven creation and distributi
 - [Activision Blizzard](Gaming%20and%20Interactive/Traditional%20Studios/Activision%20Blizzard.md)
 - [Amazon Studios](Film%20and%20Streaming/Traditional%20Studios/Amazon%20Studios.md)
 - [Anthropic](AI%20Models/Anthropic.md)
+- [Asteria](Film%20and%20Streaming/AI-Native%20Studios/Asteria.md)
 - [Autodesk](Film%20and%20Streaming/Traditional%20Studios/Autodesk.md)
 - [Canva](AI%20Content%20&%20Media/Canva.md)
 - [Character AI](AI%20Content%20&%20Media/Character%20AI.md)
@@ -119,6 +126,7 @@ Music and entertainment companies built around AI-driven creation and distributi
 - [Sony Music Entertainment](Music%20and%20Entertainment/Traditional%20Companies/Sony%20Music%20Entertainment.md)
 - [Sony Pictures](Film%20and%20Streaming/Traditional%20Studios/Sony%20Pictures.md)
 - [Staircase](Film%20and%20Streaming/AI-Native%20Studios/Staircase.md)
+- [Sunday](FinTech%20and%20Payment/Sunday.md)
 
 ### T-Z
 - [Take-Two Interactive](Gaming%20and%20Interactive/Traditional%20Studios/Take-Two%20Interactive.md)
@@ -140,4 +148,4 @@ Create individual company files within the appropriate industry folder:
 
 ---
 
-*Last Updated: 2025-07-27*
+*Last Updated: 2025-08-02*
