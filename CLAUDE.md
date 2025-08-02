@@ -19,7 +19,8 @@ Rogue Codex is a knowledge base and documentation site built using Obsidian and 
 - `Lessons Learned/` - Structured template-based knowledge capture with categories
 - `Tools/` - Tool evaluations with systematic criteria and workflow recommendations
 - `Company Registry/` - Industry-organized company database with individual company files
-- `AI Regulation/`, `AI Risk/`, `AI Automations/` - AI-focused content sections
+- `AI Regulation/`, `AI Risk/` - AI policy and safety content sections
+- `AI Automations/` - Role-based automation workflows organized by function
 - `Coding Setup/` - Non-technical user guides for coding tools
 - `Thai Project/` - Real estate project documentation with changelog tracking
 
@@ -91,53 +92,33 @@ When adding new content, reference existing templates:
 ### Adding New Companies
 When adding companies to the Company Registry:
 
-1. **File Location**: Create individual company files in the appropriate industry and subcategory folder:
-   - `Company Registry/AI Infrastructure/Company Name.md`
-   - `Company Registry/Film and Streaming/Traditional Studios/Company Name.md`
-   - `Company Registry/Film and Streaming/AI-Native Studios/Company Name.md`
-   - `Company Registry/Gaming and Interactive/Traditional Studios/Company Name.md`
-   - `Company Registry/Gaming and Interactive/AI-Native Studios/Company Name.md`
-   - `Company Registry/Music and Entertainment/Traditional Companies/Company Name.md`
-   - `Company Registry/Music and Entertainment/AI-Native Companies/Company Name.md`
-   - etc.
+1. **Categorization**: Determine the appropriate industry category for the company. If no existing category fits, ask the user to confirm the creation of a new category.
 
-2. **Company Categorization**: Determine whether companies belong in Traditional or AI-Native subcategories:
-   - **Traditional Studios/Companies**: Established companies that existed before AI and are adapting AI into existing workflows
-     - Examples: Disney, Netflix, Electronic Arts, Sony Music
-     - Focus: Track AI adoption strategies, partnerships, internal AI development
-   - **AI-Native Studios/Companies**: Companies built from the ground up with AI as core technology
-     - Examples: Decart, Staircase, Promise, Runway
-     - Focus: Track core AI technology developments, funding, market penetration strategies
+2. **File Creation**: Create individual company file using the company template with the actual company name as filename (e.g., `Company Name.md`)
 
-3. **File Naming**: Use the actual company name as the filename (e.g., `OpenAI.md`, `Netflix.md`)
+3. **Information Population**: Search for and gather comprehensive company information to fully populate all template sections, ensuring accuracy and completeness
 
-4. **Template Usage**: Use the company file template from `Company Registry/README.md` for consistency
-
-5. **README Linking**: After creating a company file, update the relevant industry and subcategory section in `Company Registry/README.md`:
-   - Replace "*No companies added yet*" with a link to the new company file
-   - Use format: `- [Company Name](Industry%20Folder/Subcategory%20Folder/Company%20Name.md)`
-   - Examples: 
-     - `- [Netflix](Film%20and%20Streaming/Traditional%20Studios/Netflix.md)`
-     - `- [Staircase](Film%20and%20Streaming/AI-Native%20Studios/Staircase.md)`
-   - Add additional companies as new bullet points under the appropriate subcategory
-
-6. **Perplexity Query URLs**: Create standardized Perplexity search URLs for each company:
+4. **Perplexity Query URLs**: Create standardized Perplexity search URLs for each company:
    - Use format: `https://www.perplexity.ai/search/[encoded-query-text]`
    - **Latest Company News Query**: "Summarize the latest news about [Company Name], focusing on recent developments and announcements. Include information from reputable sources such as news articles and press releases. Provide a list with sources and summaries for each piece of news."
    - **Industry AI News Query**: "Latest AI news for [Company Name] and the [Industry] industry. Provide a list of recent AI-related developments, initiatives, or products from [Company Name] and other companies in the [Industry] industry. Include sources and brief summaries for each item."
    - **URL Encoding**: Convert spaces to hyphens, remove special characters appropriately (& becomes -, commas removed, etc.)
    - **Claude Code Generation**: When creating company files, Claude Code will automatically generate the properly formatted URLs matching Perplexity's search URL structure
 
-7. **AI News Section**: Include AI-related developments when available:
+5. **AI News Section**: Include AI-related developments when available:
    - Use "Latest AI News" section header
    - If no AI news available, use "No AI News" as placeholder
    - Include date in MM/DD/YYYY format
    - Provide context about AI adoption or industry impact
 
-8. **Date Updates**: Always update the "Last Updated" timestamp at the bottom of files:
+6. **Date Updates**: Always update the "Last Updated" timestamp at the bottom of files:
    - Format: `*Last Updated: YYYY-MM-DD*`
    - Use the current date when making changes
    - Update both the individual company file and the main Company Registry README
+
+7. **Registry Updates**: Update the Company Registry guide to include the new company in both the category section and alphabetical listing
+
+8. **Template Usage**: Use the company file template below for consistency across all company files
 
 ### Company File Template
 
@@ -332,3 +313,173 @@ The repository is published using Obsidian Publish, so:
 - Internal links use Obsidian's double-bracket format
 - Content structure supports Obsidian's graph view and search functionality
 - Descriptive filenames improve navigation and discoverability in Obsidian
+
+## Working with AI Automations Section
+
+### Organization and Structure
+- **Role-based organization**: Product Management, Marketing, Sales, Operations, Research
+- **Main files**: `Automations Overview.md` (navigation), `Automation Best Practices.md` (implementation guidance)
+- **File naming**: Use descriptive names like `[Role] [Company] Automations.md` or `[Platform] [Function].md`
+
+### Business Size Definitions for Cost Estimates
+All automation cost estimates use consistent business size definitions:
+
+**Small Business:**
+- Up to 250 employees
+- Annual revenue under $50 million
+- Basic to moderate automation needs (< 10,000 operations/month)
+- Limited integrations and straightforward workflows
+- Self-service setup preferred
+
+**Medium Business:**
+- 250-1,000 employees  
+- Annual revenue $50M-$1B
+- Moderate to complex automation needs (10,000-100,000 operations/month)
+- Multiple integrations and advanced workflows
+- Some IT support available
+
+**Enterprise:**
+- 1,000+ employees
+- Annual revenue $1B+
+- Complex automation requirements (100,000+ operations/month)
+- Extensive integrations and custom workflows
+- Dedicated IT/automation team
+
+*Note: For role-specific guides (e.g., Job Researcher, College Student), size refers to scope of individual use rather than organization size.*
+
+### Adding New Automations
+1. **Categorize** by primary function (Product, Marketing, Sales, etc.)
+2. **Create file** in appropriate role folder with descriptive filename
+3. **Required Content Structure**: Each automation file must include:
+   - **Overview**: Purpose, target users, tools used, time/results expectations
+   - **Individual Workflows**: 3-5 specific automation workflows with step-by-step implementation
+   - **Dual-Platform Implementation**: Both n8n and Make.com setup instructions for each workflow
+   - **Cost Estimates**: Monthly operating costs using standard business size definitions above
+   - **Getting Started Guide**: Practical first steps and budget planning
+   - **Best Practices**: Security, monitoring, and optimization guidelines
+   - **Common Questions**: FAQ section addressing typical concerns
+   - **Success Metrics**: Trackable results users can expect
+4. **Cost Estimation Requirements**:
+   - Use standard Small/Medium/Enterprise definitions consistently
+   - Focus on monthly operating costs only (no setup time or ROI estimates)
+   - Include clear assumptions about what drives cost differences
+   - Account for automation platform, required integrations, and processing volume
+5. **Pain Point Integration**: Evaluate if the automation solves a common, high-impact problem:
+   - **Major pain points**: Add to `Pain Point Solutions.md` if it addresses widespread frustrations (job search stress, financial chaos, communication overwhelm, etc.)
+   - **If unsure, use these criteria as reference:**
+     - **Time Impact**: Saves 4+ hours per week or prevents significant stress/frustration
+     - **Broad Appeal**: Affects people across multiple roles, industries, or life stages  
+     - **Search Behavior**: People actively search online for solutions to this problem
+     - **When in doubt, use your best judgment** - err on the side of inclusion for genuinely frustrating problems
+   - **Cross-reference existing**: Link to existing pain point sections if the automation provides an alternative solution
+   - **Avoid minor issues**: Don't add niche or minor problems - keep the pain point file focused on significant, relatable frustrations
+   - **Use emotional language**: Frame problems in natural, conversational terms people actually think and search for
+6. **Update** `Automations Overview.md` with new automation links in both role-based and technology platform sections
+7. **Cross-Reference**: Link related automations and ensure they appear in both n8n and Make.com platform sections
+
+## MCP (Model Context Protocol) Setup and Management
+
+### Understanding MCP Integration
+MCP enables Claude Code to connect with external tools and services, significantly expanding capabilities beyond basic file operations. The repository includes comprehensive MCP documentation in the `MCP/` section with guides organized by server type.
+
+### MCP Setup Workflow
+When setting up or recommending MCP servers for this repository:
+
+1. **Assessment**: First assess what the user is trying to accomplish and recommend appropriate MCP servers
+2. **Reference Guide**: Always reference the comprehensive setup guide at `[[MCP/README]]`
+3. **Security First**: Follow security best practices outlined in the guide
+4. **Documentation**: Document any MCP servers used in project-specific documentation
+
+### Common MCP Servers for Rogue Codex
+Based on the repository's nature as a knowledge base and documentation site:
+
+**Recommended MCP Servers:**
+- **Memory**: For persistent context across Claude Code sessions, remembering user preferences, project conventions, and documentation patterns
+- **Puppeteer**: For web automation, taking screenshots of referenced sites, and testing web-based workflows
+- **SQLite**: For managing structured data if needed (company information, tool evaluations)
+- **GitHub**: For repository management and automation workflows
+
+**Installation Pattern:**
+```bash
+# Check current status
+claude mcp list
+
+# Install recommended server (example: Puppeteer)
+npm install -g puppeteer-mcp-claude
+
+# Configure in .claude/settings.local.json
+# Test functionality
+```
+
+### MCP Best Practices for Documentation Workflows
+- **Security**: Store API keys in environment variables, never commit to repository
+- **Configuration**: Use local settings (`.claude/settings.local.json`) for project-specific MCP configs
+- **Documentation**: Update project documentation when MCP servers are required for workflows
+- **Testing**: Verify MCP functionality before documenting workflows that depend on external tools
+
+### Memory Server Usage for Rogue Codex
+When Memory server is configured, Claude Code can:
+
+**User Context Management:**
+- Remember user's role, expertise level, and preferred documentation style
+- Track which sections/topics user works on most frequently
+- Store project-specific terminology and conventions
+- Maintain user preferences for file naming, formatting, and organization patterns
+
+**Project Continuity:**
+- Remember ongoing documentation projects and their current status
+- Track relationships between different sections (Company Registry, Tools, etc.)
+- Store user's preferred workflows for different types of content creation
+- Maintain context about recent changes and areas needing attention
+
+**Workflow Optimization:**
+- Learn user's preferred templates and automatically suggest appropriate structures
+- Remember successful patterns for content organization and reuse them
+- Track which tools and MCP servers work best for specific documentation tasks
+- Store custom automation preferences and frequently used commands
+
+**Privacy and Control:**
+- All memory data stored locally in project `.claude/` directory or custom location
+- User can review, edit, or delete memory data at any time
+- No external transmission of personal or project information
+- Memory can be reset or customized per project needs
+
+### MCP Scoping Guidelines for New Servers
+
+When adding new MCP servers to Rogue Codex, follow this decision framework:
+
+**Global Scope (User-level) - Use when:**
+- Server provides utility across ALL projects
+- Lightweight, always-useful functionality
+- No sensitive project-specific data
+- Examples: Puppeteer, Time, Context7
+
+**Project Scope - Use when:**
+- Server contains project-specific data or configuration
+- Tool is specific to this project's domain/requirements
+- Should be shared with project collaborators
+- Examples: Project Memory, Project Database
+
+**Local Scope - Use when:**
+- Personal development preferences only
+- Contains sensitive API keys or personal data
+- Temporary or experimental configurations
+
+**Memory Implementation:**
+- **Project Memory**: Single memory system storing both general patterns and project-specific context
+- **File Location**: `.claude/project-memory.json` (local to this project)
+- **Content**: User preferences, Rogue Codex terminology, section relationships, workflows
+- **Scope**: Project-level due to current MCP memory scoping limitations
+
+### MCP Troubleshooting
+When MCP servers aren't working:
+1. Check installation: `npm list -g [package-name]`
+2. Verify configuration in settings files
+3. Restart Claude Code after configuration changes
+4. Reference troubleshooting section in the MCP Setup Guide
+5. Use `claude mcp list` to verify server status
+
+### Using MCP Servers with the Gemini CLI
+
+The MCP servers configured for Claude can also be used with the Gemini CLI. To enable them, you need to add the same `mcpServers` configuration to your Gemini settings file. The `Gemini.md` file in this repository provides detailed instructions on how to set up MCP scopes for the Gemini CLI. It is recommended to keep the configurations synchronized between both tools.
+

@@ -28,7 +28,8 @@
 - Baseline/stats tracking for body metrics, health vitals, and progress monitoring
 - Day-based workout logging with program templates and exercise library
 - Multi-dimensional personal records tracking across strength, endurance, skills, and wellness
-- Complete templates and workflows for daily, weekly, and monthly implementation
+
+
 
 ### 2025-07-31
 
@@ -56,4 +57,58 @@
   - Personalized program modifications based on individual circumstances
 - **Complete Examples**: Added full user journey demonstrations showing all system features integrated
 - **Demo Content**: Mid-program progress examples showing realistic usage scenarios
+
+### 2025-08-02
+
+**AI Automations Enhanced with n8n Implementation Details:**
+- Enhanced Product Marketer Automations with step-by-step n8n workflow setup instructions
+- Added detailed implementation guides for 6 marketing automation workflows
+- Enhanced Underwriter Automations with specific n8n nodes and connections
+- Added implementation steps for 3 insurance automation workflows  
+- Enhanced College Student Automations with practical n8n setup guidance
+- Enhanced Job Researcher Automations with detailed workflow implementation
+- All guides now include specific node types, connection methods, and testing procedures
+- Maintained 8th-grade reading level throughout all technical instructions
+- Focused on non-technical users with clear, step-by-step guidance for workflow creation
+
+**Added Make.com Alternative Implementation Paths:**
+- Enhanced all automation guides with Make.com scenario alternatives alongside existing n8n instructions
+- Added Make.com setup steps for 15+ automation workflows across all roles
+- Included Make MCP server recommendations for Claude Code users building Make.com scenarios
+- Updated Automations Overview with dedicated Make.com workflows section
+- Provided platform choice flexibility - users can now choose between n8n and Make.com based on preference
+- Maintained same 8th-grade reading level and non-technical approach for Make.com instructions
+- Added specific Make.com module names, connection methods, and scenario building guidance
+- Complete templates and workflows for daily, weekly, and monthly implementation
+
+**Major Automation Library Expansion Based on Research:**
+- **Created 5 New High-Impact Automation Guides**: Small Business Owner, Sales Representative, Customer Service, Administrative Assistant, and HR Manager automations
+- **Added Business Owner Section**: New dedicated category for financial and core business automations addressing biggest automation gap
+- **Research-Driven Selection**: Used web research of automation pain points and complaints to identify most needed workflows
+- **25+ New Automation Workflows**: Invoice processing, lead qualification, ticket routing, meeting coordination, employee onboarding, and more
+- **Quick Win Focus**: Prioritized high-impact, easy-to-adopt automations showing 3-6 month ROI
+- **Updated Discovery System**: Enhanced "Find Automations by Use Case" with 6 new use case categories and 15+ workflow links
+- **Comprehensive Implementation**: Each guide includes both n8n and Make.com setup instructions maintaining accessibility standards
+- **Practical Focus**: Addressed top automation complaints (data entry, meeting coordination, payment tracking) with actionable solutions
+
+**Company Registry Expansion:**
+- **New Category**: Created FinTech and Payment category for financial technology companies
+- **Added Sunday**: Revolutionary restaurant payment startup using QR code scanning technology
+- Focus on enterprise restaurant groups (50+ locations) with rapid US expansion
+- Updated Company Registry guide with new category navigation
+
+**MCP Integration and Infrastructure:**
+- **Created MCP Top-Level Section**: Organized MCP documentation by server type (Core, Development, Company APIs)
+- **Established MCP Setup**: Working Memory, Time, Puppeteer, and Context7 servers for Rogue Codex
+- **Project Memory System**: Single memory system storing both general patterns and project-specific context
+- **Memory Scoping Discovery**: Documented MCP memory limitations and pragmatic single-memory approach
+- **Comprehensive Documentation**: MCP setup guide, troubleshooting, server categorization, and scoping strategies
+- **Updated CLAUDE.md**: Added MCP workflow instructions and memory usage guidelines for collaborative documentation work
+
+**AI Automations Directory Reorganization:**
+- **Restructured AI Automations**: Converted from todo-list format to organized directory by role/function
+- **Role-Based Categories**: Created folders for Product Management, Marketing, Sales, Operations, Development, and Research
+- **Added Circle Product Manager Automations**: 5 comprehensive n8n workflows for developer ecosystem engagement, product intelligence, and stakeholder communication
+- **Enhanced LLM Discoverability**: Added "Find Automations by Use Case" section with natural language queries for easy automation discovery
+- **Updated CLAUDE.md**: Added comprehensive AI Automations section guidelines with categorization rules and template structures
 

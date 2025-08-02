@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "project-memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"],
+      "env": {
+        "MEMORY_FILE_PATH": "/Users/proyogi/Documents/HODL/Rogue Codex/.claude/project-memory.json"
+      }
+    }
+  }
+}
