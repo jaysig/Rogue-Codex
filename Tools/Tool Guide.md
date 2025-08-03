@@ -83,6 +83,7 @@ Comprehensive directory of all tools in the Rogue Codex Tools collection, organi
 - [Luma AI](Video%20Generation/Luma%20AI.md) - Advanced AI-powered video generation
 - [Pika](Video%20Generation/Pika.md) - AI-driven video creation platform
 - [Runway](Video%20Generation/Runway.md) - Experimental AI video generator with diverse features
+- [Screen Studio](Video%20Generation/Screen%20Studio.md) - Professional macOS screen recorder with automatic polish effects
 - [Synthesia](Video%20Generation/Synthesia.md) - Virtual avatar video generation platform
 - [Viggle](Video%20Generation/Viggle.md) - Innovative video generation solution
 
@@ -93,7 +94,7 @@ Comprehensive directory of all tools in the Rogue Codex Tools collection, organi
 
 ## Tool Count by Category
 
-- **Video Generation**: 9 tools
+- **Video Generation**: 10 tools
 - **Image Generation**: 7 tools
 - **Business Productivity**: 6 tools
 - **Developer Tools**: 6 tools
@@ -111,7 +112,17 @@ Comprehensive directory of all tools in the Rogue Codex Tools collection, organi
 - **Marketing**: 0 tools
 - **Writing Content Creation**: 0 tools
 
-**Total Tools**: 50
+**Total Tools**: 51
+
+## Educational Discounts Available
+
+Several tools in our collection offer educational discounts for students and educators:
+
+- **Screen Studio**: 40% off for students and educators with .edu email
+- **Obsidian**: Educational discounts available for students and academic institutions
+- **Gemini**: Google offers educational pricing for Google Workspace (includes Gemini access)
+
+*Note: Educational discount availability and terms may change. Check with each provider directly for current offers and eligibility requirements.*
 
 ---
 

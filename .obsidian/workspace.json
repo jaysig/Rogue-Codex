@@ -48,23 +48,9 @@
               "icon": "lucide-file",
               "title": "______Learn AI______"
             }
-          },
-          {
-            "id": "33b50027a70af6e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ZClaude demo/60-Minute Legs Workout.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "60-Minute Legs Workout"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -137,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ZClaude demo/60-Minute Legs Workout.md",
+                "file": "______Learn AI______.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 60-Minute Legs Workout"
+              "title": "Backlinks for ______Learn AI______"
             }
           },
           {
@@ -156,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ZClaude demo/60-Minute Legs Workout.md",
+                "file": "______Learn AI______.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 60-Minute Legs Workout"
+              "title": "Outgoing links from ______Learn AI______"
             }
           },
           {
@@ -185,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ZClaude demo/60-Minute Legs Workout.md",
+                "file": "______Learn AI______.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 60-Minute Legs Workout"
+              "title": "Outline of ______Learn AI______"
             }
           }
         ]
@@ -212,44 +198,44 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "af35eba3c15da2a4",
+  "active": "cdd12489033a9985",
   "lastOpenFiles": [
+    "AI Automations/Operations/Management Consultant Automations.md",
+    "AI Automations/Operations/Lawyer/Lawyer Automations.md",
+    "AI Automations/Operations/Veterinarian/Veterinarian Automations.md",
+    "AI Automations/Operations/Corporate Finance/Corporate Finance Automations.md",
+    "AI Automations/Operations/Lawyer",
+    "AI Automations/Operations/Veterinarian",
+    "AI Automations/Operations/Corporate Finance",
+    "Exclude/Mega Updates.md",
+    "AI Automations/Operations/Management Consultant/Management Consultant Overview.md",
+    "AI Automations/Operations/Management Consultant/Financial Model Builder.md",
+    "AI Automations/Operations/Management Consultant/Stakeholder Interview Analyzer.md",
+    "AI Automations/Operations/Management Consultant/Client Presentation Generator.md",
+    "AI Automations/Operations/Management Consultant/Client Presentation Generator.md.tmp.92855.1754184819656",
+    "AI Automations/Operations/Management Consultant/Market Sizing and Analysis Engine.md",
+    "AI Automations/Automation Workflows by Problem.md.tmp.35197.1754184778928",
+    "AI Automations/Operations/Management Consultant/Competitive Intelligence Engine.md",
+    "AI Automations/Automation Workflows by Problem.md.tmp.51786.1754184763240",
+    "AI Automations/Operations/Management Consultant/Post-Merger Integration and Organizational Mapper.md",
+    "AI Automations/Operations/Truck Driver Automations.md",
+    "AI Automations/Operations/Management Consultant/Due Diligence and Data Room Analyzer.md",
+    "AI Automations/Operations/Management Consultant",
+    "AI Automations/Creative/Film Producer Automations.md",
+    "AI Automations/Creative",
+    "AI Automations/Marketing/Content Creator Automations.md",
+    "AI Automations/Operations/Corporate Finance Automations.md",
+    "AI Automations/Operations/Veterinarian Automations.md",
+    "ZClaude demo/60-Minute Legs Workout.md",
+    "Tools/Video Generation/Screen Studio.md",
+    "Exclude/8th Grade Check.md",
     "Gemini.md.tmp.37526.1754183177818",
     "CLAUDE.md.tmp.37526.1754183172722",
-    "CLAUDE.md.tmp.37526.1754183069736",
     "Tools/Writing Content Creation/Writing Content Creation Tools Overview.md",
     "Tools/Marketing/Marketing Tools Overview.md",
     "Tools/Fun/Fun Tools Overview.md",
     "Tools/Design/Design Tools Overview.md",
     "Tools/Business Productivity/Business Productivity Tools Overview.md",
-    "Tools/Developer Tools/Developer Tools Overview.md",
-    "Tools/LLMs/LLMs Overview.md",
-    "Tools/Image Generation/Image Generation Tools Overview.md",
-    "Tools/3D Modeling/3D Modeling Tools Overview.md",
-    "Tools/Customer Service/Customer Service Tools Overview.md",
-    "Tools/Project Management/Project Management Tools Overview.md",
-    "Tools/Game Development/Game Development Tools Overview.md",
-    "Tools/Finance/Finance Tools Overview.md",
-    "Tools/Education/Education Tools Overview.md",
-    "Tools/Digital Twins/Digital Twins Overview.md",
-    "Tools/Video Generation/Video Generation Tools Overview.md",
-    "Tools/Audio/Audio Tools Overview.md",
-    "Coding Setup/Security/Security Best Practices Guide.md",
-    "Legal AI/Legal AI Overview.md",
-    "100 TUF/100 TUF Journey Overview.md",
-    "Company Registry/AI Infrastructure/ByteDance.md",
-    "AI Automations/Operations/Venture Capital Automations.md.tmp.30298.1754182729200",
-    "AI Automations/Operations/Real Estate Professional Automations.md.tmp.30298.1754182717928",
-    "Tools/Tool Guide.md.tmp.37526.1754182709681",
-    "Tools/Design/README.md.tmp.37526.1754182695698",
-    "Tools/Design/CapCut.md",
-    "AI Automations/Sales/F&B Sales Professional Automations.md.tmp.30298.1754182683131",
-    "AI Automations/Operations/Big 4 Accounting Firm Automations.md.tmp.30298.1754182676927",
-    "AI Automations/Education/MBA Student Automations.md.tmp.30298.1754182600430",
-    "AI Automations/Automation Workflows by Problem.md.tmp.35197.1754182455913",
-    "AI Automations/Sales/F&B Sales Professional Automations.md",
-    "Coding Setup/Security/development-security.md",
-    "Coding Setup/Security/README.md",
     "Untitled.canvas"
   ]
 }

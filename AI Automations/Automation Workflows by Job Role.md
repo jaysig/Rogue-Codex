@@ -84,6 +84,12 @@
   - Advisory services and consulting delivery
   - *Time saved: 25-35 hours/week*
 
+- **[Corporate Finance Automations](Operations/Corporate%20Finance%20Automations.md)**
+  - Expense report processing and validation
+  - Financial report generation and analysis
+  - Budget variance tracking and alerts
+  - *Time saved: 20-25 hours/week*
+
 ### Real Estate & Insurance
 - **[Real Estate Professional Automations](Operations/Real%20Estate%20Professional%20Automations.md)**
   - Lead generation and qualification
@@ -168,6 +174,40 @@
   - Legal document automation and template management
   - Legal research and case management
   - *Time saved: 20-25 hours/week*
+
+## 🚛 Transportation & Logistics
+
+### Transportation Professionals
+- **[Truck Driver Automations](Operations/Truck%20Driver%20Automations.md)**
+  - Route optimization and fuel management
+  - DOT compliance and ELD management
+  - Load management and customer communication
+  - *Time saved: 10-15 hours/week*
+
+## 🏥 Healthcare & Veterinary Services
+
+### Healthcare Professionals
+- **[Veterinarian Automations](Operations/Veterinarian%20Automations.md)**
+  - Medical records and documentation automation
+  - Appointment scheduling and client communication
+  - Inventory and medication management
+  - *Time saved: 20-30 hours/week*
+
+## 🎬 Creative & Entertainment
+
+### Film & Media Production
+- **[Film Producer Automations](Creative/Film%20Producer%20Automations.md)**
+  - Script development tracking and feedback management
+  - Production budget monitoring and cost control
+  - Schedule coordination and call sheet automation
+  - *Time saved: 15-20 hours/week*
+
+### Content Creation
+- **[Content Creator Automations](Marketing/Content%20Creator%20Automations.md)**
+  - Content research and ideation automation
+  - Writing and video production workflows
+  - Social media distribution and engagement
+  - *Time saved: 20-30 hours/week*
 
 ## 🔍 Research & Analysis
 

@@ -52,6 +52,18 @@
 **Cost:** $35-120/month  
 **Setup Time:** 4-6 hours
 
+### "Expense reports and budget tracking are eating my life"
+**The Problem:** Mountains of receipts to process, manual expense categorization, budget variances going unnoticed until it's too late, spending hours on financial reports that should be automatic.
+
+**Your Automation Solutions:**
+- **[Expense Report Processor](Operations/Corporate%20Finance%20Automations.md#-expense-report-processor)** - Extract data from receipts automatically
+- **[Budget Variance Tracker](Operations/Corporate%20Finance%20Automations.md#-budget-variance-tracker)** - Get alerts before overspending
+- **[Financial Report Generator](Operations/Corporate%20Finance%20Automations.md#-financial-report-generator)** - Create professional reports automatically
+
+**Results:** Save 20-25 hours per week, catch budget issues early  
+**Cost:** $50-150/month  
+**Setup Time:** 4-6 hours
+
 ### "I'm losing money because I forget to follow up with leads"
 **The Problem:** Hot prospects go cold, existing customers don't get proper attention, sales slip through the cracks due to poor follow-up systems.
 
@@ -75,6 +87,30 @@
 **Results:** Save 8-12 hours per week, focus more time on revenue-generating activities  
 **Cost:** $30-90/month  
 **Setup Time:** 3-6 hours
+
+### "Route planning and fuel costs are killing my trucking profits"
+**The Problem:** Wasting time on manual route planning, missing cheapest fuel stops, getting stuck in traffic, inefficient delivery scheduling eating into earnings.
+
+**Your Automation Solutions:**
+- **[Route Optimization & Fuel Management](Operations/Truck%20Driver%20Automations.md#-route-optimization--fuel-management)** - Save 15-20% on fuel costs
+- **[Load Management & Customer Communication](Operations/Truck%20Driver%20Automations.md#-load-management--customer-communication)** - Automate customer updates and load booking
+- **[DOT Compliance & ELD Management](Operations/Truck%20Driver%20Automations.md#-dot-compliance--eld-management)** - Never get violations again
+
+**Results:** Save 10-15 hours per week, 15-20% fuel savings  
+**Cost:** $90-280/month  
+**Setup Time:** 4-8 hours
+
+### "Veterinary paperwork and admin tasks are consuming my patient care time"
+**The Problem:** Spending more time on documentation than with animals, drowning in compliance requirements, clients frustrated with slow communication and billing.
+
+**Your Automation Solutions:**
+- **[Medical Records & Documentation Automation](Operations/Veterinarian%20Automations.md#-medical-records--documentation-automation)** - Automate SOAP notes and compliance
+- **[Appointment Scheduling & Client Communication](Operations/Veterinarian%20Automations.md#-appointment-scheduling--client-communication)** - Reduce no-shows and improve client experience
+- **[Inventory & Medication Management](Operations/Veterinarian%20Automations.md#-inventory--medication-management)** - Never run out of critical supplies
+
+**Results:** Save 20-30 hours per week, 60% more patient care time  
+**Cost:** $200-560/month  
+**Setup Time:** 6-10 hours
 
 ---
 
@@ -262,6 +298,33 @@
 
 ---
 
+## 🎬 Creative & Production Management Chaos
+
+### "Film production schedules and coordination are a nightmare"
+**The Problem:** Constantly updating call sheets, coordinating cast and crew schedules, managing location logistics, dealing with last-minute changes that throw everything off track.
+
+**Your Automation Solutions:**
+- **[Production Schedule Coordinator](Creative/Film%20Producer%20Automations.md#-production-schedule-coordinator)** - Manage complex filming schedules automatically
+- **[Location Scouting Organizer](Creative/Film%20Producer%20Automations.md#-location-scouting-organizer)** - Track permits, agreements, and logistics
+- **[Casting Management System](Creative/Film%20Producer%20Automations.md#-casting-management-system)** - Organize auditions and casting decisions
+
+**Results:** Save 15-20 hours per week, reduce scheduling conflicts by 80%  
+**Cost:** $50-200/month  
+**Setup Time:** 6-10 hours
+
+### "Script development and feedback is chaotic and unorganized"
+**The Problem:** Multiple script drafts scattered everywhere, feedback from different stakeholders gets lost, no clear system for tracking revisions and development progress.
+
+**Your Automation Solutions:**
+- **[Script Development Tracker](Creative/Film%20Producer%20Automations.md#-script-development-tracker)** - Organize drafts and feedback systematically
+- **[Budget Tracking System](Creative/Film%20Producer%20Automations.md#-budget-tracking-system)** - Monitor production spending in real-time
+
+**Results:** Save 8-12 hours per week, never lose important feedback  
+**Cost:** $30-100/month  
+**Setup Time:** 4-6 hours
+
+---
+
 ## 🔍 Research & Information Overload
 
 ### "I waste hours researching and still miss important information"
@@ -288,6 +351,18 @@
 **Results:** Save 20-30 hours per week, focus more time on actual research  
 **Cost:** $90-350/month  
 **Setup Time:** 6-10 hours
+
+### "Content creation takes forever and I can't keep up with posting schedules"
+**The Problem:** Spending all day creating content but still missing deadlines, struggling with consistent posting, overwhelmed by editing and distribution across platforms.
+
+**Your Automation Solutions:**
+- **[Content Research & Ideation Engine](Marketing/Content%20Creator%20Automations.md#-content-research--ideation-engine)** - Never run out of content ideas
+- **[Video Production & Editing Automation](Marketing/Content%20Creator%20Automations.md#-video-production--editing-automation)** - Streamline video workflows
+- **[Social Media Distribution & Engagement](Marketing/Content%20Creator%20Automations.md#-social-media-distribution--engagement)** - Automate posting across platforms
+
+**Results:** Save 20-30 hours per week, 60% more creative time  
+**Cost:** $180-550/month  
+**Setup Time:** 6-12 hours
 
 ---
 

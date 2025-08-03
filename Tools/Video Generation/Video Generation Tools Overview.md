@@ -15,6 +15,9 @@ This section contains tools for creating and editing videos.
 - [[Hedra]] - Expressive video content and character generation
 - [[Viggle]] - Innovative video generation solution
 
+### Screen Recording & Editing
+- [[Screen Studio]] - Professional macOS screen recorder with automatic polish effects
+
 ## Subcategories
 - [ ] Video Editing
 - [ ] AI Video Generation

@@ -46,6 +46,7 @@ Since this is a documentation repository without build tools, primary tasks invo
 - Include specific templates and frameworks for replicability
 - Regular review cycles noted in footer timestamps
 - Consistent categorization and tagging approach
+- **8th Grade Reading Level**: Write all content at an 8th grade reading level for clarity and accessibility. Use simple words, short sentences, and explain technical terms in plain language
 - **Lesson Formatting**: When creating lessons learned files, maintain at least 2 line spaces between the last section in a group and the next group for better readability and visual separation
 
 ### RC Changes and Public Documentation
@@ -65,6 +66,11 @@ Since this is a documentation repository without build tools, primary tasks invo
   - ❌ Bad: `README.md` (in subdirectories), `index.md`, `main.md`, `content.md`
 - **Subsection files**: When creating subsections or rankings, use descriptive names that make it easy to identify the file's purpose
   - Examples: `Traditional Studios Overview.md`, `AI-Native Gaming Companies.md`, `Q1 2025 Tool Rankings.md`
+
+### File Management and Git Operations
+- **Preserve file history**: When restructuring or moving files, use `git mv` instead of creating new files to maintain version history and track changes over time
+- **File moves**: Use `git mv "old/path/file.md" "new/path/file.md"` for reorganization tasks
+- **Batch operations**: For multiple file moves, use git mv for each file individually to preserve individual file histories
 
 ## Working with Obsidian Content
 
