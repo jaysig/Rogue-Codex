@@ -1,5 +1,62 @@
 ## Changelog
 
+### 2025-08-03
+
+**Tools and Company Registry Expansion:**
+- **Added CapCut to Tools Section**: Comprehensive tool documentation for ByteDance's AI-powered video editor and graphic design tool
+- **Added ByteDance to Company Registry**: Full company profile in AI Infrastructure category covering global operations, product ecosystem, and recent developments
+- **Tools Collection Milestone**: Reached 50 total tools with CapCut addition to Design category
+- **Enhanced Discovery**: Updated Tool Guide and category navigation for improved tool discoverability
+
+**AI Automations Professional Vertical Expansion - 8 New Comprehensive Guides:**
+- **Created 8 High-Impact Professional Automation Guides**: Real Estate Investor/Fund, Insurance Professional, K-12 Teacher, University Professor, Lawyer, Big 4 Accounting Firm, HR Leader, and F&B Sales Professional comprehensive workflow automations
+- **Applied 80/20 Rule Analysis**: Each guide focuses on 20% of activities that drive 80% of professional impact and time savings
+- **40+ New Professional Automation Workflows**: Property acquisition analysis, claims processing, lesson planning, research productivity, time tracking, audit optimization, talent acquisition, territory management, and more
+- **Enterprise-Grade Implementation**: All guides include both n8n and Make.com setup instructions with specific nodes, modules, and workflow configurations
+- **Industry-Standard Cost Structures**: Realistic cost estimates with Small/Medium/Enterprise business size classifications and actual platform pricing
+- **Professional Focus Areas**: 
+  - Real Estate Investors: Deal analysis, portfolio monitoring, investor relations (25-35 hours/week saved)
+  - Insurance: Claims processing, policy administration, customer service automation (25-35 hours/week saved)
+  - Teachers: Lesson planning, grading automation, parent communication (15-20 hours/week saved)
+  - Professors: Research productivity, grant management, academic service (20-30 hours/week saved)
+  - Lawyers: Time tracking, document automation, legal research (20-25 hours/week saved)
+  - Big 4: Client management, audit optimization, business development (25-35 hours/week saved)
+  - HR Leaders: Strategic talent acquisition, workforce analytics, compliance (25-30 hours/week saved)
+  - F&B Sales: Customer relationships, territory optimization, order processing (20-25 hours/week saved)
+
+**Enhanced Automation Discovery System:**
+- **Updated Role-Based Navigation**: Added 8 new professional categories with detailed workflow descriptions and time savings estimates
+- **Expanded Problem-Based Search**: Added 15+ new use case queries with specific pain points and automation solutions for professional services
+- **Natural Language Discovery**: Enhanced LLM discoverability with industry-specific problem statements and workflow links
+- **Cross-Referenced Implementation**: All new guides integrated into existing automation discovery infrastructure
+
+**Professional Workflow Research Foundation:**
+- **Industry-Specific 80/20 Analysis**: Researched actual pain points and time allocation for each professional vertical
+- **Real-World Problem Solving**: Addressed specific professional challenges like lawyer billable hour capture (2.9 vs 8 hours), teacher grading burden, and Big 4 client coordination complexity
+- **Practical Implementation Focus**: All workflows designed for immediate implementation with clear ROI and time savings metrics
+
+### 2025-08-02
+
+**AI Automations Vertical Expansion - Real Estate, Private Equity, and Venture Capital:**
+- **Created 3 New Professional Automation Guides**: Real Estate Professional, Private Equity, and Venture Capital comprehensive workflow automations
+- **Research-Driven Development**: Applied 80/20 rule analysis to identify highest-impact automation opportunities for each vertical
+- **15+ New Automation Workflows**: Lead generation, deal flow management, due diligence processing, portfolio monitoring, fundraising automation, and transaction coordination
+- **Professional-Grade Implementation**: Each guide includes both n8n and Make.com setup instructions maintaining 8th-grade reading level accessibility
+- **Comprehensive Cost Structure**: Industry-standard business size definitions with realistic cost estimates scaling from boutique to enterprise operations
+- **Updated Discovery System**: Enhanced "Find Automations by Use Case" with 9 new use case categories and 15+ workflow links for professional services
+- **Strategic Focus Areas**: Real estate (lead qualification, listing management, client relationships), PE (document processing, portfolio monitoring, deal execution), VC (startup evaluation, portfolio intelligence, LP relations)
+
+**MCP Server Ecosystem Expansion:**
+- **Added 5 New MCP Servers**: Google News Search, Homebrew Package Manager, MCP Aggregator, SchemaCrawler, SchemaFlow
+- **Created Installation Documentation**: Full setup guides with API key requirements and usage limits clearly specified
+- **Established Server Categories**: Install+Document (3), Details Only (2), with clear rationale for each decision
+- **Enhanced MCP Discovery**: Added servers for news intelligence, system management, and multi-server aggregation
+
+**AI Automations Infrastructure:**
+- **Pain Point Solutions File**: New problem-first entry point with SEO-optimized problem statements
+- **Dual-Platform Requirements**: Updated CLAUDE.md to require both n8n and Make.com implementation guidance for all new automations
+- **Best Practices Documentation**: Converted planning checklist to completed implementation guidance based on actual workflows
+
 ### 2025-07-29
 
 **Lessons Learned System Overhaul:**
@@ -80,6 +137,14 @@
 - Maintained same 8th-grade reading level and non-technical approach for Make.com instructions
 - Added specific Make.com module names, connection methods, and scenario building guidance
 - Complete templates and workflows for daily, weekly, and monthly implementation
+
+**LLM-Only Automation Alternatives:**
+- **Added Simple Conversation Solutions**: Enhanced 4 automation guides with LLM-only alternatives for users who need occasional help without full automation setup
+- **Copy-Paste Prompt Templates**: Simple prompts for social media content creation, company research, research paper planning, and customer feedback analysis
+- **JSON Output Options**: Structured templates for organized results in content creation, research analysis, and feedback categorization
+- **Updated CLAUDE.md Guidelines**: Added criteria for when to include LLM-only solutions focusing on single-conversation completion and immediate value
+- **8th Grade Accessibility**: All LLM solutions written for non-technical users with clear limitations and upgrade criteria
+- **Quick Implementation**: Solutions provide immediate results for one-time or infrequent automation needs
 
 **Major Automation Library Expansion Based on Research:**
 - **Created 5 New High-Impact Automation Guides**: Small Business Owner, Sales Representative, Customer Service, Administrative Assistant, and HR Manager automations

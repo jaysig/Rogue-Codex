@@ -244,8 +244,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 Ready to build your own knowledge system?
 
 1. [**Download the setup guide**](TECH_SETUP.md) - Complete installation instructions
-2. [**Start with fitness tracking**](Fitness%20Guide/README.md) - Try the AI-powered features
-3. [**Explore the templates**](Lessons%20Learned/README.md) - Adapt for your needs
+2. [**Start with fitness tracking**](Fitness%20Guide/Fitness%20Guide%20Master.md) - Try the AI-powered features
+3. [**Explore the templates**](Lessons%20Learned/Lessons%20Overview.md) - Adapt for your needs
 4. [**Join the discussion**](https://github.com/jaysig/Rogue-Codex/discussions) - Share your experience
 
 ---

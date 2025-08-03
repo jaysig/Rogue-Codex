@@ -1,8 +1,8 @@
-# Tech Setup Guide - Rogue Codex
+# Local Setup Guide - Rogue Codex
 
-**Getting started with the Rogue Codex knowledge base and AI fitness guide**
+**How to get Rogue Codex working on your computer**
 
-*This guide assumes you have no technical background and will walk you through everything step-by-step.*
+*Don't worry if you're not technical - we'll walk through everything step by step.*
 
 ---
 
@@ -17,9 +17,9 @@
 
 ## 🎯 What We're Setting Up
 
-1. **Obsidian** - The app that makes everything work beautifully
-2. **Claude Code** - AI assistant for the fitness guide (optional but recommended)
-3. **Rogue Codex files** - The knowledge base itself
+1. **Obsidian** - The app that makes all the notes work together nicely
+2. **Claude Code** - AI helper for the fitness guide (you don't need this, but it's cool)
+3. **Rogue Codex files** - All the actual content
 
 ---
 
@@ -52,19 +52,19 @@ Obsidian is a free note-taking app that makes the Rogue Codex work like magic.
 
 ---
 
-## 💻 Step 2: Install Developer Tools (Recommended)
+## 💻 Step 2: Install Developer Tools (Optional)
 
-While not strictly required, these tools will give you the best experience and are needed for the AI fitness features.
+You don't have to do this, but these tools make things work better. You'll need them if you want to use the AI fitness features.
 
 ### For Mac Users:
 
-#### Install Homebrew (Package Manager)
+#### Install Homebrew (Makes Installing Other Stuff Easy)
 1. Open **Terminal** (press Cmd+Space, type "terminal")
 2. Copy and paste this command:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-3. Follow the prompts (may ask for your password)
+3. Follow what it tells you to do (it might ask for your password)
 
 #### Install iTerm2 (Better Terminal)
 ```bash
@@ -83,8 +83,8 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 ### For Windows Users:
 
-#### Install Chocolatey (Package Manager)
-1. Open **PowerShell as Administrator** (Right-click Start → "Windows PowerShell (Admin)")
+#### Install Chocolatey (Makes Installing Other Stuff Easy)
+1. Open **PowerShell as Administrator** (Right-click Start → "Windows PowerShell (Admin)"
 2. Copy and paste this command:
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
@@ -177,16 +177,16 @@ git clone https://github.com/jaysig/Rogue-Codex.git
    - **Linux**: Right-click → "Extract Here" or use `unzip filename.zip`
 
 ### 📂 Where to Put the Files
-Choose a location you'll remember:
-- **Windows**: `C:\Users\[YourName]\Documents\Rogue Codex`
-- **Mac**: `/Users/[YourName]/Documents/Rogue Codex`
-- **Linux**: `/home/[YourName]/Documents/Rogue Codex`
+Put them somewhere you'll remember:
+- **Windows**: In your Documents folder, make a "Rogue Codex" folder
+- **Mac**: In your Documents folder, make a "Rogue Codex" folder  
+- **Linux**: In your Documents folder, make a "Rogue Codex" folder
 
 ---
 
-## 🔗 Step 4: Connect Obsidian to Rogue Codex
+## 🔗 Step 4: Connect Obsidian to Your Files
 
-Now we'll tell Obsidian where to find your Rogue Codex files.
+Now we'll show Obsidian where to find your Rogue Codex files.
 
 1. **Open Obsidian**
 2. When it first launches, you'll see a welcome screen
@@ -195,7 +195,7 @@ Now we'll tell Obsidian where to find your Rogue Codex files.
 5. Select the **"Rogue Codex"** folder
 6. Click **"Open"**
 
-🎉 **You should now see the Rogue Codex in Obsidian!**
+🎉 **Success! You should now see all the Rogue Codex stuff in Obsidian!**
 
 ---
 
@@ -222,7 +222,7 @@ These settings will make your experience much better:
 
 ## 🤖 Step 6: Set Up AI Fitness Guide (Optional)
 
-To use the AI-powered fitness features, you'll need Claude Code.
+If you want the AI fitness features to work, you'll need Claude Code.
 
 ### Get Claude Code:
 1. Go to [https://www.anthropic.com/claude-code](https://www.anthropic.com/claude-code)
@@ -230,13 +230,13 @@ To use the AI-powered fitness features, you'll need Claude Code.
 3. Follow their installation instructions for your operating system
 
 ### Why Claude Code?
-- Powers the conversational fitness tracking
-- Understands natural language ("Just did squats 225x5")
-- Routes you to specialized fitness coaches
-- Generates workout plans and nutrition advice
+- Makes fitness tracking work by talking normally
+- You can say "Just did squats 225x5" and it understands
+- Connects you to different fitness coaches
+- Creates workout plans and food advice
 
 ### Using Without Claude Code:
-You can still use all the fitness templates and guides manually - they're just regular markdown files you can edit in Obsidian!
+You can still use all the fitness stuff manually - they're just regular text files you can edit in Obsidian!
 
 ---
 
@@ -245,11 +245,11 @@ You can still use all the fitness templates and guides manually - they're just r
 ### First Things to Try:
 
 1. **Explore the Structure**:
-   - Click on **README.md** files in each section
+   - Click on overview files in each section (no more README.md files!)
    - Use the **graph view** to see how everything connects
 
 2. **For Fitness Users**:
-   - Open `Fitness Guide/README.md`
+   - Open `Fitness Guide/Fitness Guide Master.md`
    - Check out `Fitness Guide/User_Interaction_Guide.md`
    - Try the demo files in `Fitness Guide/References/Demo/`
 
@@ -280,7 +280,7 @@ You can still use all the fitness templates and guides manually - they're just r
 
 ### "I can't see the files in Obsidian"
 - Make sure you selected the correct folder when opening the vault
-- The folder should contain README.md and other markdown files
+- The folder should contain the main README.md and other markdown files
 - If you used Git clone, the files are in a subfolder
 
 ### "Links aren't working"
@@ -322,8 +322,8 @@ Want to access your Rogue Codex on your phone?
 - YouTube: Search "Obsidian beginner tutorial"
 
 ### Rogue Codex Specific:
-- Start with the README.md in the main folder
-- Each section has its own README with specific guidance
+- Start with the main README.md in the root folder
+- Each section has its own overview file with specific guidance
 - The `Lessons Learned/` section has templates for everything
 
 ---

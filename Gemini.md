@@ -58,7 +58,7 @@ Since this is a documentation repository without build tools, primary tasks invo
 
 ### File Naming Conventions
 - Use spaces in directory names (e.g., "Lessons Learned", "AI Regulation")
-- URL-encode spaces in markdown links (e.g., `[link](Lessons%20Learned/README.md)`)
+- URL-encode spaces in markdown links (e.g., `[link](Lessons%20Learned/Lessons%20Overview.md)`)
 - **Minimize README.md files**: Avoid creating README.md files as they make file tracking difficult. Use descriptive filenames instead (e.g., "Gaming Companies Overview.md" rather than "README.md")
 - **Descriptive filenames**: All markdown files should have descriptive names that clearly identify their content
   - ✅ Good: `Netflix.md`, `AI Infrastructure Overview.md`, `Tool Evaluation Template.md`
@@ -76,10 +76,10 @@ Since this is a documentation repository without build tools, primary tasks invo
 
 ### Content Templates
 When adding new content, reference existing templates:
-- **Lessons Learned**: Use the template structure in `Lessons Learned/README.md`
-- **Tool Evaluations**: Follow the criteria structure in `Tools/README.md`
-- **Company Registry**: Use the company file template in `Company Registry/README.md`
-- **Project Tracking**: Use checkbox-based progress tracking like in `100 TUF/README.md`
+- **Lessons Learned**: Use the template structure in `Lessons Learned/Lessons Overview.md`
+- **Tool Evaluations**: Follow the criteria structure in `Tools/Tool Guide.md`
+- **Company Registry**: Use the company file template in `Company Registry/CompanyGuide.md`
+- **Project Tracking**: Use checkbox-based progress tracking like in `100 TUF/100 TUF Journey Overview.md`
 
 ## Working with Company Registry
 

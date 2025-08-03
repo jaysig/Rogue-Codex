@@ -2,69 +2,107 @@
 
 ## Welcome to Rogue Codex
 
-Rogue Codex is a curated collection of knowledge, lessons learned, and practical guides focused on making complex topics accessible and actionable. This is a living document that evolves based on real-world experience and current developments.
+Rogue Codex helps you work smarter with AI tools, business research, and personal growth. Everything here is practical stuff you can use right away.
+
+## Why This Exists
+
+Most guides are too complex or too basic. This gives you the middle ground - useful information that actually works in real life.
 
 ## What You'll Find Here
 
-### Core Philosophy
-- **Public Information**: Sharing knowledge that should be accessible to everyone
-- **Practical Application**: Focus on actionable insights over theoretical concepts
-- **Continuous Learning**: Regular updates based on new discoveries and changing landscapes
-- **Tool-First Approach**: Emphasis on practical tools and workflows that actually work
+### 🏢 [Company Research](Company%20Registry/CompanyGuide.md) - **START HERE**
+Directory of major companies with AI strategies, funding, and competitive analysis. Perfect for business research, job hunting, or market analysis.
 
-### Key Sections
+### 🤖 [AI Automations](AI%20Automations/AI%20Automations%20Guide.md) - **MOST POPULAR**
+Save 8-15 hours per week by automating repetitive work tasks. Three ways to find what you need:
 
-#### 🎯 [100 TUF - 100 Days to Unfuck Yourself](100%20TUF/README.md)
-A 100-day journey of personal development and lessons learned, broken into manageable 25-day increments. Each section captures insights, breakthroughs, and practical applications from real-world experience.
+**🎯 [Find by Problem](AI%20Automations/Automation%20Workflows%20by%20Problem.md)** - "I'm drowning in emails" or "I can't track job applications"  
+**👔 [Find by Job Role](AI%20Automations/Automation%20Workflows%20by%20Job%20Role.md)** - Sales, marketing, HR, students, business owners  
+**📚 [Learn the Basics](AI%20Automations/Automation%20Best%20Practices.md)** - New to automation? Start here first
 
-#### 💻 [Coding Setup](Coding%20Setup/Coding%20Setup.md)
-Practical guides for non-technical people who want to leverage technical and AI tools in their workflows. Focus on setup, basic usage, and integration.
+*Real workflows you can set up today using N8N or Make.com*
 
-#### 📋 [AI Regulation](AI%20Regulation/Regulation%20Overview.md)
-Comprehensive tracking system for AI regulations across global jurisdictions with historical context, change management, and compliance guidance. Covers US federal and state laws, EU AI Act, and regulations from China, Japan, and South Korea.
+### 🛠️ [Tools](Tools/Tool%20Guide.md) - **IMMEDIATELY USEFUL**
+Reviews of the best AI tools across different categories. Only tools that are actually worth using, with honest pros and cons.
 
-#### 🛠️ [Tools](Tools/Tool%20Guide.md)
-Overview of recommended tools across different categories, featuring the most frequently used tools incorporated into daily workflows.
+### 📚 [Lessons Learned](Lessons%20Learned/Lessons%20Overview.md)
+Real-world insights from using AI tools, coding projects, fitness tracking, and more. No fluff - just what actually worked.
 
-#### 🏢 [Company Directory](Company%20Registry/CompanyGuide.md)
-Directory of major companies and their strategic approaches, covering both traditional enterprises and modern companies. Organized by industry with standardized profiles for research and competitive analysis.
+### 💻 [Coding Setup](Coding%20Setup/Coding%20Setup.md) 
+Simple guides for non-technical people who want to use AI coding tools. No computer science degree required.
 
-#### ⚠️ [AI Risk](AI%20Risk/AI%20Risks.md)
-Documenting emerging AI risks for quick reference.
+### 🎯 [100 TUF - Personal Development](100%20TUF/100%20TUF%20Journey%20Overview.md)
+A 100-day journey to improve your life and work. Broken into 25-day chunks with real lessons learned along the way.
 
-#### 🌏 [Southeast Asia Real Estate Project](SE%20Asia%20Real%20Estate/SE%20Asia%20Real%20Estate%20Overview.md)
-Real estate project exploring investment opportunities in Southeast Asia, focused on Thailand and Vietnam. Features progress tracking and market analysis as the project develops.
+### 🔗 [MCP - AI Tool Connections](MCP/MCP%20Setup%20Guide.md)
+How to connect AI tools to other services and data. Advanced stuff, but becoming more important as AI gets better.
 
-### Coming Soon
+### 📋 [AI Regulation Tracking](AI%20Regulation/Regulation%20Overview.md)
+Track AI laws and regulations across different countries. Important for businesses and anyone working with AI.
 
-#### 📚 Lessons Learned
-Curated insights and practical wisdom from real-world experience.
+### 💪 [Fitness Guide](Fitness%20Guide/Fitness%20Guide%20Master.md)
+AI-powered fitness and nutrition tracking. Specialized audience but very comprehensive.
 
-#### ⚖️ [Legal AI](Legal%20AI/README.md)
-Legal AI Overview - Coming soon.
+### ⚖️ [Legal AI](Legal%20AI/Legal%20AI%20Overview.md)
+AI tools and insights for legal professionals.
 
-#### 💪 [Fitness Guide](Fitness%20Guide/README.md)
-Comprehensive fitness and nutrition programming with data tracking integration.
+### ⚠️ [AI Risk Tracking](AI%20Risk/AI%20Risks.md)
+Emerging AI risks and safety considerations.
 
-#### 🔄 [AI Automations & Workflows](AI%20Automations/README.md)
-Practical automation strategies and workflow optimizations for enhanced productivity.
+### 🌏 [SE Asia Real Estate](SE%20Asia%20Real%20Estate/SE%20Asia%20Real%20Estate%20Overview.md)
+Real estate investment project in Thailand and Vietnam with progress tracking.
 
-## How to Use This Site
+## How to Use This
 
-1. **Start with the section that matches your current needs**
-2. **Use the search function** to find specific topics across all sections
-3. **Check the changelog** in each section for recent updates
-4. **Follow the links** between related concepts and tools
-5. **Adapt the templates** to your specific use cases
+### If You're New:
+1. **Start with [Company Research](Company%20Registry/CompanyGuide.md)** - Most immediately useful
+2. **Save time with [AI Automations](AI%20Automations/AI%20Automations%20Guide.md)** - Three ways to find what you need:
+   - Got a specific problem? → [Find by Problem](AI%20Automations/Automation%20Workflows%20by%20Problem.md)
+   - Know your job role? → [Find by Job Role](AI%20Automations/Automation%20Workflows%20by%20Job%20Role.md)  
+   - Never automated before? → [Learn the Basics](AI%20Automations/Automation%20Best%20Practices.md)
+3. **Browse [Tools](Tools/Tool%20Guide.md)** - See what's worth your time
 
-## Questions & Feedback
+### If You Want to Get Technical:
+1. **Read [Coding Setup](Coding%20Setup/Coding%20Setup.md)** - Start simple
+2. **Try [Local Setup Guide](Local%20Setup%20Guide.md)** - Get everything on your computer
+3. **Explore [MCP](MCP/MCP%20Setup%20Guide.md)** - Connect AI tools together
 
-Have questions about any section or suggestions for improvement? Reach out to Jason on X / LinkedIn. 
+### If You Want Personal Growth:
+1. **Start [100 TUF](100%20TUF/100%20TUF%20Journey%20Overview.md)** - 25 days at a time
+2. **Read [Lessons Learned](Lessons%20Learned/Lessons%20Overview.md)** - Real insights
+3. **Try [Fitness Guide](Fitness%20Guide/Fitness%20Guide%20Master.md)** - If that's your thing
 
-## Recent Updates
+## Navigation Tips
 
-*Site structure and content are currently being established.*
+- **Search**: Use Ctrl+F (or Cmd+F on Mac) to find specific topics
+- **Links**: Click anything in [[double brackets]] to jump to related content  
+- **Back Button**: Use your browser's back button to return
+- **README Files**: Most sections have a README that explains what's inside
+
+## Getting Help
+
+**Website Version**: You're reading this on the published website - everything just works
+
+**Download Version**: Want this on your computer? See [Local Setup Guide](Local%20Setup%20Guide.md)
+
+**Questions**: Most answers are in the README files of each section
+
+## What Makes This Different
+
+- **Real Experience**: Everything here has been tested in real work situations
+- **No Fluff**: If it doesn't work, it's not included
+- **Regular Updates**: Content gets updated based on what's actually happening
+- **Practical Focus**: You can use this stuff immediately
+
+## Recent Highlights
+
+- **New AI Companies**: Added Perplexity, Cursor, Harvey, and other 2025 leaders
+- **Updated Automations**: Fresh workflows for different job roles  
+- **Better Tools Reviews**: More honest assessments of what actually works
+- **MCP Guides**: Help connecting AI tools to real systems
 
 ---
 
-*This site is published using [Obsidian Publish](https://obsidian.md/publish) and updated regularly based on new learnings and developments.* 
+*This site updates regularly. Bookmark sections you use most.*
+
+*Built with [Obsidian](https://obsidian.md) and published with [Obsidian Publish](https://obsidian.md/publish)*

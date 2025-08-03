@@ -15,6 +15,7 @@ Companies creating AI-powered content and media experiences.
 ### 🤖 [AI Infrastructure](AI%20Infrastructure/)
 Companies providing AI development tools, platforms, and computing infrastructure.
 
+- [ByteDance](AI%20Infrastructure/ByteDance.md)
 - [Databricks](AI%20Infrastructure/Databricks.md)
 - [Hugging Face](AI%20Infrastructure/Hugging%20Face.md)
 - [NVIDIA](AI%20Infrastructure/NVIDIA.md)
@@ -99,6 +100,7 @@ Music and entertainment companies built around AI-driven creation and distributi
 - [Anthropic](AI%20Models/Anthropic.md)
 - [Asteria](Film%20and%20Streaming/AI-Native%20Studios/Asteria.md)
 - [Autodesk](Film%20and%20Streaming/Traditional%20Studios/Autodesk.md)
+- [ByteDance](AI%20Infrastructure/ByteDance.md)
 - [Canva](AI%20Content%20&%20Media/Canva.md)
 - [Character AI](AI%20Content%20&%20Media/Character%20AI.md)
 - [Databricks](AI%20Infrastructure/Databricks.md)

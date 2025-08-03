@@ -58,7 +58,7 @@ Since this is a documentation repository without build tools, primary tasks invo
 
 ### File Naming Conventions
 - Use spaces in directory names (e.g., "Lessons Learned", "AI Regulation")
-- URL-encode spaces in markdown links (e.g., `[link](Lessons%20Learned/README.md)`)
+- URL-encode spaces in markdown links (e.g., `[link](Lessons%20Learned/Lessons%20Overview.md)`)
 - **Minimize README.md files**: Avoid creating README.md files as they make file tracking difficult. Use descriptive filenames instead (e.g., "Gaming Companies Overview.md" rather than "README.md")
 - **Descriptive filenames**: All markdown files should have descriptive names that clearly identify their content
   - ✅ Good: `Netflix.md`, `AI Infrastructure Overview.md`, `Tool Evaluation Template.md`
@@ -76,10 +76,10 @@ Since this is a documentation repository without build tools, primary tasks invo
 
 ### Content Templates
 When adding new content, reference existing templates:
-- **Lessons Learned**: Use the template structure in `Lessons Learned/README.md`
-- **Tool Evaluations**: Follow the criteria structure in `Tools/README.md`
-- **Company Registry**: Use the company file template in `Company Registry/README.md`
-- **Project Tracking**: Use checkbox-based progress tracking like in `100 TUF/README.md`
+- **Lessons Learned**: Use the template structure in `Lessons Learned/Lessons Overview.md`
+- **Tool Evaluations**: Follow the criteria structure in `Tools/Tool Guide.md`
+- **Company Registry**: Use the company file template in `Company Registry/CompanyGuide.md`
+- **Project Tracking**: Use checkbox-based progress tracking like in `100 TUF/100 TUF Journey Overview.md`
 
 ## Working with Company Registry
 
@@ -206,7 +206,7 @@ When adding or updating tools in the Tools section:
    - `Tools/[Primary Category]/Tool Name.md`
    - Examples: `Tools/AI Automations/ChatGPT.md`, `Tools/Design/Figma.md`
 
-2. **File Creation**: Create individual tool files using the tool evaluation template from `Tools/README.md`
+2. **File Creation**: Create individual tool files using the tool evaluation template from `Tools/Tool Evaluation Template.md`
 
 3. **Multi-Category Tools**: If a tool fits multiple categories:
    - Create the main file in the PRIMARY category only
@@ -318,7 +318,7 @@ The repository is published using Obsidian Publish, so:
 
 ### Organization and Structure
 - **Role-based organization**: Product Management, Marketing, Sales, Operations, Research
-- **Main files**: `Automations Overview.md` (navigation), `Automation Best Practices.md` (implementation guidance)
+- **Main files**: `AI Automations Guide.md` (main hub), `Automation Workflows by Job Role.md`, `Automation Workflows by Problem.md`, `Automation Best Practices.md`
 - **File naming**: Use descriptive names like `[Role] [Company] Automations.md` or `[Platform] [Function].md`
 
 ### Business Size Definitions for Cost Estimates
@@ -374,8 +374,51 @@ All automation cost estimates use consistent business size definitions:
    - **Cross-reference existing**: Link to existing pain point sections if the automation provides an alternative solution
    - **Avoid minor issues**: Don't add niche or minor problems - keep the pain point file focused on significant, relatable frustrations
    - **Use emotional language**: Frame problems in natural, conversational terms people actually think and search for
-6. **Update** `Automations Overview.md` with new automation links in both role-based and technology platform sections
-7. **Cross-Reference**: Link related automations and ensure they appear in both n8n and Make.com platform sections
+6. **Navigation Section**: Every automation file must include a "More Automations" section at the end with these standard links:
+   ```markdown
+   ## 🔗 More Automations
+
+   **Need different solutions?**
+   - **[🏠 All Automation Guides](../AI%20Automations%20Guide.md)** - Main directory and getting started
+   - **[🎯 Find by Problem](../Automation%20Workflows%20by%20Problem.md)** - "I'm drowning in emails" or "My finances are a mess"
+   - **[👔 Find by Job Role](../Automation%20Workflows%20by%20Job%20Role.md)** - Browse by your profession
+   - **[📚 Automation Best Practices](../Automation%20Best%20Practices.md)** - Learn the fundamentals
+   ```
+7. **Update main directory files**: Add new automation to appropriate sections in `AI Automations Guide.md` and either `Automation Workflows by Job Role.md` or `Automation Workflows by Problem.md`
+8. **Cross-Reference**: Link related automations and ensure they appear in both n8n and Make.com platform sections
+
+### LLM-Only Solution Guidelines
+When evaluating automations for LLM-only alternatives, include simplified solutions for tasks that can be accomplished through conversation alone:
+
+**Include LLM-Only Solutions When:**
+- **Single conversation completion**: Task can be fully completed in one conversation session
+- **No real-time monitoring**: Doesn't require ongoing alerts, scheduled tasks, or monitoring
+- **No data integration**: Doesn't need to connect multiple systems or APIs
+- **Manual input acceptable**: User can provide necessary data through conversation
+- **One-time or infrequent use**: Task doesn't require constant automation
+- **Text-based output**: Result is content, analysis, or recommendations (not system actions)
+
+**LLM-Only Solution Criteria:**
+- **Time Impact**: Can save 1+ hours per use or significant mental effort
+- **Simplicity Test**: Can be explained in 2-3 sentences to an 8th grader
+- **Immediate Value**: User gets useful results in the same conversation
+- **Standalone**: Doesn't require external tool setup or technical configuration
+
+**Content Structure for LLM-Only Sections:**
+Each qualifying automation should include an "LLM-Only Alternative" section with:
+- **"Quick Solution" header**: "If you just need this done once or occasionally..."
+- **Simple explanation**: What the LLM can do in plain language
+- **Multi-step prompt example**: Clear, copy-pasteable prompt format
+- **JSON template option**: When structured output helps organize results
+- **Limitations note**: What this approach can't do compared to full automation
+- **When to upgrade**: Clear criteria for when automation becomes worth the setup
+
+**Writing Style for LLM Solutions:**
+- Use 8th grade reading level
+- Conversational, encouraging tone
+- Focus on immediate results over technical details
+- Include copy-paste prompts with placeholder brackets [like this]
+- Explain why each step matters in simple terms
 
 ## MCP (Model Context Protocol) Setup and Management
 
@@ -389,6 +432,7 @@ When setting up or recommending MCP servers for this repository:
 2. **Reference Guide**: Always reference the comprehensive setup guide at `[[MCP/README]]`
 3. **Security First**: Follow security best practices outlined in the guide
 4. **Documentation**: Document any MCP servers used in project-specific documentation
+5. **Update Most Used.md**: When adding/removing MCP servers, update the "MCP Servers (Currently Active)" section in `Most Used.md`
 
 ### Common MCP Servers for Rogue Codex
 Based on the repository's nature as a knowledge base and documentation site:
@@ -482,4 +526,15 @@ When MCP servers aren't working:
 ### Using MCP Servers with the Gemini CLI
 
 The MCP servers configured for Claude can also be used with the Gemini CLI. To enable them, you need to add the same `mcpServers` configuration to your Gemini settings file. The `Gemini.md` file in this repository provides detailed instructions on how to set up MCP scopes for the Gemini CLI. It is recommended to keep the configurations synchronized between both tools.
+
+## Personal/Custom Instructions
+
+For personal preferences and custom instructions that should remain private:
+
+1. **Location**: Store in `Exclude/Custom Instructions.md` (not tracked in public documentation)
+2. **Usage**: Reference as needed for personal workflow preferences
+3. **Updates**: Only update when manually requested - never proactively modify personal instructions
+4. **Privacy**: Keep all personal configurations and preferences separate from public documentation
+
+When working with custom instructions, always check `Exclude/Custom Instructions.md` for user-specific preferences before proceeding with documentation tasks.
 
