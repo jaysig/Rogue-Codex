@@ -1,6 +1,6 @@
-# Company Registry
+# Company Spotlight
 
-A curated reference for companies across key industries, providing quick access to company information, key details, and relevant context for research and decision-making.
+A curated spotlight on companies making AI news across entertainment, media, and tech industries. This collection focuses on notable companies that are actively adopting AI or making headlines for their AI initiatives.
 
 ## 🏢 Quick Access by Industry
 
