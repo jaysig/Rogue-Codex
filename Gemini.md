@@ -18,7 +18,7 @@ Rogue Codex is a knowledge base and documentation site built using Obsidian and 
 - `100 TUF/` - 100-day personal development journey with phase-based structure
 - `Lessons Learned/` - Structured template-based knowledge capture with categories
 - `Tools/` - Tool evaluations with systematic criteria and workflow recommendations
-- `Company Registry/` - Industry-organized company database with individual company files
+- `Company Spotlight/` - Featured companies making AI news across entertainment, media, and tech
 - `AI Regulation/`, `AI Risk/` - AI policy and safety content sections
 - `AI Automations/` - Role-based automation workflows organized by function
 - `Coding Setup/` - Non-technical user guides for coding tools
@@ -30,6 +30,9 @@ Rogue Codex is a knowledge base and documentation site built using Obsidian and 
 - Checkbox-based tracking for progress and todo items
 - Date stamps and review cycles for content freshness
 - Cross-linking between related concepts and sections
+
+## Version Control
+- **DO NOT COMMIT**: Never commit any changes to the Git repository. All version control is handled manually by the user.
 
 ## Common Development Tasks
 
@@ -79,19 +82,19 @@ Since this is a documentation repository without build tools, primary tasks invo
 When adding new content, reference existing templates:
 - **Lessons Learned**: Use the template structure in `Lessons Learned/Lessons Overview.md`
 - **Tool Evaluations**: Follow the criteria structure in `Tools/Tool Guide.md`
-- **Company Registry**: Use the company file template in `Company Registry/CompanyGuide.md`
+- **Company Spotlight**: Use the company file template in `Company Spotlight/CompanyGuide.md`
 - **Project Tracking**: Use checkbox-based progress tracking like in `100 TUF/100 TUF Journey Overview.md`
 
-## Working with Company Registry
+## Working with Company Spotlight
 
 ### File Structure and Naming
 - **Company files**: Always use the actual company name as the filename (e.g., `Netflix.md`, `Character AI.md`)
-- **No README files**: Never create README.md files within Company Registry subdirectories
+- **No README files**: Never create README.md files within Company Spotlight subdirectories
 - **Descriptive organization**: Directory structure should be self-explanatory through naming
 - **Consistent paths**: All company files go directly in their appropriate subcategory folder
 
 ### Adding New Companies
-When adding companies to the Company Registry:
+When adding companies to the Company Spotlight:
 
 1. **Categorization**: Determine the appropriate industry category for the company. If no existing category fits, ask the user to confirm the creation of a new category.
 
@@ -115,9 +118,9 @@ When adding companies to the Company Registry:
 6. **Date Updates**: Always update the "Last Updated" timestamp at the bottom of files:
    - Format: `*Last Updated: YYYY-MM-DD*`
    - Use the current date when making changes
-   - Update both the individual company file and the main Company Registry README
+   - Update both the individual company file and the main Company Spotlight README
 
-7. **Registry Updates**: Update the Company Registry guide to include the new company in both the category section and alphabetical listing
+7. **Spotlight Updates**: Update the Company Spotlight guide to include the new company in both the category section and alphabetical listing
 
 8. **Template Usage**: Use the company file template below for consistency across all company files
 
@@ -186,7 +189,7 @@ Brief description of the company's primary business and market position.
 *Last Updated: [YYYY-MM-DD]*
 ```
 
-### Company Registry Maintenance
+### Company Spotlight Maintenance
 - Keep company information current and accurate
 - Update financial information, leadership changes, and recent developments
 - Maintain consistent formatting across all company files

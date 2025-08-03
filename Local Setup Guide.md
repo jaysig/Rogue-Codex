@@ -256,7 +256,7 @@ You can still use all the fitness stuff manually - they're just regular text fil
 3. **For General Knowledge Management**:
    - Explore `Lessons Learned/` for templates
    - Check out `Tools/` for software evaluations
-   - Browse `Company Registry/` for business research
+   - Browse `Company Spotlight/` for featured companies making AI news
 
 ### Navigation Tips:
 - **Ctrl+O** (Windows/Linux) or **Cmd+O** (Mac): Quick file search

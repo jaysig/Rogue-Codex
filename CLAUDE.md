@@ -18,7 +18,7 @@ Rogue Codex is a knowledge base and documentation site built using Obsidian and 
 - `100 TUF/` - 100-day personal development journey with phase-based structure
 - `Lessons Learned/` - Structured template-based knowledge capture with categories
 - `Tools/` - Tool evaluations with systematic criteria and workflow recommendations
-- `Company Registry/` - Industry-organized company database with individual company files
+- `Company Spotlight/` - Featured companies making AI news across entertainment, media, and tech
 - `AI Regulation/`, `AI Risk/` - AI policy and safety content sections
 - `AI Automations/` - Role-based automation workflows organized by function
 - `Coding Setup/` - Non-technical user guides for coding tools
@@ -64,6 +64,10 @@ Since this is a documentation repository without build tools, primary tasks invo
 - **Descriptive filenames**: All markdown files should have descriptive names that clearly identify their content
   - ✅ Good: `Netflix.md`, `AI Infrastructure Overview.md`, `Tool Evaluation Template.md`
   - ❌ Bad: `README.md` (in subdirectories), `index.md`, `main.md`, `content.md`
+- **Overview file naming**: For overview/main pages within folders, add a leading space to the filename so they appear at the top of directories for easy access
+  - Format: ` [Category] Overview.md` (note the leading space)
+  - Examples: ` Nurse Overview.md`, ` Dentist Overview.md`, ` Healthcare Overview.md`
+  - This ensures overview files are always visible at the top of folder listings in file explorers
 - **Subsection files**: When creating subsections or rankings, use descriptive names that make it easy to identify the file's purpose
   - Examples: `Traditional Studios Overview.md`, `AI-Native Gaming Companies.md`, `Q1 2025 Tool Rankings.md`
 
@@ -71,6 +75,8 @@ Since this is a documentation repository without build tools, primary tasks invo
 - **Preserve file history**: When restructuring or moving files, use `git mv` instead of creating new files to maintain version history and track changes over time
 - **File moves**: Use `git mv "old/path/file.md" "new/path/file.md"` for reorganization tasks
 - **Batch operations**: For multiple file moves, use git mv for each file individually to preserve individual file histories
+- **⚠️ IMPORTANT: Claude Code Git Policy**: Claude Code should NEVER commit changes to Git automatically. All Git commits must be handled manually by the user. This ensures full control over what gets committed and when.
+- **No backup files**: When restructuring content (especially AI Automations), move content directly to new locations and delete original files. Do NOT create .backup files unless explicitly requested by the user. Clean file management is preferred over unnecessary backup clutter.
 
 ## Working with Obsidian Content
 
@@ -84,19 +90,19 @@ Since this is a documentation repository without build tools, primary tasks invo
 When adding new content, reference existing templates:
 - **Lessons Learned**: Use the template structure in `Lessons Learned/Lessons Overview.md`
 - **Tool Evaluations**: Follow the criteria structure in `Tools/Tool Guide.md`
-- **Company Registry**: Use the company file template in `Company Registry/CompanyGuide.md`
+- **Company Spotlight**: Use the company file template in `Company Spotlight/CompanyGuide.md`
 - **Project Tracking**: Use checkbox-based progress tracking like in `100 TUF/100 TUF Journey Overview.md`
 
-## Working with Company Registry
+## Working with Company Spotlight
 
 ### File Structure and Naming
 - **Company files**: Always use the actual company name as the filename (e.g., `Netflix.md`, `Character AI.md`)
-- **No README files**: Never create README.md files within Company Registry subdirectories
+- **No README files**: Never create README.md files within Company Spotlight subdirectories
 - **Descriptive organization**: Directory structure should be self-explanatory through naming
 - **Consistent paths**: All company files go directly in their appropriate subcategory folder
 
 ### Adding New Companies
-When adding companies to the Company Registry:
+When adding companies to the Company Spotlight:
 
 1. **Categorization**: Determine the appropriate industry category for the company. If no existing category fits, ask the user to confirm the creation of a new category.
 
@@ -120,9 +126,9 @@ When adding companies to the Company Registry:
 6. **Date Updates**: Always update the "Last Updated" timestamp at the bottom of files:
    - Format: `*Last Updated: YYYY-MM-DD*`
    - Use the current date when making changes
-   - Update both the individual company file and the main Company Registry README
+   - Update both the individual company file and the main Company Spotlight README
 
-7. **Registry Updates**: Update the Company Registry guide to include the new company in both the category section and alphabetical listing
+7. **Spotlight Updates**: Update the Company Spotlight guide to include the new company in both the category section and alphabetical listing
 
 8. **Template Usage**: Use the company file template below for consistency across all company files
 
@@ -191,7 +197,7 @@ Brief description of the company's primary business and market position.
 *Last Updated: [YYYY-MM-DD]*
 ```
 
-### Company Registry Maintenance
+### Company Spotlight Maintenance
 - Keep company information current and accurate
 - Update financial information, leadership changes, and recent developments
 - Maintain consistent formatting across all company files
@@ -457,7 +463,13 @@ claude mcp list
 # Install recommended server (example: Puppeteer)
 npm install -g puppeteer-mcp-claude
 
-# Configure in .claude/settings.local.json
+# ⚠️ CRITICAL: Always specify scope for new servers
+# ✅ CORRECT - For utility tools (use everywhere)
+claude mcp add puppeteer --scope user -- node /path/to/puppeteer
+
+# ❌ WRONG - Defaults to local scope (current folder only)
+claude mcp add puppeteer -- node /path/to/puppeteer
+
 # Test functionality
 ```
 
@@ -478,7 +490,7 @@ When Memory server is configured, Claude Code can:
 
 **Project Continuity:**
 - Remember ongoing documentation projects and their current status
-- Track relationships between different sections (Company Registry, Tools, etc.)
+- Track relationships between different sections (Company Spotlight, Tools, etc.)
 - Store user's preferred workflows for different types of content creation
 - Maintain context about recent changes and areas needing attention
 
@@ -498,11 +510,14 @@ When Memory server is configured, Claude Code can:
 
 When adding new MCP servers to Rogue Codex, follow this decision framework:
 
-**Global Scope (User-level) - Use when:**
+**User Scope (Global Access) - RECOMMENDED FOR MOST TOOLS:**
+```bash
+claude mcp add server-name --scope user -- command args
+```
 - Server provides utility across ALL projects
 - Lightweight, always-useful functionality
 - No sensitive project-specific data
-- Examples: Puppeteer, Time, Context7
+- Examples: Puppeteer, Time, Context7, Playwright, Mermaid
 
 **Project Scope - Use when:**
 - Server contains project-specific data or configuration
@@ -510,10 +525,13 @@ When adding new MCP servers to Rogue Codex, follow this decision framework:
 - Should be shared with project collaborators
 - Examples: Project Memory, Project Database
 
-**Local Scope - Use when:**
+**Local Scope - USE SPARINGLY:**
+- **WARNING**: Default scope if not specified - limits server to current folder only
 - Personal development preferences only
 - Contains sensitive API keys or personal data
 - Temporary or experimental configurations
+
+**⚠️ COMMON MISTAKE**: Adding servers without `--scope user` defaults to local scope, making them unavailable in other directories.
 
 **Memory Implementation:**
 - **Project Memory**: Single memory system storing both general patterns and project-specific context
@@ -543,4 +561,45 @@ For personal preferences and custom instructions that should remain private:
 4. **Privacy**: Keep all personal configurations and preferences separate from public documentation
 
 When working with custom instructions, always check `Exclude/Custom Instructions.md` for user-specific preferences before proceeding with documentation tasks.
+
+## Content Organization Patterns
+
+### Understanding "Similar to [Existing Structure]" Requests
+When the user asks to structure content "similar to [existing folder/section]" or "like the [reference] structure," always:
+
+1. **Examine the Reference Structure First**: Look at the actual folder/file organization of the referenced example
+2. **Identify the Pattern**: Understand the organizational principle (folder + overview + individual files vs. single comprehensive file vs. other patterns)
+3. **Apply the Pattern**: Replicate the structural approach, not just the content approach
+
+**Common Structural Patterns in This Repository:**
+
+**Pattern A: Folder + Overview + Individual Files**
+- Example: `Operations/Management Consultant/`
+- Structure: Dedicated folder → Overview file listing items → Individual files for each item
+- Use when: User wants to "break out" or create "sub-items under" something
+
+**Pattern B: Single Comprehensive File**
+- Example: Many automation files with multiple workflows in one document
+- Structure: One file containing all related content
+- Use when: User wants everything consolidated in one place
+
+**Pattern C: Category Files with Cross-References**
+- Example: Main guide files that link to other sections
+- Structure: Organizing files that point to content in multiple locations
+- Use when: User wants navigation between related but separate content
+
+**Key Decision Phrases:**
+- "break out as a folder with sub-[items] under it" → Use Pattern A
+- "similar to [folder name] structure" → Examine that folder's pattern and replicate it
+- "individual [items]" or "separate [items]" → Usually indicates Pattern A
+- "all in one" or "comprehensive" → Usually indicates Pattern B
+
+**Always Check the Reference**: Before implementing, actually look at the referenced structure to understand what organizational pattern the user wants replicated.
+
+**When Unclear, Confirm First**: If the organizational pattern isn't obvious or multiple patterns could apply, briefly confirm your understanding with the user before proceeding:
+- "I see [reference structure] uses [Pattern A/B/C]. Should I replicate that same [folder structure/single file approach/etc.] for [new content]?"
+- "Looking at [reference], I think you want [describe the pattern]. Is that correct?"
+- "I can structure this as [option 1] or [option 2] - which matches what you're looking for?"
+
+This prevents implementing the wrong organizational approach and saves time for both user and assistant.
 

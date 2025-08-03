@@ -18,7 +18,7 @@
 
 ### 2025-07-30
 
-**Company Registry Updates:**
+**Company Spotlight Updates:**
 - Added Asteria Film Co. to AI-Native Studios under Film and Streaming
 - Comprehensive company profile with leadership team and verified social media links
 
@@ -71,7 +71,7 @@
 - Restructured AI Automations directory by role/function; created folders for Product Management, Marketing, Sales, Operations, Development, and Research.
 - Added Circle Product Manager automations (5 n8n workflows) and improved LLM discoverability with natural language search.
 
-**Company Registry Updates**
+**Company Spotlight Updates**
 - Added new FinTech and Payment category.
 - Added Sunday (restaurant payment startup) and updated navigation for rapid US expansion focus.
 
@@ -93,11 +93,27 @@
 - Enhanced cost structure and business size definitions for professional guides.
 - Added 5 new MCP servers (Google News Search, Homebrew Package Manager, MCP Aggregator, SchemaCrawler, SchemaFlow) with installation documentation and server categorization.
 
-**Summary of Key Change Types:**
-- Automation guide enhancements (n8n, Make.com, LLM-only)
-- Library/directory expansion and restructuring
-- Company registry/category additions
-- MCP infrastructure and documentation improvements
-- Discovery/navigation and best practices updates
-- Professional vertical automation expansion
-- New server and documentation additions
+### 2025-08-03
+
+**Major AI Automations Restructuring:**
+- **New Category Creation**: Established Finance, Consulting, Legal, Accounting, and Construction sections
+- **Role-Based Organization**: Broke out consolidated automation guides into individual workflow files across all professional services
+- **Healthcare Section Launch**: Added Dentist, Nurse, and Veterinarian automation guides
+- **Marketing Expansion**: Created Growth Marketer, Product Marketer, and Social Media Manager automations
+
+**AI Risk Section Complete Overhaul:**
+- Transformed single AI Risk file into 9 comprehensive individual risk pages
+- Added AI Risk Overview.md as SEO-optimized main hub
+- Implemented comprehensive SEO strategy targeting AI security and risk management searches
+
+**Content Quality and Organization Improvements:**
+- Established overview file naming convention with leading space for top-of-folder visibility
+- Implemented 8th grade reading level requirement across all automation content
+- Created SEO tracking system with comprehensive optimization documentation
+- Updated all navigation references to reflect new folder structure
+
+**Company Spotlight Section Renamed:**
+- Renamed "Company Registry" to "Company Spotlight" for clarity and better SEO
+- Updated all references throughout documentation to reflect new name
+- Clarified section purpose: featured companies making AI news across entertainment, media, and tech
+- Changed section emoji from 🏢 to 🌟 to better represent "spotlight" concept

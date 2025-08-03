@@ -10,9 +10,6 @@ Most guides are too complex or too basic. This gives you the middle ground - use
 
 ## What You'll Find Here
 
-### 🏢 [Company Research](Company%20Registry/CompanyGuide.md) - **START HERE**
-Directory of major companies with AI strategies, funding, and competitive analysis. Perfect for business research, job hunting, or market analysis.
-
 ### 🤖 [AI Automations](AI%20Automations/AI%20Automations%20Guide.md) - **MOST POPULAR**
 Save 8-15 hours per week by automating repetitive work tasks. Three ways to find what you need:
 
@@ -22,17 +19,14 @@ Save 8-15 hours per week by automating repetitive work tasks. Three ways to find
 
 *Real workflows you can set up today using N8N or Make.com*
 
-### 🛠️ [Tools](Tools/Tool%20Guide.md) - **IMMEDIATELY USEFUL**
-Reviews of the best AI tools across different categories. Only tools that are actually worth using, with honest pros and cons.
-
-### 📚 [Lessons Learned](Lessons%20Learned/Lessons%20Overview.md)
-Real-world insights from using AI tools, coding projects, fitness tracking, and more. No fluff - just what actually worked.
+### 🌟 [Company Spotlight](Company%20Spotlight/CompanyGuide.md)
+Featured companies making AI news across entertainment, media, and tech. Perfect for business research, job hunting, or market analysis.
 
 ### 💻 [Coding Setup](Coding%20Setup/Coding%20Setup.md) 
 Simple guides for non-technical people who want to use AI coding tools. No computer science degree required.
 
-### 🎯 [100 TUF - Personal Development](100%20TUF/100%20TUF%20Journey%20Overview.md)
-A 100-day journey to improve your life and work. Broken into 25-day chunks with real lessons learned along the way.
+### 🛠️ [Tools](Tools/Tool%20Guide.md)
+Reviews of the best AI tools across different categories. Only tools that are actually worth using, with honest pros and cons.
 
 ### 🔗 [MCP - AI Tool Connections](MCP/MCP%20Setup%20Guide.md)
 How to connect AI tools to other services and data. Advanced stuff, but becoming more important as AI gets better.
@@ -40,8 +34,8 @@ How to connect AI tools to other services and data. Advanced stuff, but becoming
 ### 📋 [AI Regulation Tracking](AI%20Regulation/Regulation%20Overview.md)
 Track AI laws and regulations across different countries. Important for businesses and anyone working with AI.
 
-### 💪 [Fitness Guide](Fitness%20Guide/Fitness%20Guide%20Master.md)
-AI-powered fitness and nutrition tracking. Specialized audience but very comprehensive.
+### 📚 [Lessons Learned](Lessons%20Learned/Lessons%20Overview.md)
+Real-world insights from using AI tools, coding projects, fitness tracking, and more. No fluff - just what actually worked.
 
 ### ⚖️ [Legal AI](Legal%20AI/Legal%20AI%20Overview.md)
 AI tools and insights for legal professionals.
@@ -49,17 +43,28 @@ AI tools and insights for legal professionals.
 ### ⚠️ [AI Risk Tracking](AI%20Risk/AI%20Risks.md)
 Emerging AI risks and safety considerations.
 
+### 💪 [Fitness Guide](Fitness%20Guide/Fitness%20Guide%20Master.md)
+AI-powered fitness and nutrition tracking. Specialized audience but very comprehensive.
+
+**Want just the fitness system?** Clone only the fitness section:
+```bash
+git clone --filter=blob:none --sparse https://github.com/jaysig/Rogue-Codex.git
+cd Rogue-Codex
+git sparse-checkout set "Fitness Guide"
+```
+*This downloads the whole repository but only shows you the Fitness Guide folder - saves space and keeps things clean.*
+
 ### 🌏 [SE Asia Real Estate](SE%20Asia%20Real%20Estate/SE%20Asia%20Real%20Estate%20Overview.md)
 Real estate investment project in Thailand and Vietnam with progress tracking.
+
+### 🎯 [100 TUF - Personal Development](100%20TUF/100%20TUF%20Journey%20Overview.md)
+A 100-day journey to improve your life and work. Broken into 25-day chunks with real lessons learned along the way.
 
 ## How to Use This
 
 ### If You're New:
-1. **Start with [Company Research](Company%20Registry/CompanyGuide.md)** - Most immediately useful
-2. **Save time with [AI Automations](AI%20Automations/AI%20Automations%20Guide.md)** - Three ways to find what you need:
-   - Got a specific problem? → [Find by Problem](AI%20Automations/Automation%20Workflows%20by%20Problem.md)
-   - Know your job role? → [Find by Job Role](AI%20Automations/Automation%20Workflows%20by%20Job%20Role.md)  
-   - Never automated before? → [Learn the Basics](AI%20Automations/Automation%20Best%20Practices.md)
+1. **Start with [AI Automations](AI%20Automations/AI%20Automations%20Guide.md)** - Most immediately useful
+2. **Research companies with [Company Spotlight](Company%20Spotlight/CompanyGuide.md)** - Featured companies making AI news
 3. **Browse [Tools](Tools/Tool%20Guide.md)** - See what's worth your time
 
 ### If You Want to Get Technical:
@@ -83,7 +88,10 @@ Real estate investment project in Thailand and Vietnam with progress tracking.
 
 **Website Version**: You're reading this on the published website - everything just works
 
-**Download Version**: Want this on your computer? See [Local Setup Guide](Local%20Setup%20Guide.md)
+**Download Version**: Want this on your computer? See [Local Setup Guide](Local%20Setup%20Guide.md) or clone the full repository:
+```bash
+git clone https://github.com/jaysig/Rogue-Codex.git
+```
 
 **Questions**: Most answers are in the README files of each section
 
@@ -91,7 +99,7 @@ Real estate investment project in Thailand and Vietnam with progress tracking.
 
 - **Real Experience**: Everything here has been tested in real work situations
 - **No Fluff**: If it doesn't work, it's not included
-- **Regular Updates**: Content gets updated based on what's actually happening
+- **Regular Updates**: A reasonable effort is made to keep this up to date
 - **Practical Focus**: You can use this stuff immediately
 
 ## Recent Highlights

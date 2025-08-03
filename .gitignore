@@ -5,6 +5,7 @@ Exclude/
 zClaude/
 ZClaude demo/
 Fitness Guide/FGDemos
+.cache/
 
 # OS generated files
 .DS_Store

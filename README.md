@@ -13,7 +13,7 @@ Rogue Codex is a comprehensive knowledge management system featuring:
 
 - **📚 Curated Knowledge Base** - Organized lessons learned, tools evaluations, and industry insights
 - **🏋️ AI Fitness System** - Conversational fitness tracking with intelligent coaching
-- **🏢 Company Registry** - Structured database of companies across AI, media, and tech industries  
+- **🌟 Company Spotlight** - Featured companies making AI news across entertainment, media, and tech  
 - **🔧 Template-Driven Workflows** - Reusable templates for consistent knowledge capture
 
 Built with [Obsidian](https://obsidian.md) for powerful linking, search, and visualization capabilities.
@@ -57,9 +57,10 @@ Built with [Obsidian](https://obsidian.md) for powerful linking, search, and vis
 Rogue Codex/
 ├── 📋 Lessons Learned/     # Structured knowledge templates
 ├── 🏋️ Fitness Guide/       # AI-powered fitness system  
-├── 🏢 Company Registry/    # Industry company database
+├── 🌟 Company Spotlight/    # Featured companies making AI news
 ├── 🔧 Tools/               # Software evaluations & rankings
 ├── 📊 AI Regulation/       # Global AI law tracking
+├── ⚠️ AI Risk/              # AI threats and vulnerabilities
 ├── 💼 Coding Setup/        # Developer environment guides
 └── 🎓 100 TUF/            # Personal development journey
 ```
@@ -138,7 +139,7 @@ Powered by Claude Code for:
 - **Fitness Guide/** - Complete AI fitness system documentation
 - **Lessons Learned/** - Knowledge capture templates and examples  
 - **Tools/** - Software evaluation framework and rankings
-- **Company Registry/** - Business research templates and database
+- **Company Spotlight/** - Featured companies and research templates
 
 ---
 
