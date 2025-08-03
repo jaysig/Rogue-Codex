@@ -39,6 +39,7 @@ n8n is a free and source-available workflow automation tool that uniquely combin
 - Global variables and environment management (dev, staging, prod)
 - SOC 2 & 3 compliance with enterprise security features
 - No-operations pricing model (doesn't charge based on workflow complexity)
+- Tested configuration: 2.3GB memory allocation for optimal performance
 
 ## Use Cases
 

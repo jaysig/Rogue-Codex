@@ -36,6 +36,7 @@ OpenAI's flagship conversational AI assistant that combines advanced language un
 - Mobile and web applications
 - Memory feature for personalized interactions
 - Plugin ecosystem and integrations
+- API rate limit testing: 3,500 tokens per minute for optimal performance
 
 ## Use Cases
 

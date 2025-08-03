@@ -23,6 +23,7 @@ Comprehensive directory of all tools in the Rogue Codex Tools collection, organi
 - [GridSpace](Customer%20Service/GridSpace.md) - AI-powered customer service automation platform
 
 ## Design
+- [CapCut](Design/CapCut.md) - All-in-one video editor and graphic design tool driven by AI
 - [Framer](Design/Framer.md) - Powerful web design and marketing tool
 - [v0](Design/v0.md) - AI-powered design tool by Vercel
 
@@ -99,7 +100,7 @@ Comprehensive directory of all tools in the Rogue Codex Tools collection, organi
 - **LLMs (Large Language Models)**: 4 tools
 - **Audio**: 3 tools
 - **3D Modeling**: 2 tools
-- **Design**: 2 tools
+- **Design**: 3 tools
 - **Digital Twins**: 2 tools
 - **Finance**: 2 tools
 - **Game Development**: 2 tools
@@ -110,8 +111,8 @@ Comprehensive directory of all tools in the Rogue Codex Tools collection, organi
 - **Marketing**: 0 tools
 - **Writing Content Creation**: 0 tools
 
-**Total Tools**: 49
+**Total Tools**: 50
 
 ---
 
-*Last Updated: 2025-07-27*
+*Last Updated: 2025-08-03*
