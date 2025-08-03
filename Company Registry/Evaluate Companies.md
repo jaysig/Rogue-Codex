@@ -64,7 +64,6 @@
 - [ ] **ConvertKit** - Creator-focused email marketing
 
 #### **Creative AI Tools**
-- [ ] **Runway** - AI video and creative tools
 - [ ] **Adobe** - Creative software with AI integration
 
 #### **Publishing & Content Licensing**
@@ -103,7 +102,6 @@
 - [ ] **Twitch** - Live streaming and creator platform
 
 #### **AI-Native Studios (Additional)**
-- [ ] **Runway** - AI video generation and editing tools
 - [ ] **Pika Labs** - AI video creation platform
 - [ ] **Stable Video Diffusion** - Open-source AI video generation
 - [ ] **LTX Studio** - AI-powered filmmaking platform
