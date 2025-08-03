@@ -73,6 +73,21 @@ Master API key management, environment variable security, Git security, and pack
 
 **[→ Development Security Guide](security/development-security.md)**
 
+## Ready to Build an AI App?
+
+Once you've got the basics set up, you might want to start building your own AI web app. Here's a great starting template that makes it easy.
+
+### AI Web App Starter Template
+After setting up your tools, use this template to build modern AI apps fast. It has everything already connected - user accounts, payments, database, and more.
+
+**[→ McKay's App Template](https://github.com/mckaywrigley/mckays-app-template)** - Copy this template to start building right away
+
+**What's included:** Next.js, user login, payments, database, modern design  
+**Perfect for:** Building AI tools, SaaS apps, or any web project  
+**Why it's good:** 1,900+ developers already use it
+
+**Want to learn more?** Check out [McKay's AI development course](https://www.jointakeoff.com/) for step-by-step tutorials on building with AI tools.
+
 ---
 
-*Last Updated: July 27, 2025* 
+*Last Updated: 2025-08-03* 
