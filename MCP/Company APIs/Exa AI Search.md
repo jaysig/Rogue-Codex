@@ -149,11 +149,43 @@ exa-mcp-server --tools web_search_exa,company_research
 - Domain restrictions
 - Recency filters
 
-## Pricing Considerations
+## Cost Analysis
 
-- **API Costs**: Exa AI charges per search query
+*Pricing as of August 3rd, 2025*
+
+### EXA API Pricing Structure
+**Pay-as-You-Go Model:**
+- **Free Tier**: $10 in credits (no credit card required)
+- **Neural Search**: $5-25 per 1,000 requests (depending on result count)
+- **Keyword Search**: $2.50 per 1,000 requests
+- **Content Extraction**: $1 per 1,000 pages (text/highlights/summary each)
+- **Answers Service**: $5 per 1,000 answers
+- **Research Tasks**: $5-10 per task (depending on complexity)
+
+### Monthly Cost Estimates for Rogue Codex Workflow
+**Research Usage Pattern:**
+- **Company research** (50 searches): ~$0.125-1.25
+- **Tool research** (20 searches): ~$0.05-0.50
+- **Content extraction** (100 pages): ~$0.30
+- **Total Monthly Cost**: **~$0.48-2.05**
+
+### Cost Comparison
+**EXA vs Perplexity:**
+- **EXA**: $0.48-2.05/month (significantly cheaper)
+- **Perplexity**: $3.25-5.25/month
+- **EXA Advantage**: 2-3x more cost-effective for your workflow
+
+**Free Tier Strategy:**
+- Start with $10 free credit to test effectiveness
+- No credit card required for initial testing
+- Enough credits for ~400-2,000 searches depending on type
+
+### Pricing Considerations
+
+- **API Costs**: Pay-per-use model with volume discounts available
 - **Rate Limits**: Monitor usage to avoid exceeding limits
 - **Plan Selection**: Choose appropriate tier based on usage volume
+- **Enterprise Options**: Custom pricing for high-volume users
 
 ## Security Best Practices
 
@@ -192,4 +224,4 @@ exa-mcp-server --tools web_search_exa,company_research
 
 ---
 
-*Last Updated: 2025-08-02*
+*Last Updated: 2025-08-03*

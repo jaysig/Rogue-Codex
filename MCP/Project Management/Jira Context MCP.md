@@ -76,7 +76,7 @@ Jira Context MCP provides comprehensive Jira integration capabilities, enabling 
 
 ## Typical Workflows
 
-1. **Issue Creation**: "Create a Jira ticket for updating the Company Registry"
+1. **Issue Creation**: "Create a Jira ticket for updating the Company Spotlight"
 2. **Progress Tracking**: "Get the status of all documentation-related tickets"
 3. **Report Generation**: "Generate a report of completed content tasks this sprint"
 4. **Context Retrieval**: "Pull the requirements from this Jira epic for our documentation plan"

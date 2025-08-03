@@ -72,7 +72,7 @@ Notion MCP Server provides comprehensive integration with Notion's API, enabling
 
 ## Typical Workflows
 
-1. **Database Sync**: "Sync the Company Registry to a Notion database for team access"
+1. **Database Sync**: "Sync the Company Spotlight to a Notion database for team access"
 2. **Content Planning**: "Create a content calendar in Notion for upcoming documentation updates"
 3. **Team Collaboration**: "Export tool evaluations to Notion for team review and feedback"
 4. **Project Management**: "Create project tracking database for documentation initiatives"
@@ -118,7 +118,7 @@ Setup requirements:
 - Coordinating content creation across multiple contributors
 
 **Integration Opportunities:**
-- Sync Company Registry to Notion database for team collaboration
+- Sync Company Spotlight to Notion database for team collaboration
 - Create content calendars and editorial workflows
 - Build interactive tool comparison databases
 - Manage research and drafting processes before publication

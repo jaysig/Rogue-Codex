@@ -61,7 +61,7 @@ MySQL MCP Server provides comprehensive MySQL database integration, enabling Cla
 ## Use Cases
 
 ### Structured Data Management
-- Company Registry database backend
+- Company Spotlight database backend
 - Tool evaluation metrics storage
 - Content performance analytics
 - User interaction tracking
@@ -124,7 +124,7 @@ Optional settings:
 ## Rogue Codex Applications
 
 **High Value for:**
-- Implementing structured storage for Company Registry
+- Implementing structured storage for Company Spotlight
 - Analytics and metrics for content performance
 - Advanced search and filtering capabilities
 - Data-driven insights for content optimization

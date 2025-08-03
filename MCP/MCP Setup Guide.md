@@ -75,14 +75,20 @@
 
 ## Configuration Scopes
 
-### Global Scope (All Projects)
-```bash
-# Add to user config (~/.claude.json)
-claude mcp add global-memory -- npx -y @modelcontextprotocol/server-memory
-```
-**Use for:** Utility servers used across ALL projects (Puppeteer, Time, Context7)
+⚠️ **CRITICAL: Scope Selection for MCP Servers**
 
-### Project Scope (This Project)
+**Default scope is LOCAL** - servers will only work in the current folder unless you specify otherwise!
+
+### User Scope (Global Access) - RECOMMENDED FOR MOST TOOLS
+```bash
+# ✅ CORRECT - Works everywhere on your computer
+claude mcp add puppeteer --scope user -- node /path/to/puppeteer
+claude mcp add context7 --scope user -- npx -y @upstash/context7-mcp
+claude mcp add time --scope user -- python3 -m mcp_server_time
+```
+**Use for:** Utility servers you want everywhere (Puppeteer, Time, Context7, Playwright, etc.)
+
+### Project Scope (Team Sharing)
 ```json
 // .mcp.json (shared with team)
 {
@@ -95,18 +101,23 @@ claude mcp add global-memory -- npx -y @modelcontextprotocol/server-memory
   }
 }
 ```
-**Use for:** Project-specific tools and data
+**Use for:** Project-specific tools that should be shared with collaborators
 
-### Local Scope (Personal)
-```json
-// .claude/settings.local.json (private)
-{
-  "mcpServers": {
-    "personal-tool": { "command": "...", "env": { "API_KEY": "secret" } }
-  }
-}
+### Local Scope (Folder-Specific) - USE SPARINGLY
+```bash
+# ❌ AVOID - Only works in current folder
+claude mcp add local-tool -- npx some-package
 ```
-**Use for:** Personal preferences and sensitive API keys
+**Use for:** Temporary tools specific to one project only
+
+## Scope Selection Guide
+
+**Rule of Thumb:**
+- **User scope**: General utility tools (web automation, time, diagrams, etc.)
+- **Project scope**: Memory systems and project-specific configurations
+- **Local scope**: Rare - only for folder-specific temporary tools
+
+**Common Mistake:** Adding utility servers without `--scope user` flag, which defaults to local scope and limits access to the current folder only.
 
 ## Memory Architecture
 

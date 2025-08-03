@@ -102,7 +102,7 @@ The server may support configuration for:
 
 **Extremely High Value for:**
 - Visualizing automation workflows in AI Automations section
-- Creating company relationship diagrams for Company Registry
+- Creating company relationship diagrams for Company Spotlight
 - Tool ecosystem mapping for Tools section
 - Process documentation for content creation workflows
 - MCP integration architecture diagrams

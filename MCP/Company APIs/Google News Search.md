@@ -99,7 +99,7 @@ claude mcp add google-news -- npx -y @chanmeng666/server-google-news --api-key Y
 
 ## Integration Examples
 
-### Company Registry Updates
+### Company Spotlight Updates
 ```
 User: "Find recent AI news for OpenAI"
 AI: Searches Google News for OpenAI AI developments

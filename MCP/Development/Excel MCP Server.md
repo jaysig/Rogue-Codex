@@ -44,7 +44,7 @@ claude mcp add excel-server -- excel-mcp-server
 
 ### Data Analysis & Reporting
 - Financial report generation and analysis
-- Company Registry data management from spreadsheets
+- Company Spotlight data management from spreadsheets
 - Tool evaluation data processing
 - Automated report creation from multiple sources
 
@@ -91,7 +91,7 @@ The server may require additional configuration for:
 ## Rogue Codex Applications
 
 **High Value for:**
-- Company Registry management from Excel sources
+- Company Spotlight management from Excel sources
 - Tool evaluation data processing and analysis
 - Automated report generation for content metrics
 - Batch processing of structured documentation data

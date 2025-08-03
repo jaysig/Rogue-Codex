@@ -109,7 +109,7 @@ Optional settings:
 - Content quality analysis and improvement recommendations
 
 **Integration Opportunities:**
-- Combine with Company Registry for processing company reports
+- Combine with Company Spotlight for processing company reports
 - Use with Tools section for documentation analysis
 - Support AI Automations content research workflows
 

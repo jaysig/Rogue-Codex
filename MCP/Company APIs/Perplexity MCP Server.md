@@ -62,6 +62,29 @@ Perplexity MCP Server provides integration with Perplexity AI's search capabilit
 3. **Fact Verification**: "Verify the current pricing and features of this tool"
 4. **Industry Intelligence**: "What are the latest developments in the AI automation industry?"
 
+## Cost Analysis
+
+*Pricing as of August 3rd, 2025*
+
+### Perplexity Sonar API Pricing
+- **Sonar Pro**: $3 per million input tokens + $15 per million output tokens + **$5 per 1,000 searches**
+- **API Credits**: Start at $3, Pro subscribers get $5/month credit
+- **Free Tier**: Limited - requires paid API access for MCP integration
+
+### Monthly Cost Estimates for Rogue Codex Workflow
+**Research Usage Pattern:**
+- **Company research** (50 companies/month): ~$1.25
+- **Tool evaluation research** (20 tools/month): ~$0.50  
+- **General content research** (100 searches/month): ~$0.50
+- **Token costs** (variable based on response length): ~$1-3
+- **Total Monthly Cost**: ~$3.25-5.25
+
+**Cost Optimization Tips:**
+- Batch similar queries to reduce API calls
+- Use specific queries to minimize token consumption
+- Monitor usage through Perplexity dashboard
+- Leverage Pro subscription's $5 monthly credit
+
 ## Configuration Requirements
 
 Required environment variables:
@@ -127,4 +150,4 @@ Optional settings:
 
 ---
 
-*Last Updated: 2025-08-02*
+*Last Updated: 2025-08-03*
