@@ -54,6 +54,8 @@ Provides comprehensive analytics on sales performance, customer behavior, and gr
 **Time Saved:** 15 hours/week on data analysis and business reporting  
 **What You Get:** Advanced analytics, growth insights, data-driven decision making
 
+**💡 Business Strategy Resource:** Need help developing business models for new product lines or apps? Check out our **[Business Model Strategy Prompts](../../Product%20Management/Product%20Manager/Business%20Model%20Strategy%20Prompts.md)** - strategic AI prompts that analyze product ideas and recommend optimal revenue models.
+
 ---
 
 ## 🎯 Getting Started Guide

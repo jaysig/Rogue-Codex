@@ -56,9 +56,9 @@
 **The Problem:** Mountains of receipts to process, manual expense categorization, budget variances going unnoticed until it's too late, spending hours on financial reports that should be automatic.
 
 **Your Automation Solutions:**
-- **[Expense Report Processor](Operations/Corporate%20Finance%20Automations.md#-expense-report-processor)** - Extract data from receipts automatically
-- **[Budget Variance Tracker](Operations/Corporate%20Finance%20Automations.md#-budget-variance-tracker)** - Get alerts before overspending
-- **[Financial Report Generator](Operations/Corporate%20Finance%20Automations.md#-financial-report-generator)** - Create professional reports automatically
+- **[Expense Report Processor](Finance/Corporate%20Finance/Corporate%20Finance%20Automations.md#-expense-report-processor)** - Extract data from receipts automatically
+- **[Budget Variance Tracker](Finance/Corporate%20Finance/Corporate%20Finance%20Automations.md#-budget-variance-tracker)** - Get alerts before overspending
+- **[Financial Report Generator](Finance/Corporate%20Finance/Corporate%20Finance%20Automations.md#-financial-report-generator)** - Create professional reports automatically
 
 **Results:** Save 20-25 hours per week, catch budget issues early  
 **Cost:** $50-150/month  
@@ -228,9 +228,9 @@
 **The Problem:** Only achieving 2.9 billable hours per 8-hour day due to time tracking, document prep, research, and administrative overhead.
 
 **Your Automation Solutions:**
-- **[Smart Time Tracking & Billing Automation](Operations/Lawyer%20Automations.md#-smart-time-tracking--billing-automation)** - Capture every billable minute automatically
-- **[Legal Document Automation & Template Management](Operations/Lawyer%20Automations.md#-legal-document-automation--template-management)** - Generate documents in minutes
-- **[Legal Research & Case Management](Operations/Lawyer%20Automations.md#-legal-research--case-management)** - Find relevant cases faster
+- **[Smart Time Tracking & Billing Automation](Legal/Lawyer%20Automations.md#-smart-time-tracking--billing-automation)** - Capture every billable minute automatically
+- **[Legal Document Automation & Template Management](Legal/Lawyer%20Automations.md#-legal-document-automation--template-management)** - Generate documents in minutes
+- **[Legal Research & Case Management](Legal/Lawyer%20Automations.md#-legal-research--case-management)** - Find relevant cases faster
 
 **Results:** Save 20-25 hours per week, increase billable hours by 70%  
 **Cost:** $100-300/month per attorney  
@@ -252,9 +252,9 @@
 **The Problem:** Deal analysis takes days, missing investment opportunities, portfolio tracking is scattered, investor reporting is manual.
 
 **Your Automation Solutions:**
-- **[Property Acquisition & Deal Analysis Engine](Operations/Real%20Estate%20Investor%20Fund%20Automations.md#-property-acquisition--deal-analysis-engine)** - Analyze deals in minutes
-- **[Portfolio Optimization & Performance Monitoring](Operations/Real%20Estate%20Investor%20Fund%20Automations.md#-portfolio-optimization--performance-monitoring)** - Track all investments automatically  
-- **[Investor Relations & Reporting Automation](Operations/Real%20Estate%20Investor%20Fund%20Automations.md#-investor-relations--reporting-automation)** - Generate professional reports
+- **[Property Acquisition & Deal Analysis Engine](Real%20Estate/Real%20Estate%20Investor/Property%20Acquisition%20and%20Analysis%20Engine.md)** - Analyze deals in minutes
+- **[Portfolio Optimization & Performance Monitoring](Real%20Estate/Real%20Estate%20Investor/Portfolio%20Performance%20and%20Optimization%20Tracker.md)** - Track all investments automatically  
+- **[Investor Relations & Reporting Automation](Real%20Estate/Real%20Estate%20Investor/Investor%20Relations%20and%20Capital%20Management.md)** - Generate professional reports
 
 **Results:** Save 25-35 hours per week, analyze 10x more deals  
 **Cost:** $1,000-3,620/month  

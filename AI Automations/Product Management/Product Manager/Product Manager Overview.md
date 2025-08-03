@@ -57,6 +57,13 @@ Automates roadmap updates, stakeholder notifications, and cross-team alignment f
 **Time Saved:** 50% reduction in roadmap maintenance and communication time  
 **Output:** Dynamic roadmaps with automated stakeholder updates and alignment tracking
 
+### [Business Model Strategy Prompts](Business%20Model%20Strategy%20Prompts.md)
+Strategic AI prompts that analyze Product Requirements Documents (PRDs) to develop comprehensive business model recommendations.
+
+**Best for:** Product strategy, revenue model planning, startup business planning  
+**Time Saved:** 85% reduction in business model research and analysis time  
+**Output:** Structured business model evaluation with implementation guidance and critical validation questions
+
 ---
 
 ## 🎯 Getting Started Guide

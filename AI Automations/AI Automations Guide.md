@@ -59,11 +59,12 @@ Save 6-12 hours per week on career and academic tasks:
 - **Research and information gathering** - Find what you need faster
 
 ### 🎨 Marketing & Content (High ROI)
-Save 6-12 hours per week on marketing activities:
-- **Social media content creation and posting** - Maintain consistent presence
-- **Competitor monitoring and analysis** - Stay ahead of competition
-- **Lead scoring and nurturing sequences** - Convert more prospects
-- **Content performance tracking** - Know what works
+Save 15-30 hours per week on marketing activities:
+- **Content creation and video production** - Automate creative workflows
+- **Multi-platform social media management** - Consistent cross-channel presence
+- **Email marketing and behavioral automation** - Personalized customer journeys
+- **Brand monitoring and reputation management** - Protect and enhance brand value
+- **Campaign coordination and performance analytics** - Unified marketing operations
 
 ## 💰 Cost and Time Investment Guide
 

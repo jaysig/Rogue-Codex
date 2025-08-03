@@ -54,6 +54,8 @@ Handles routine bookkeeping tasks like categorizing transactions and preparing b
 **Time Saved:** 70% reduction in bookkeeping time  
 **What You Get:** Automated transaction categorization, basic financial reports, organized books
 
+**💡 Business Strategy Resource:** Thinking about launching a new product or service? Check out our **[Business Model Strategy Prompts](../../Product%20Management/Product%20Manager/Business%20Model%20Strategy%20Prompts.md)** - strategic AI prompts that help you analyze business ideas and choose the right revenue model.
+
 ---
 
 ## 🎯 Getting Started Guide

@@ -54,6 +54,8 @@ Streamlines team communication, project coordination, and startup operational wo
 **Time Saved:** 12 hours/week on team coordination and communication overhead  
 **What You Get:** Streamlined team workflows, better coordination, efficient communication
 
+**💡 Business Strategy Resource:** Validating your startup's business model? Use our **[Business Model Strategy Prompts](../../Product%20Management/Product%20Manager/Business%20Model%20Strategy%20Prompts.md)** - structured AI prompts that analyze your PRD and recommend optimal revenue strategies for your startup.
+
 ---
 
 ## 🎯 Getting Started Guide
