@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "______Learn AI______.md",
+                "file": "Exclude/AI Automation CRM/CRM Contact List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "______Learn AI______"
+              "title": "CRM Contact List"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "______Learn AI______.md",
+                "file": "Exclude/AI Automation CRM/CRM Contact List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ______Learn AI______"
+              "title": "Backlinks for CRM Contact List"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "______Learn AI______.md",
+                "file": "Exclude/AI Automation CRM/CRM Contact List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ______Learn AI______"
+              "title": "Outgoing links from CRM Contact List"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "______Learn AI______.md",
+                "file": "Exclude/AI Automation CRM/CRM Contact List.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ______Learn AI______"
+              "title": "Outline of CRM Contact List"
             }
           }
         ]
@@ -200,42 +200,42 @@
   },
   "active": "cdd12489033a9985",
   "lastOpenFiles": [
-    "AI Automations/Seniors/Family Coordinator Senior/Family Communication Hub.md",
-    "AI Automations/Seniors/Family Coordinator Senior/Grandchildren Schedule and Activity Tracker.md",
-    "AI Automations/Seniors/Family Coordinator Senior/Family Calendar and Event Coordinator.md",
-    "AI Risk/Autonomous AI Agent Risks.md",
-    "AI Risk/AI Robustness and Reliability Failures.md",
-    "Exclude/AI Automation CRM/Product Management/ Product Management Contacts.md",
-    "Exclude/AI Automation CRM/Product Management/ Product Management Contacts.md.tmp.31120.1754255038457",
-    "Start Here.md.tmp.26719.1754255035335",
-    "Exclude/AI Automation CRM/Follow-up Dashboard.md",
-    "Exclude/AI Automation CRM/_Contact Template.md",
-    "Exclude/AI Automation CRM/Business Services",
-    "Exclude/AI Automation CRM/Healthcare",
-    "Exclude/AI Automation CRM/Finance",
-    "Exclude/AI Automation CRM/Customer Support",
-    "Exclude/AI Automation CRM/Research",
-    "Exclude/AI Automation CRM/Operations",
-    "Exclude/AI Automation CRM/Sales",
-    "Exclude/AI Automation CRM/Marketing",
-    "Exclude/AI Automation CRM/CRM Overview.md",
-    "AI Risk/AI System Backdoors and Trojans.md",
-    "AI Automations/Seniors/Family Coordinator Senior/ Family Coordinator Senior Overview.md",
-    "AI Automations/Seniors/Retired Professional/Volunteer and Consulting Coordinator.md",
-    "AI Automations/Seniors/Retired Professional/Professional Network Maintenance System.md",
-    "AI Automations/Seniors/Retired Professional/Monthly Bill and Finance Organizer.md",
-    "AI Automations/Seniors/Retired Professional/ Retired Professional Overview.md",
-    "AI Automations/Seniors/ Seniors Overview.md",
-    "Exclude/SEO Updates.md",
-    "AI Automations/Accounting/Accounting Firm Partner/Business Development and Partnership Orchestration.md",
-    "AI Automations/Accounting/Accounting Firm Partner/Client Portfolio and Relationship Intelligence.md",
-    "AI Automations/Accounting/Accounting Firm Partner/Practice Performance and Profitability Dashboard.md",
-    "AI Automations/Accounting/Accounting Firm Partner/ Accounting Firm Partner Overview.md",
-    "AI Automations/Accounting/Big 4 Accounting Firm/Research and Technical Analysis Engine.md",
-    "AI Automations/Accounting/Big 4 Accounting Firm/Audit Documentation and Review Automation.md",
-    "AI Automations/Accounting/Big 4 Accounting Firm/Client Engagement Management System.md",
-    "AI Automations/Accounting/Big 4 Accounting Firm/ Big 4 Accounting Firm Overview.md",
-    "AI Automations/Accounting/Corporate Accountant/Financial Analysis and Variance Reporting.md",
+    "Fitness Guide/Mock User Data/README_TEMPLATES.md",
+    "Fitness Guide/Mock User Data/PRs/Strength/Squat.md",
+    "Fitness Guide/Mock User Data/PRs/Strength/Deadlift.md",
+    "Fitness Guide/Mock User Data/PRs/Strength/Bench_Press.md",
+    "Fitness Guide/Mock User Data/PRs/Strength/Overhead_Press.md",
+    "Fitness Guide/Mock User Data/PRs/Skills/Pull_Ups.md",
+    "Fitness Guide/Mock User Data/PRs/Skills/Handstand.md",
+    "Fitness Guide/Mock User Data/Logs/Recovery/2025_Week_31_Example.md",
+    "Fitness Guide/Mock User Data/PRs/Endurance/Running_Mile.md",
+    "Fitness Guide/Mock User Data/PRs/Endurance/Running_5K.md",
+    "Fitness Guide/Mock User Data/Logs/Workouts/2025_Week_31_Example.md",
+    "Fitness Guide/Mock User Data/Logs/Nutrition/2025_Week_31_Example.md",
+    "Fitness Guide/Mock User Data/Tracking/Nutrition_Preferences.md",
+    "Fitness Guide/Mock User Data/Tracking/Progress_Photos.md",
+    "Fitness Guide/Mock User Data/Tracking/Body_Metrics.md",
+    "Fitness Guide/Mock User Data/Tracking/Health_Vitals.md",
+    "Fitness Guide/Mock User Data/PRs/Strength",
+    "Fitness Guide/Mock User Data/PRs/Skills",
+    "Fitness Guide/Mock User Data/PRs/Endurance",
+    "Fitness Guide/Mock User Data/Logs/Workouts",
+    "Fitness Guide/Mock User Data/Logs/Recovery",
+    "Fitness Guide/Mock User Data/Logs/Nutrition",
+    "Fitness Guide/Mock User Data/Tracking",
+    "Fitness Guide/Mock User Data/Workout_Settings.md",
+    "Fitness Guide/Mock User Data/Profile.md",
+    "Fitness Guide/Mock User Data/PRs",
+    "Fitness Guide/Mock User Data/Logs",
+    "Fitness Guide/Mock User Data/Nutrition_Plan.md",
+    "Fitness Guide/Mock User Data/Demo_Account.md",
+    "Fitness Guide/Mock User Data/Current_Programs",
+    "Fitness Guide/README.md",
+    "Exclude/Custom Actions Guide.md",
+    "Exclude/Custom DNS Setup Guide.md",
+    "Fitness Guide/References/Response_Templates.md",
+    "Fitness Guide/References/Table_Standards.md",
+    "Fitness Guide/References/Calculation_Templates.md",
     "Untitled.canvas"
   ]
 }
