@@ -159,6 +159,80 @@ If MCP memory scoping improves, we may revisit dual memory architecture. For now
 - Local scope overrides both global and project
 - Use specific server names to avoid conflicts
 
+## Explore-Plan-Code Workflow
+
+**Claude Code Best Practice:** Use the Explore-Plan-Code approach for complex tasks to improve quality and reduce revisions.
+
+### What It Is
+Instead of jumping straight into implementation, explicitly structure work into three phases:
+
+1. **EXPLORE**: Read existing files, understand context, identify patterns
+2. **PLAN**: Create a comprehensive implementation plan before coding
+3. **CODE**: Execute the plan incrementally with clear documentation
+
+### When To Use Explore-Plan-Code
+
+**✅ Perfect For:**
+- **Multi-file updates** - Changes affecting several related files
+- **New feature development** - Adding significant functionality to existing systems
+- **Workflow automation** - Building complex multi-step processes  
+- **Integration projects** - Connecting different systems or APIs
+- **Documentation restructuring** - Major organizational changes
+- **System setup** - Configuring new tools or environments
+
+**Example Scenarios:**
+- Setting up a new MCP server with multiple configuration files
+- Building automated workflows that span different tools
+- Restructuring documentation across multiple projects
+- Integrating new APIs with existing systems
+
+### When NOT To Use It
+
+**❌ Skip For:**
+- **Simple edits** - Single file changes or minor updates
+- **Quick fixes** - Obvious bugs or typos
+- **Routine tasks** - Well-established patterns you've done many times
+- **Exploratory work** - When you just want to understand something
+- **Emergency fixes** - Time-sensitive problems requiring immediate action
+
+### Implementation Example
+
+**Instead of:**
+> "Set up the newsletter automation with MCP integration"
+
+**Use this structured approach:**
+```
+EXPLORE PHASE:
+"First, help me explore the current newsletter workflow files, 
+existing MCP configurations, and related documentation to 
+understand the current state and patterns."
+
+PLAN PHASE:
+"Based on that exploration, create a detailed implementation 
+plan for MCP integration including which servers to use, 
+how to structure the workflow, and what files need updating."
+
+CODE PHASE:
+"Now implement the plan step by step, following the established 
+patterns we identified."
+```
+
+### Benefits
+- **Reduces revisions** - Better understanding before implementation
+- **Maintains consistency** - Follows established patterns and conventions
+- **Improves quality** - Thoughtful approach leads to better solutions
+- **Saves time** - Less backtracking and rework
+- **Better documentation** - Plan serves as implementation guide
+
+### Integration with MCP Workflows
+The Explore-Plan-Code approach works especially well with MCP server setup and automation workflows:
+
+1. **Explore** existing MCP configurations and workflow patterns
+2. **Plan** the integration points and server dependencies  
+3. **Code** the MCP connections and automation logic
+
+This structured approach is particularly valuable when working with multiple MCP servers that need to coordinate together.
+
 ## Current Rogue Codex Setup
 
 **Active Servers:**
@@ -172,6 +246,7 @@ If MCP memory scoping improves, we may revisit dual memory architecture. For now
 - Explore individual server guides in subfolders
 - Set up additional servers based on workflow needs
 - Develop automation patterns for common documentation tasks
+- Apply Explore-Plan-Code approach for complex integrations
 
 ---
 
