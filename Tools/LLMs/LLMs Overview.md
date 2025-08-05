@@ -12,6 +12,19 @@ This section contains large language model tools for conversational AI, research
 ### Multi-Model Platforms
 - [[Chorus]] - Chat interface for interacting with multiple AI models simultaneously
 
+## Prompt Engineering Resources
+
+### Optimization Guides
+- [[Prompt Engineering Guide]] - Master prompt crafting for all AI models with techniques, templates, and best practices
+- [[Meta-Prompting Toolkit]] - Copy-paste templates for getting AI to improve your prompts
+- [[AI Model Format Preferences Research]] - Technical analysis of what works best for each model
+
+### Key Features
+- **Model-specific optimization**: Tailored strategies for ChatGPT, Claude, Gemini, and Perplexity
+- **Meta-prompting templates**: Ready-to-use prompts that help AI improve your prompts
+- **Research-backed techniques**: Based on 2024 studies and official documentation
+- **Practical implementation**: Copy-paste templates and real-world examples
+
 ## Subcategories
 - [ ] Conversational AI
 - [ ] Multi-Model Interfaces
@@ -19,7 +32,8 @@ This section contains large language model tools for conversational AI, research
 - [ ] Creative Writing
 - [ ] Code Generation
 - [ ] Real-time Information
+- [x] Prompt Engineering
 
 ---
 
-*Last Updated: 2025-07-27*
+*Last Updated: 2025-01-06*

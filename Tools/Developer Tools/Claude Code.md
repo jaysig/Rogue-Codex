@@ -106,6 +106,13 @@ Anthropic's specialized AI coding assistant accessible through claude.ai/code th
 - Enhanced debugging and error resolution tools
 - Expanded programming language support
 
+## Advanced Guides
+
+For specialized techniques, advanced workflows, and expert tips, see the dedicated **[[../Claude Code/ Claude Code Overview]]** section which includes:
+
+- **Parallel Sessions and Multi-Agent Workflows** - Running multiple Claude Code instances with git worktrees and asynchronous agent deployment
+- Additional specialized guides and techniques (coming soon)
+
 *Coming soon*
 
 ### Recommended For
