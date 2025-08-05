@@ -9,8 +9,16 @@ Companies creating AI-powered content and media experiences.
 
 - [Canva](AI%20Content%20&%20Media/Canva.md)
 - [Character AI](AI%20Content%20&%20Media/Character%20AI.md)
+- [Deep Voodoo](AI%20Content%20&%20Media/Deep%20Voodoo.md)
+- [Deepdub](AI%20Content%20&%20Media/Deepdub.md)
+- [Ecco](AI%20Content%20&%20Media/Ecco.md)
 - [ElevenLabs](AI%20Content%20&%20Media/ElevenLabs.md)
+- [Fable Studio](AI%20Content%20&%20Media/Fable%20Studio.md)
+- [Metaphysic](AI%20Content%20&%20Media/Metaphysic.md)
 - [Midjourney](AI%20Content%20&%20Media/Midjourney.md)
+- [Moments Lab](AI%20Content%20&%20Media/Moments%20Lab.md)
+- [Moonvalley](AI%20Content%20&%20Media/Moonvalley.md)
+- [Toonstar](AI%20Content%20&%20Media/Toonstar.md)
 
 ### 🤖 [AI Infrastructure](AI%20Infrastructure/)
 Companies providing AI development tools, platforms, and computing infrastructure.
@@ -59,7 +67,9 @@ Legacy entertainment companies adapting AI into existing workflows and business 
 #### 🤖 AI-Native Studios
 Companies built from the ground up with AI as core technology for content creation and distribution.
 - [Asteria](Film%20and%20Streaming/AI-Native%20Studios/Asteria.md)
+- [Chronicle Studios](Film%20and%20Streaming/AI-Native%20Studios/Chronicle%20Studios.md)
 - [Promise](Film%20and%20Streaming/AI-Native%20Studios/Promise.md)
+- [Runway](Film%20and%20Streaming/AI-Native%20Studios/Runway.md)
 - [Staircase](Film%20and%20Streaming/AI-Native%20Studios/Staircase.md)
 
 ### 🎮 [Gaming and Interactive](Gaming%20and%20Interactive/)
@@ -78,6 +88,7 @@ Established gaming companies integrating AI into development and gameplay.
 #### 🤖 AI-Native Studios
 Gaming companies leveraging AI as fundamental technology for game creation and experiences.
 - [Decart](Gaming%20and%20Interactive/AI-Native%20Studios/Decart.md)
+- [STAN](Gaming%20and%20Interactive/AI-Native%20Studios/STAN.md)
 
 ### 🎵 [Music and Entertainment](Music%20and%20Entertainment/)
 Record labels, streaming platforms, and companies in the music and broader entertainment industry.
@@ -103,19 +114,27 @@ Music and entertainment companies built around AI-driven creation and distributi
 - [ByteDance](AI%20Infrastructure/ByteDance.md)
 - [Canva](AI%20Content%20&%20Media/Canva.md)
 - [Character AI](AI%20Content%20&%20Media/Character%20AI.md)
+- [Chronicle Studios](Film%20and%20Streaming/AI-Native%20Studios/Chronicle%20Studios.md)
 - [Databricks](AI%20Infrastructure/Databricks.md)
 - [Decart](Gaming%20and%20Interactive/AI-Native%20Studios/Decart.md)
+- [Deep Voodoo](AI%20Content%20&%20Media/Deep%20Voodoo.md)
+- [Deepdub](AI%20Content%20&%20Media/Deepdub.md)
 - [Disney](Film%20and%20Streaming/Traditional%20Studios/Disney.md)
+- [Ecco](AI%20Content%20&%20Media/Ecco.md)
 - [Electronic Arts](Gaming%20and%20Interactive/Traditional%20Studios/Electronic%20Arts.md)
 - [ElevenLabs](AI%20Content%20&%20Media/ElevenLabs.md)
 - [Epic Games](Gaming%20and%20Interactive/Traditional%20Studios/Epic%20Games.md)
+- [Fable Studio](AI%20Content%20&%20Media/Fable%20Studio.md)
 
 ### G-M
 - [Google AI](AI%20Models/Google%20AI.md)
 - [Hugging Face](AI%20Infrastructure/Hugging%20Face.md)
 - [Lionsgate](Film%20and%20Streaming/Traditional%20Studios/Lionsgate.md)
+- [Metaphysic](AI%20Content%20&%20Media/Metaphysic.md)
 - [Midjourney](AI%20Content%20&%20Media/Midjourney.md)
 - [Mistral AI](AI%20Models/Mistral%20AI.md)
+- [Moments Lab](AI%20Content%20&%20Media/Moments%20Lab.md)
+- [Moonvalley](AI%20Content%20&%20Media/Moonvalley.md)
 
 ### N-S
 - [Netflix](Film%20and%20Streaming/Traditional%20Studios/Netflix.md)
@@ -124,15 +143,18 @@ Music and entertainment companies built around AI-driven creation and distributi
 - [Paramount Pictures](Film%20and%20Streaming/Traditional%20Studios/Paramount%20Pictures.md)
 - [Promise](Film%20and%20Streaming/AI-Native%20Studios/Promise.md)
 - [Rockstar Games](Gaming%20and%20Interactive/Traditional%20Studios/Rockstar%20Games.md)
+- [Runway](Film%20and%20Streaming/AI-Native%20Studios/Runway.md)
 - [Scale AI](AI%20Infrastructure/Scale%20AI.md)
 - [Sony Music Entertainment](Music%20and%20Entertainment/Traditional%20Companies/Sony%20Music%20Entertainment.md)
 - [Sony Pictures](Film%20and%20Streaming/Traditional%20Studios/Sony%20Pictures.md)
 - [Staircase](Film%20and%20Streaming/AI-Native%20Studios/Staircase.md)
+- [STAN](Gaming%20and%20Interactive/AI-Native%20Studios/STAN.md)
 - [Sunday](FinTech%20and%20Payment/Sunday.md)
 
 ### T-Z
 - [Take-Two Interactive](Gaming%20and%20Interactive/Traditional%20Studios/Take-Two%20Interactive.md)
 - [Tollbit](Art%20and%20Publishing/Tollbit.md)
+- [Toonstar](AI%20Content%20&%20Media/Toonstar.md)
 - [Ubisoft](Gaming%20and%20Interactive/Traditional%20Studios/Ubisoft.md)
 - [Universal Music Group](Music%20and%20Entertainment/Traditional%20Companies/Universal%20Music%20Group.md)
 - [Universal Pictures](Film%20and%20Streaming/Traditional%20Studios/Universal%20Pictures.md)
@@ -150,4 +172,4 @@ Create individual company files within the appropriate industry folder:
 
 ---
 
-*Last Updated: 2025-08-02*
+*Last Updated: 2025-08-04*
