@@ -26,11 +26,11 @@ jobs:
         
     - name: Sync Fitness Guide Files
       run: |
-        # Remove existing content (except .git and .github)
-        find fitness-guide-target -mindepth 1 -maxdepth 1 ! -name '.git' ! -name '.github' -exec rm -rf {} +
+        # Remove existing content (except .git, .github, .claude, and .gemini)
+        find fitness-guide-target -mindepth 1 -maxdepth 1 ! -name '.git' ! -name '.github' ! -name '.claude' ! -name '.gemini' -exec rm -rf {} +
         
-        # Copy Fitness Guide content
-        cp -r "Fitness Guide/"* fitness-guide-target/
+        # Copy all content including approved hidden directories
+        cp -r "Fitness Guide/." fitness-guide-target/
         
     - name: Commit and Push Changes
       run: |
