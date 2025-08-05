@@ -8,7 +8,7 @@ These automations handle the time-consuming administrative tasks that eat up you
 
 **Who This Helps:** Chiropractors, chiropractic clinic owners, practice managers, chiropractic assistants  
 **Tools Used:** Simple automation platforms that work with your existing practice management systems  
-**Time Saved:** 15-20 hours per week  
+**Time Saved:** 19-25 hours per week  
 **Results:** Better patient care, faster insurance processing, more organized practice, increased revenue  
 
 ---
@@ -36,22 +36,29 @@ Manages patient scheduling, sends reminders, and handles routine patient communi
 **Time Saved:** 60% reduction in scheduling overhead  
 **What You Get:** Automated scheduling, reminder systems, better patient communication
 
+### [Data Migration and System Integration](Data%20Migration%20and%20System%20Integration.md)
+Digitizes legacy records and integrates multiple practice systems for seamless data management and improved accessibility.
+
+**Perfect For:** Modernizing paper-based practices, connecting multiple systems, improving data organization  
+**Time Saved:** 80% reduction in record search time  
+**What You Get:** Digital records, integrated systems, better data security
+
 ---
 
 ## 💰 Investment Planning
 
 ### Solo Practice (1 chiropractor, 100-300 patients/month)
-- **Monthly cost range**: $150-400
+- **Monthly cost range**: $300-700
 - **Setup complexity**: Basic integration with practice management
 - **Best starting point**: Patient Management Automation
 
 ### Small Practice (2-3 chiropractors, 300-800 patients/month)  
-- **Monthly cost range**: $400-800
+- **Monthly cost range**: $700-1,400
 - **Setup complexity**: Multi-provider coordination
 - **Best starting point**: Insurance Processing Automation
 
 ### Large Practice/Clinic (4+ chiropractors, 800+ patients/month)
-- **Monthly cost range**: $800-1,500+
+- **Monthly cost range**: $1,400-2,500+
 - **Setup complexity**: Enterprise practice management
 - **Best starting point**: Comprehensive practice automation
 
@@ -92,4 +99,4 @@ Works seamlessly with:
 
 ---
 
-*Last Updated: 2025-08-03*
+*Last Updated: 2025-08-04*

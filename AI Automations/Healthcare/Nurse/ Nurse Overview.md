@@ -12,7 +12,7 @@ These automations handle the time-consuming documentation and coordination tasks
 
 **Who This Helps:** Registered nurses, nurse practitioners, charge nurses, nursing supervisors  
 **Tools Used:** Simple automation platforms that work with your existing hospital systems  
-**Time Saved:** 15-25 hours per week  
+**Time Saved:** 19-31 hours per week  
 **Results:** More patient time, better documentation, improved care coordination  
 
 ---
@@ -54,6 +54,13 @@ Automatically creates personalized patient education materials and discharge ins
 **Time Saved:** 60% reduction in education material preparation  
 **What You Get:** Better patient compliance, clearer instructions, fewer readmissions
 
+### [Staffing Optimization and Workload Management](Staffing%20Optimization%20and%20Workload%20Management.md)
+Optimizes nurse staffing allocation, balances patient loads, and coordinates shift coverage for improved care delivery.
+
+**Perfect For:** Addressing understaffing challenges, balancing workloads, optimizing patient assignments  
+**Time Saved:** 40% improvement in workload distribution  
+**What You Get:** Balanced assignments, better coverage, reduced burnout
+
 ---
 
 ## 🎯 Getting Started Guide
@@ -70,13 +77,14 @@ These automations work with popular nursing systems like Epic, Cerner, and Medit
 - **Missing patient changes?** → Start with Patient Monitoring
 - **Handoffs taking forever?** → Start with Care Coordination
 - **Patients confused at discharge?** → Start with Patient Education
+- **Overwhelmed by patient loads?** → Start with Staffing Optimization
 
 ### Realistic Budget Planning
 - **Individual nurse (personal tools):** Usually $50-200/month
-- **Unit-level implementation:** Usually $500-2,000/month per unit
-- **Hospital-wide system:** Usually $5,000+/month depending on size
+- **Unit-level implementation:** Usually $800-3,200/month per unit
+- **Hospital-wide system:** Usually $6,200+/month depending on size
 
-*Cost varies significantly based on hospital system integration*
+*Cost varies significantly based on hospital system integration and staffing optimization complexity*
 
 ---
 
@@ -126,6 +134,7 @@ A: Always maintain manual backup procedures. Automation enhances care but should
 - Patient satisfaction scores
 - Response time to patient changes
 - Handoff communication quality
+- Nurse-to-patient ratios and workload balance
 
 ### Expect These Results
 - 60% reduction in documentation time
@@ -133,6 +142,7 @@ A: Always maintain manual backup procedures. Automation enhances care but should
 - 50% faster response to patient status changes
 - 70% improvement in handoff efficiency
 - 30% increase in patient satisfaction with nursing care
+- 40% improvement in workload distribution equity
 
 ---
 
@@ -147,4 +157,4 @@ A: Always maintain manual backup procedures. Automation enhances care but should
 
 ---
 
-*Last Updated: 2025-08-03*
+*Last Updated: 2025-08-04*

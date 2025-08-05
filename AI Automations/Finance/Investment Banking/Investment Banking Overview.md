@@ -55,6 +55,32 @@ Both firm types benefit from these core automation workflows, scaled to their ne
 - **Bulge Bracket:** Comprehensive competitive analysis with premium data
 - **Boutique:** Sector-focused intelligence with targeted sources
 
+### Compliance & Regulatory Automation
+- **Bulge Bracket:** Enterprise-grade regulatory reporting with audit trails
+- **Boutique:** Essential compliance documentation and monitoring
+
+### System Integration & Data Management
+- **Bulge Bracket:** Complex multi-system data consolidation and workflows
+- **Boutique:** Essential system connectivity and data reconciliation
+
+---
+
+## 🔧 Available Automation Workflows
+
+### [Compliance & Regulatory Automation](Compliance%20and%20Regulatory%20Automation.md)
+Streamlines regulatory reporting, compliance documentation, and audit trail management while maintaining the highest standards of financial services compliance.
+
+**Perfect For:** Regulatory reporting, compliance documentation, audit preparation  
+**Time Saved:** 8-12 hours/week on manual compliance processes  
+**What You Get:** Automated compliance documentation, regulatory filing assistance, complete audit trails
+
+### [System Integration & Data Management](System%20Integration%20and%20Data%20Management.md)
+Eliminates manual data consolidation and creates seamless data flows between Bloomberg, CRM, and deal management platforms.
+
+**Perfect For:** Data synchronization, system integration, unified dashboards  
+**Time Saved:** 6-10 hours/week on manual data reconciliation  
+**What You Get:** Real-time data sync, unified deal dashboards, legacy system integration
+
 ---
 
 ## 🚀 Getting Started Guide
@@ -96,6 +122,16 @@ Connect automations to whatever databases and CRM systems you already use. Don't
 - **Real-time insights** vs. weekly research cycles
 - **Competitive positioning** advantages in deals
 - **60% reduction** in research preparation time
+
+### Compliance & Regulatory
+- **80% reduction** in manual compliance documentation time
+- **100% on-time** regulatory filing compliance
+- **Complete audit trails** for all deal activities
+
+### System Integration
+- **90% reduction** in manual data entry and reconciliation
+- **Real-time synchronization** across all platforms
+- **Unified deal visibility** from single dashboard
 
 ---
 

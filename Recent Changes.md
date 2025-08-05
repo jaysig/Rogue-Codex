@@ -115,5 +115,33 @@
 **Company Spotlight Section Renamed:**
 - Renamed "Company Registry" to "Company Spotlight" for clarity and better SEO
 - Updated all references throughout documentation to reflect new name
-- Clarified section purpose: featured companies making AI news across entertainment, media, and tech
+- Clarified section purpose: featured companies making AI news across entertainment, media, tech
 - Changed section emoji from 🏢 to 🌟 to better represent "spotlight" concept
+
+### 2025-08-04
+
+**Claude Code Documentation Launch:**
+- Created comprehensive Claude Code section with custom command documentation
+- Added 8 specialized commands for repository workflow automation (add-company, add-tool, create-automation, etc.)
+- Included detailed usage examples and multi-company/tool scenarios for each command
+- Established best practices guide for using Claude Code with Rogue Codex workflows
+
+**Financial Advisory Principal Automations:**
+- Added specialized automation guide for boutique financial advisory practice principals
+- Created 5 comprehensive workflows covering client lifecycle, compliance, and business development
+- Included cost estimates for different practice sizes and regulatory compliance considerations
+- Added to Finance category and integrated with role-based and problem-based indexes
+
+**Missing Automation Coverage Addressed:**
+- Created comprehensive Business Analyst automation guide in Consulting category with 5 workflows
+- Added Property Maintenance and Tenant Communication automation for Real Estate Investors
+- Enhanced Career Coach section with Administrative and Business Development workflow
+- Updated role-based and problem-based indexes with new automation coverage
+- Identified and removed incorrect duplicate files (Veterinarian Automations.md)
+
+**Company Spotlight Major Expansion:**
+- Added 10 high-profile AI companies from Business Insider Hollywood analysis
+- **AI Content & Media additions**: Fable Studio (Showrunner platform backed by Amazon), Toonstar (AI animation), Moonvalley ($84M funding), Moments Lab (Warner Bros. Discovery partner), Ecco (content discovery), Deep Voodoo, Metaphysic, Deepdub
+- **AI-Native Studios**: Chronicle Studios (founded by former DreamWorks president, $11.6M funding)
+- **Gaming**: STAN (Indian social gaming platform backed by Google AI Futures Fund, $8.5M funding)
+- Updated Company Spotlight guide with proper categorization and alphabetical listings

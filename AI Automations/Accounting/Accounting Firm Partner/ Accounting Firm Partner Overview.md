@@ -8,8 +8,8 @@ As an accounting firm partner, you manage complex responsibilities including pra
 
 **Who This Helps:** Accounting firm partners, managing partners, practice leaders at regional, national, and Big 4 firms  
 **Tools Used:** Executive dashboards, practice management systems, automation platforms that integrate with firm infrastructure  
-**Time Saved:** 20-30 hours per week  
-**Results:** 60% improvement in practice oversight, 40% increase in strategic client time, enhanced firm profitability  
+**Time Saved:** 35-45 hours per week  
+**Results:** 60% improvement in practice oversight, 40% increase in strategic client time, enhanced firm profitability, streamlined talent management  
 
 ---
 
@@ -35,6 +35,20 @@ Automated business development system that identifies opportunities, coordinates
 **Perfect For:** Business development, proposal management, strategic partnerships  
 **Time Saved:** 10 hours/week on business development coordination and opportunity management  
 **What You Get:** Opportunity identification, automated proposal coordination, partnership management workflows
+
+### [Talent Management and HR Automation](Talent%20Management%20and%20HR%20Automation.md)
+Streamlines recruitment, staff retention, performance management, and talent development while maintaining the personal touch that drives accounting firm success.
+
+**Perfect For:** Recruitment, staff retention, performance management, professional development  
+**Time Saved:** 8-12 hours/week on HR administration and talent management  
+**What You Get:** Automated recruitment pipeline, retention monitoring, professional development tracking
+
+### [Regulatory Compliance and Standards Automation](Regulatory%20Compliance%20and%20Standards%20Automation.md)
+Monitors changing accounting standards, manages regulatory compliance requirements, and ensures firm-wide adherence to professional standards.
+
+**Perfect For:** Standards monitoring, compliance tracking, regulatory training coordination  
+**Time Saved:** 4-6 hours/week on compliance administration and standards updates  
+**What You Get:** Automated standards monitoring, compliance tracking, centralized knowledge management
 
 ---
 
@@ -129,6 +143,18 @@ A: All automations maintain the highest professional standards for confidentiali
 - **Proposal success rates:** 40-60% improvement in proposal win rates and client acquisition
 - **Strategic partnerships:** More effective partnership development and management
 - **Market expansion:** Enhanced capability to enter new markets and service areas
+
+### Talent Management Excellence
+- **Recruitment efficiency:** 50% faster recruitment cycle from posting to hire
+- **Staff retention:** 20-30% improvement in staff retention through proactive management
+- **Professional development:** 100% compliance with certification and CPE requirements
+- **Partner time allocation:** 8-12 hours per week saved on HR administration
+
+### Regulatory Compliance & Standards
+- **Standards awareness:** 100% timely distribution of relevant regulatory updates
+- **Compliance tracking:** Zero lapses in required certifications and renewals
+- **Training effectiveness:** 95%+ completion rates for required regulatory training
+- **Risk management:** Proactive identification and mitigation of regulatory risks
 
 ---
 

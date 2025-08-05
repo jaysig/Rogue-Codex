@@ -51,6 +51,12 @@
   - Workforce analytics and strategic planning
   - *Time saved: 25-30 hours/week*
 
+- **[Recruiter Automations](Operations/Recruiter/%20Recruiter%20Overview.md)**
+  - Interview coordination and communication management
+  - Candidate sourcing and screening automation
+  - ATS integration and data management
+  - *Time saved: 27-33 hours/week*
+
 - **[Customer Service Representative Automations](Operations/Customer%20Service%20Representative/Customer%20Service%20Representative%20Overview.md)**
   - Ticket routing and auto-responses
   - FAQ automation and knowledge base updates
@@ -78,6 +84,12 @@
   - Strategic research automation
   - *Time saved: 15-25 hours/week*
 
+- **[Business Analyst Automations](Consulting/Business%20Analyst/%20Business%20Analyst%20Overview.md)**
+  - Requirements gathering and documentation
+  - Stakeholder communication and alignment
+  - Data analysis and business intelligence
+  - *Time saved: 15-20 hours/week*
+
 - **[Big 4 Accounting Firm Automations](Accounting/%20Accounting%20Overview.md)**
   - Client portfolio and relationship management
   - Audit process optimization and quality management
@@ -96,6 +108,12 @@
   - Financial modeling and valuation automation
   - Client relationship management and communication
   - *Time saved: 25-40 hours/week*
+
+- **[Financial Advisory Principal Automations](Finance/Financial%20Advisory/%20Financial%20Advisory%20Overview.md)**
+  - Client lifecycle and relationship management
+  - Automated reporting and compliance tracking
+  - Business development and referral management
+  - *Time saved: 12-15 hours/week*
 
 ### Real Estate & Insurance
 - **[Real Estate Professional Automations](Real%20Estate/Real%20Estate%20Professional/Real%20Estate%20Professional%20Overview.md)**

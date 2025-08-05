@@ -50,6 +50,13 @@ Monitors portfolio risks and ensures compliance with all regulatory requirements
 **Time Saved:** 80% improvement in risk monitoring efficiency  
 **What You Get:** Automated risk alerts, compliance tracking, regulatory reporting
 
+### [Property Maintenance & Tenant Communication](Property%20Maintenance%20and%20Tenant%20Communication.md)
+Automates maintenance coordination and tenant interactions for efficient property management.
+
+**Perfect For:** Rental property management, contractor coordination, tenant relationships  
+**Time Saved:** 75% faster maintenance response, 8-12 hours/week saved  
+**What You Get:** Automated maintenance workflows, improved tenant satisfaction, better property preservation
+
 ---
 
 ## 🎯 Getting Started Guide

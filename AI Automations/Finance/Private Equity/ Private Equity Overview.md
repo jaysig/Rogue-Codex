@@ -8,8 +8,8 @@ These automations handle the manual document processing and data extraction that
 
 **Who This Helps:** PE analysts, associates, principals, deal team members, portfolio managers  
 **Tools Used:** n8n or Make.com, data extraction tools, financial analysis platforms, deal management systems  
-**Time Saved:** 30-40 hours per week  
-**Results:** 80% faster document processing, 60% reduction in manual data entry
+**Time Saved:** 35-45 hours per week  
+**Results:** 80% faster document processing, 60% reduction in manual data entry, streamlined ESG compliance
 
 ---
 
@@ -49,6 +49,13 @@ Manages deal closing processes, coordinates with advisors, tracks legal document
 **Best for:** Deal closing, transaction management, advisor coordination  
 **Tools:** Deal management platforms, communication systems, document tracking  
 **Results:** 40% faster deal closing, improved coordination efficiency
+
+### [ESG Reporting & Compliance Automation](ESG%20Reporting%20and%20Compliance%20Automation.md)
+Streamlines ESG data collection, carbon reporting, and compliance tracking while meeting investor requirements and regulatory standards.
+
+**Best for:** ESG metrics collection, carbon footprint reporting, compliance tracking  
+**Tools:** ESG data platforms, carbon tracking tools, portfolio monitoring systems  
+**Results:** 90% faster ESG reporting, 100% compliance with investor requirements
 
 ---
 
@@ -117,6 +124,7 @@ A: No, it enhances their productivity. Automations handle routine processing, al
 - Portfolio monitoring coverage and insight quality
 - Financial modeling speed and consistency
 - Deal closing timeline and coordination effectiveness
+- ESG reporting efficiency and compliance coverage
 
 ### Expect These Results
 - **Deal Sourcing:** 50% more qualified opportunities identified
@@ -124,6 +132,7 @@ A: No, it enhances their productivity. Automations handle routine processing, al
 - **Portfolio Monitoring:** Real-time insights vs. quarterly reviews
 - **Financial Modeling:** 70% faster model creation and scenario analysis
 - **Deal Execution:** 40% faster closing timelines with improved coordination
+- **ESG Reporting:** 90% faster ESG data processing and 100% compliance coverage
 
 ---
 

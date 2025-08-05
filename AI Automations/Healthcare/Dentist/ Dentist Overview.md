@@ -12,7 +12,7 @@ These automations handle the time-consuming administrative tasks that eat up you
 
 **Who This Helps:** Dentists, dental practice owners, dental hygienists, practice managers  
 **Tools Used:** Simple automation platforms that work with your existing dental software  
-**Time Saved:** 20-30 hours per week  
+**Time Saved:** 26-40 hours per week  
 **Results:** More patient time, faster insurance processing, better appointment scheduling  
 
 ---
@@ -54,6 +54,13 @@ Automatically tracks patient visits and sends personalized recall notices and fo
 **Time Saved:** Never miss a patient recall again  
 **What You Get:** Automatic recalls, better patient retention, more consistent revenue
 
+### [Staff Management and Coordination System](Staff%20Management%20and%20Coordination%20System.md)
+Streamlines dental staff scheduling, recruitment pipeline, and training coordination for optimal team performance.
+
+**Perfect For:** Addressing staffing shortages, optimizing schedules, managing recruitment  
+**Time Saved:** 60% reduction in staff management overhead  
+**What You Get:** Automated scheduling, streamlined hiring, better staff retention
+
 ---
 
 ## 🎯 Getting Started Guide
@@ -70,13 +77,14 @@ These automations work with popular dental practice management systems like Dent
 - **Patients don't understand treatments?** → Start with Treatment Planning
 - **Can't find patient records?** → Start with Digital Records Manager
 - **Losing track of recalls?** → Start with Patient Recall System
+- **Struggling with staffing?** → Start with Staff Management System
 
 ### Realistic Budget Planning
-- **Solo practice:** Usually $400-1,500/month for complete automation
-- **Multi-doctor practice:** Usually $800-3,000/month depending on patient volume
-- **Large group practice:** Usually $2,000+/month with advanced features
+- **Solo practice:** Usually $600-2,000/month for complete automation
+- **Multi-doctor practice:** Usually $1,200-4,000/month depending on patient volume
+- **Large group practice:** Usually $3,000+/month with advanced features
 
-*This includes dental software, communication tools, and automation platforms*
+*This includes dental software, communication tools, staff management, and automation platforms*
 
 ---
 
@@ -126,6 +134,7 @@ A: These systems are designed for non-technical users. Most dentists set up basi
 - Insurance claim approval rates and processing speed
 - Patient satisfaction scores
 - Treatment plan acceptance rates
+- Staff retention and recruitment efficiency
 
 ### Expect These Results
 - 50% reduction in no-show rates
@@ -133,6 +142,7 @@ A: These systems are designed for non-technical users. Most dentists set up basi
 - 60% less time on administrative tasks
 - 80% improvement in appointment scheduling efficiency
 - 40% increase in treatment plan acceptance
+- 60% reduction in staff management overhead
 
 ---
 
@@ -147,4 +157,4 @@ A: These systems are designed for non-technical users. Most dentists set up basi
 
 ---
 
-*Last Updated: 2025-08-03*
+*Last Updated: 2025-08-04*

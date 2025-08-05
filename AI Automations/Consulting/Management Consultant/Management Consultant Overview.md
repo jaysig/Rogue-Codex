@@ -8,8 +8,8 @@ These automations handle the time-intensive analytical work that eats up 60-80% 
 
 **Who This Helps:** Management consultants, strategy consultants, MBB consultants, boutique consultants, independent consultants  
 **Tools Used:** n8n or Make.com, AI analysis tools, data platforms, document processing  
-**Time Saved:** 20-30 hours per week  
-**Results:** 70% faster due diligence, 50% reduction in research time  
+**Time Saved:** 25-35 hours per week  
+**Results:** 70% faster due diligence, 50% reduction in research time, streamlined project coordination  
 
 ---
 
@@ -63,6 +63,13 @@ Automatically creates comprehensive financial models with scenario analysis, sen
 **Best for:** Financial analysis, business valuation, investment planning  
 **Time Saved:** 60% reduction in financial modeling timeframes  
 **Output:** Professional 3-statement models with scenario analysis
+
+### [Project Management & Resource Coordination](Project%20Management%20and%20Resource%20Coordination.md)
+Streamlines project tracking, resource allocation, team coordination, and timeline management across multiple client engagements.
+
+**Best for:** Multi-project tracking, resource optimization, team coordination  
+**Time Saved:** 4-8 hours/week on project management overhead  
+**Output:** Real-time project dashboards, optimized resource allocation, automated status reporting
 
 ---
 
@@ -134,6 +141,7 @@ A: Absolutely. Set up different analysis rules, benchmarks, and red flags for ea
 - Market sizing analysis consistency
 - Stakeholder interview processing efficiency
 - Financial model development speed
+- Project management efficiency and resource utilization
 
 ### Expect These Results
 - 70% reduction in due diligence timeline
@@ -144,6 +152,8 @@ A: Absolutely. Set up different analysis rules, benchmarks, and red flags for ea
 - 90% reduction in market sizing research time
 - 75% faster stakeholder analysis completion
 - 60% reduction in financial modeling timeframes
+- 60% improvement in project delivery efficiency
+- 40% better resource utilization across engagements
 
 ---
 

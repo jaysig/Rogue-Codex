@@ -8,7 +8,7 @@ These automations help MBA students handle the demanding workload of business sc
 
 **Who This Helps:** MBA students, executive MBA students, business graduate students  
 **Tools Used:** n8n, professional networking tools, business analytics platforms  
-**Time Saved:** 15-25 hours per week  
+**Time Saved:** 21-35 hours per week  
 **Results:** Better grades, stronger network, more job opportunities  
 
 ---
@@ -49,6 +49,13 @@ Coordinates team projects, manages deliverables, and ensures accountability acro
 **Best for:** Team coordination, project management, deliverable tracking  
 **Time Saved:** Effortless group coordination and deadline management  
 **Output:** Organized project workflows with accountability tracking
+
+### [Study Material Organization & Knowledge Management](Study%20Material%20Organization%20and%20Knowledge%20Management.md)
+Transforms overwhelming coursework into an organized, searchable knowledge system that enhances learning efficiency.
+
+**Best for:** Information overload management, cross-course concept integration, study efficiency  
+**Time Saved:** 6-10 hours per week  
+**Output:** Organized knowledge base with intelligent retrieval and retention systems
 
 ---
 

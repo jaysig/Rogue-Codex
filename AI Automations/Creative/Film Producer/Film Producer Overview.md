@@ -8,7 +8,7 @@ These automations help film producers spend less time on paperwork and coordinat
 
 **Who This Helps:** Film producers, line producers, production managers, indie filmmakers  
 **Tools Used:** n8n (free automation tool), project management platforms, communication tools  
-**Time Saved:** 15-20 hours per week  
+**Time Saved:** 25-35 hours per week  
 
 ---
 
@@ -48,6 +48,20 @@ Manages location research, permits, and booking logistics.
 **Best for:** Location management, permit tracking, site coordination  
 **Time Saved:** 40% reduction in location management issues  
 **Output:** Complete location documentation and permit tracking
+
+### [Daily Production Report Generator](Daily%20Production%20Report%20Generator.md)
+Automatically creates comprehensive daily production reports tracking shooting progress, budget variances, and crew performance.
+
+**Best for:** Production reporting, stakeholder communication, budget monitoring  
+**Time Saved:** 2-3 hours per shooting day  
+**Output:** Professional daily reports with real-time production insights
+
+### [Vendor Management and Coordination System](Vendor%20Management%20and%20Coordination%20System.md)
+Streamlines vendor relationships, automates contract management, and coordinates equipment/services across departments.
+
+**Best for:** Vendor coordination, contract management, equipment logistics  
+**Time Saved:** 6-10 hours per week  
+**Output:** Systematic vendor management with eliminated scheduling conflicts
 
 ---
 

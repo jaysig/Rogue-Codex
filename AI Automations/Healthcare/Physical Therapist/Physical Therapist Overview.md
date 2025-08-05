@@ -8,7 +8,7 @@ These automations handle the administrative tasks and patient coordination that 
 
 **Who This Helps:** Physical therapists, PT clinic owners, rehabilitation specialists, sports medicine therapists  
 **Tools Used:** n8n or Make.com, EMR systems, scheduling platforms, patient communication tools, exercise tracking  
-**Time Saved:** 8-15 hours per week  
+**Time Saved:** 12-21 hours per week  
 **Results:** Better patient outcomes, improved compliance, streamlined practice operations  
 
 ---
@@ -29,6 +29,13 @@ Streamlines patient scheduling, automates exercise program delivery, and tracks 
 **Time Saved:** 4-7 hours per week  
 **Output:** 70% improvement in appointment efficiency with automated exercise program management
 
+### [Billing and Claims Management System](Billing%20and%20Claims%20Management%20System.md)
+Automates PT billing requirements including 8-minute rule calculations, CPT code verification, and insurance claims processing for maximum reimbursement.
+
+**Best for:** Billing accuracy, claims processing, revenue optimization, compliance management  
+**Time Saved:** 4-6 hours per week  
+**Output:** 95% coding accuracy with 40% faster claims processing and reduced denials
+
 ---
 
 ## 🎯 Getting Started Guide
@@ -46,7 +53,8 @@ Start with appointment and exercise management automation before adding complex 
 - EMR and scheduling systems: Usually $100-500/month depending on practice size
 - n8n or Make.com: Free to $99/month for physical therapy automations
 - Patient communication tools: $50-200/month based on features needed
-- Total: Usually $200-800/month for complete physical therapy automation
+- Billing and insurance integration: $150-600/month for claims processing
+- Total: Usually $350-1400/month for complete physical therapy automation
 
 ---
 
@@ -95,14 +103,16 @@ A: Absolutely. Automated progress tracking and outcome measurement help ensure p
 - Appointment scheduling optimization and no-show reduction
 - Home exercise compliance and patient engagement rates
 - Treatment outcome measurement and analysis quality
+- Billing accuracy and claims processing speed
 - Overall practice efficiency and patient satisfaction improvements
 
 ### Expect These Results
 - 80% reduction in manual documentation and progress tracking time
 - 70% improvement in appointment scheduling efficiency
+- 95% billing accuracy with 40% faster claims processing
 - Better patient outcomes through systematic progress monitoring
 - Improved exercise compliance through automated program delivery
-- 50% reduction in administrative overhead and practice management tasks
+- 60% reduction in administrative overhead and practice management tasks
 
 ---
 
@@ -116,4 +126,4 @@ A: Absolutely. Automated progress tracking and outcome measurement help ensure p
 
 ---
 
-*Last Updated: 2025-08-03*
+*Last Updated: 2025-08-04*

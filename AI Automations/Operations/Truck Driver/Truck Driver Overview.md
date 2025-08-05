@@ -8,8 +8,8 @@ These automations handle the regulatory compliance, route planning, and administ
 
 **Who This Helps:** Long-haul truck drivers, owner-operators, fleet drivers, delivery drivers, commercial drivers  
 **Tools Used:** n8n or Make.com, ELD systems, fleet management platforms, compliance tracking  
-**Time Saved:** 10-15 hours per week  
-**Results:** 30% more driving time, 50% reduction in compliance overhead  
+**Time Saved:** 15-25 hours per week  
+**Results:** 40% more productive driving time, 60% reduction in administrative burden  
 
 ---
 
@@ -35,6 +35,27 @@ Streamlines freight booking, delivery coordination, and customer communication f
 **Best for:** Load booking, customer service, delivery coordination, payment processing  
 **Time Saved:** 3-4 hours per week  
 **Output:** 80% reduction in administrative overhead with automated customer communication
+
+### [Detention Management and Billing System](Detention%20Management%20and%20Billing%20System.md)
+Automatically tracks driver detention time, calculates detention fees, and manages billing for delayed loading/unloading to recover lost revenue.
+
+**Best for:** Detention tracking, fee recovery, facility performance monitoring, revenue protection  
+**Time Saved:** 3-4 hours per week  
+**Output:** 50-80% detention fee recovery with automated billing and documentation
+
+### [Dispatch Communication Optimization](Dispatch%20Communication%20Optimization.md)
+Automatically manages communications between drivers and dispatch, reduces miscommunication delays, and ensures safe information exchange.
+
+**Best for:** Driver-dispatch coordination, safety compliance, communication efficiency  
+**Time Saved:** 2-3 hours per week  
+**Output:** 60% reduction in communication delays with intelligent message routing
+
+### [Predictive Maintenance Scheduling System](Predictive%20Maintenance%20Scheduling%20System.md)
+Automatically schedules preventive maintenance, tracks vehicle health, and predicts equipment failures to minimize downtime and prevent breakdowns.
+
+**Best for:** Maintenance optimization, breakdown prevention, cost control, fleet reliability  
+**Time Saved:** 4+ hours per week  
+**Output:** 70% reduction in unexpected breakdowns with proactive maintenance scheduling
 
 ---
 
@@ -123,4 +144,4 @@ A: The automations can be customized for different truck types, trailer configur
 
 ---
 
-*Last Updated: 2025-08-03*
+*Last Updated: 2025-08-04*

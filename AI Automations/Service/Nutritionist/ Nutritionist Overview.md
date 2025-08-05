@@ -8,7 +8,7 @@ These automations handle the time-consuming administrative tasks that take away 
 
 **Who This Helps:** Registered dietitians, nutritionists, nutrition coaches, wellness practitioners  
 **Tools Used:** Simple automation platforms that work with your existing nutrition software  
-**Time Saved:** 15-20 hours per week  
+**Time Saved:** 23-32 hours per week  
 **Results:** Better client outcomes, streamlined meal planning, more organized practice, increased client retention  
 
 ---
@@ -28,6 +28,13 @@ Automates meal plan creation, grocery list generation, and recipe delivery based
 **Perfect For:** Scaling personalized meal plan delivery  
 **Time Saved:** 65% reduction in meal planning time  
 **What You Get:** Automated meal plans, grocery lists, recipe customization, nutritional analysis
+
+### [Practice Management & Client Coordination System](Practice%20Management%20and%20Client%20Coordination%20System.md)
+Streamlines appointment scheduling, billing processes, and multi-platform integration for seamless nutrition practice management.
+
+**Perfect For:** Unified practice management and client coordination  
+**Time Saved:** 8-12 hours per week  
+**What You Get:** Automated scheduling, billing integration, multi-platform sync, client communication hub
 
 ---
 

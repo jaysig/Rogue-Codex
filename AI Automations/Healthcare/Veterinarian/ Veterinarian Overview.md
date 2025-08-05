@@ -12,7 +12,7 @@ These automations handle the administrative and operational burdens that consume
 
 **Who This Helps:** Veterinarians, veterinary practice owners, veterinary technicians, practice managers  
 **Tools Used:** n8n or Make.com, practice management systems, medical records, scheduling platforms  
-**Time Saved:** 20-30 hours per week  
+**Time Saved:** 24-34 hours per week  
 **Results:** 60% more patient care time, 50% reduction in administrative overhead  
 
 ---
@@ -54,6 +54,13 @@ Tracks CE requirements across multiple states, manages license renewals, and mai
 **Time Saved:** 90% reduction in compliance administrative overhead  
 **Output:** Audit-ready compliance documentation with automated tracking
 
+### [Clinical Decision Support and Research Assistant](Clinical%20Decision%20Support%20and%20Research%20Assistant.md)
+AI-powered diagnostic support, treatment research, and specialist consultation coordination for evidence-based veterinary medicine.
+
+**Best for:** Complex case diagnosis, treatment research, specialist consultations, evidence-based care  
+**Time Saved:** 60% reduction in case research time  
+**Output:** Faster diagnosis with evidence-based treatment recommendations
+
 ---
 
 ## 🎯 Getting Started Guide
@@ -71,7 +78,8 @@ Start with simple scheduling automation and client reminders before moving to co
 - Veterinary practice management software: Usually included in current systems
 - n8n or Make.com: Free to $400/month for veterinary automations
 - Specialized veterinary tools: Usually $300-1,500/month depending on practice size
-- Total: Usually $600-3,000/month for complete veterinary automation
+- Clinical decision support: $200-800/month for AI diagnostic and research tools
+- Total: Usually $800-3,800/month for complete veterinary automation
 
 ---
 
@@ -121,6 +129,7 @@ A: Absolutely. Set up different workflows for small animal, large animal, exotic
 - Inventory management accuracy and cost savings
 - Client satisfaction and communication effectiveness
 - Compliance accuracy and regulatory audit performance
+- Diagnostic accuracy and case resolution speed
 
 ### Expect These Results
 - 70% reduction in medical record administrative time
@@ -128,6 +137,7 @@ A: Absolutely. Set up different workflows for small animal, large animal, exotic
 - $60,000 annual revenue recovery through automated inventory billing
 - 50% reduction in billing administrative time and improved cash flow
 - 90% reduction in compliance administrative overhead
+- 60% reduction in time spent researching complex cases
 
 ---
 
@@ -141,4 +151,4 @@ A: Absolutely. Set up different workflows for small animal, large animal, exotic
 
 ---
 
-*Last Updated: 2025-08-03*
+*Last Updated: 2025-08-04*
