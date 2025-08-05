@@ -8,6 +8,7 @@ This section contains tools for graphic design, UI/UX, and visual creation.
 - [[v0]] - AI-powered design tool by Vercel
 - [[Framer]] - Powerful web design and marketing tool
 - [[CapCut]] - All-in-one video editor and graphic design tool driven by AI
+- [[Gamma]] - AI-powered presentation, website, and document creation tool
 
 ## Subcategories
 - [ ] Graphic Design
@@ -19,4 +20,4 @@ This section contains tools for graphic design, UI/UX, and visual creation.
 
 ---
 
-*Last Updated: 2025-08-03*
+*Last Updated: 2025-08-04*

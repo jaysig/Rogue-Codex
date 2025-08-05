@@ -14,6 +14,7 @@ Comprehensive directory of all tools in the Rogue Codex Tools collection, organi
 ## Business Productivity
 - [Cluely](Business%20Productivity/Cluely.md) - AI meeting assistant with real-time coaching
 - [GumLoop](Business%20Productivity/GumLoop.md) - AI-driven business productivity solution
+- [Manus AI](Business%20Productivity/Manus%20AI.md) - World's first fully autonomous AI agent for complex task execution
 - [N8N](Business%20Productivity/N8N.md) - Workflow automation platform with 500+ integrations
 - [Perplexity](Business%20Productivity/Perplexity.md) - Conversational AI search engine with real-time web data
 - [Read AI](Business%20Productivity/Read%20AI.md) - Meeting, email, and message efficiency with AI summaries
@@ -64,9 +65,12 @@ Comprehensive directory of all tools in the Rogue Codex Tools collection, organi
 
 ## LLMs (Large Language Models)
 - [ChatGPT](LLMs/ChatGPT.md) - OpenAI's conversational AI for research, writing, and image generation
+- [ChatGPT Agent](LLMs/ChatGPT%20Agent.md) - OpenAI's autonomous AI agent for complex task execution
 - [Chorus](LLMs/Chorus.md) - Chat interface for interacting with multiple AI models simultaneously
 - [Gemini](LLMs/Gemini.md) - Google's AI assistant for writing, research, and general tasks
 - [Grok](LLMs/Grok.md) - X.ai's AI assistant for quick questions, research, and image generation
+- [Hunyuan](LLMs/Hunyuan.md) - Tencent's multimodal AI model with strong Chinese language capabilities
+- [Kimi 2](LLMs/Kimi%202.md) - Advanced Chinese AI assistant with extended context capabilities
 
 ## Marketing
 *No tools currently added to this category*
@@ -87,6 +91,10 @@ Comprehensive directory of all tools in the Rogue Codex Tools collection, organi
 - [Synthesia](Video%20Generation/Synthesia.md) - Virtual avatar video generation platform
 - [Viggle](Video%20Generation/Viggle.md) - Innovative video generation solution
 
+## Web Browser
+- [Comet](Web%20Browser/Comet.md) - AI-powered web browser with built-in Perplexity search and task automation
+- [Dia Browser](Web%20Browser/Dia%20Browser.md) - AI-first browser where you can chat with your tabs
+
 ## Writing Content Creation
 *No tools currently added to this category*
 
@@ -96,23 +104,24 @@ Comprehensive directory of all tools in the Rogue Codex Tools collection, organi
 
 - **Video Generation**: 10 tools
 - **Image Generation**: 7 tools
+- **LLMs (Large Language Models)**: 7 tools
 - **Business Productivity**: 6 tools
 - **Developer Tools**: 6 tools
-- **LLMs (Large Language Models)**: 4 tools
 - **Audio**: 3 tools
-- **3D Modeling**: 2 tools
 - **Design**: 3 tools
+- **3D Modeling**: 2 tools
 - **Digital Twins**: 2 tools
 - **Finance**: 2 tools
 - **Game Development**: 2 tools
 - **Project Management**: 2 tools
+- **Web Browser**: 2 tools
 - **Customer Service**: 1 tool
 - **Education**: 1 tool
 - **Fun**: 0 tools
 - **Marketing**: 0 tools
 - **Writing Content Creation**: 0 tools
 
-**Total Tools**: 51
+**Total Tools**: 56
 
 ## Educational Discounts Available
 
@@ -126,4 +135,4 @@ Several tools in our collection offer educational discounts for students and edu
 
 ---
 
-*Last Updated: 2025-08-03*
+*Last Updated: 2025-08-04*
